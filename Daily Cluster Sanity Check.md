@@ -1,4 +1,4 @@
-# [L1] Daily Cluster Sanity Check
+# Daily Cluster Sanity Check
 
 ## General information
 
@@ -1048,5 +1048,5 @@ Any
     > * To define the time in your location, follow the link to the [time converter](https://www.worldtimebuddy.com/?pl=1&lid=0,212,312,206,213,313,212,305,205,314&h=212&hf=0)
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTc3MDkzMjZdfQ==
+eyJoaXN0b3J5IjpbNTE5NTA5NzkxLC0xOTk3NzA5MzI2XX0=
 -->
