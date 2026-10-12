@@ -93,7 +93,7 @@ For alert investigation, perform only **2 checks** in the following order:
 **Action:**
 
 2.  Set the time range to **Past hour** for investigating alerts:  
-    ![image-2025-7-4_12-51-5.png](https://app.glean.com/chat/sanity_check_assets/image-2025-7-4_12-51-5.png)
+  (https://app.glean.com/chat/sanity_check_assets/image-2025-7-4_12-51-5.png)
 
 **Action:**
 
@@ -1048,5 +1048,6 @@ Any
     > * To define the time in your location, follow the link to the [time converter](https://www.worldtimebuddy.com/?pl=1&lid=0,212,312,206,213,313,212,305,205,314&h=212&hf=0)
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE5NTA5NzkxLC0xOTk3NzA5MzI2XX0=
+eyJoaXN0b3J5IjpbLTg3NzU3NDMzNiw1MTk1MDk3OTEsLTE5OT
+c3MDkzMjZdfQ==
 -->
