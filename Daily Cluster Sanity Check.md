@@ -148,19 +148,17 @@ For **alert investigation**, perform only 2 checks in the following order:
 16. Select the **FlexibleDB/MySQL - CPU/Memory/Storage** graph.
 
 17. Check the usage thresholds:
-
-    **During daily check:**
-    - If any threshold exceeds **95%**, record this information for **Sev2 Incident creation** after all the checks are finished.
-    - If no thresholds exceed **95%**, proceed to step 18.
-
-    **During the alert investigation:** Make a screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Proceed to step 18.
+- **During daily check:**
+    - **if any threshold exceeds 95%**, record this information for **Sev2 Incident creation** after all the checks are finished.
+    - if no thresholds exceed **95%**, proceed to step 18.
+- **During the alert investigation:** Make a screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Proceed to step 18.
 
 18. Select the **MySQL slow queries - total execution + locked time (seconds)** graph.
 
 19. Check that queries do not exceed 1000 milliseconds:
 - **During daily check:**
-    - **If queries exceed 1000 milliseconds**, record this information for [**Sev2 Incident creation**](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation) after all the checks are finished.
-    - **If queries do NOT exceed 1000 milliseconds**, proceed to step 20.
+    - **if queries exceed 1000 milliseconds**, record this information for [**Sev2 Incident creation**](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation) after all the checks are finished.
+    - **if queries do NOT exceed 1000 milliseconds**, proceed to step 20.
 - **During the alert investigation:** Make a screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Proceed to incident categorization as described in article [**[L1] Ticket Processing**](https://kb.epam.com/spaces/XBOXAOE/pages/2590766755/L1+Ticket+Processing).
 [Screenshot with issue](https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2018.png)
 [Screenshot without issues](https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2019.png)
@@ -168,7 +166,7 @@ For **alert investigation**, perform only 2 checks in the following order:
 20. **If necessary**, repeat the investigation process (steps 1–19) for the next cluster.
 21. **Once the checks for all clusters are complete**, proceed to the next check.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4Mjg1Mjg0NSwyODY5NTUyMTMsMTk2MD
-k0NzU1MSwtMjA1MzU0MDc3MiwtNTAxMjU3MDU0LC0xNjM0MjQ5
-OTgxXX0=
+eyJoaXN0b3J5IjpbLTE0MzIwNzUxMTksLTU4Mjg1Mjg0NSwyOD
+Y5NTUyMTMsMTk2MDk0NzU1MSwtMjA1MzU0MDc3MiwtNTAxMjU3
+MDU0LC0xNjM0MjQ5OTgxXX0=
 -->
