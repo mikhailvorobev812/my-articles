@@ -117,10 +117,9 @@ For **alert investigation**, perform only 2 checks in the following order:
 10. Set the time range to **Past hour** for investigating alerts.
 
 11. Check the number of 4xx and 5xx errors detected and act accordingly:
-
-    **During daily check:**
-    - If there are fewer than **3,500** 4xx errors **AND** fewer than **250** 5xx errors, proceed to step 12.
-    - If there are more than **3,500** 4xx errors per sample (1 minute), record this information for **Sev2 Incident creation** after all the checks are finished. Then proceed to step 12.
+- **During daily check:**
+    - **if there are fewer than 3,500 4xx errors AND fewer than 250 5xx errors**, proceed to step 12.
+    - **if there are more than **3,500** 4xx errors per sample (1 minute), record this information for **Sev2 Incident creation** after all the checks are finished. Then proceed to step 12.
     - If there are more than **250** 5xx errors per sample (1 minute), record this information for **Sev2 Incident creation** after all the checks are finished. Then proceed to step 12.
 
     **During the alert investigation:** Make a screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Proceed to step 12.
@@ -131,7 +130,7 @@ For **alert investigation**, perform only 2 checks in the following order:
     - **if no thresholds exceed 70%**, proceed to step 14.
     - **if any threshold exceeds 70%**, record this information for [**Sev2 Incident creation**](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation) after all the checks are finished. Then proceed to step 14.
 
-    **During the alert investigation:** Make a screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Proceed to step 14.
+ - **During the alert investigation:** Make a screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Proceed to step 14.
 
 14. Select the **Battle VMs - CPU usage** graph.
 15. Check the thresholds on the graph and act accordingly:
@@ -162,7 +161,7 @@ For **alert investigation**, perform only 2 checks in the following order:
 20. **If necessary**, repeat the investigation process (steps 1–19) for the next cluster.
 21. **Once the checks for all clusters are complete**, proceed to the next check.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIwNzQ1NDY2LC01ODI4NTI4NDUsMjg2OT
-U1MjEzLDE5NjA5NDc1NTEsLTIwNTM1NDA3NzIsLTUwMTI1NzA1
-NCwtMTYzNDI0OTk4MV19
+eyJoaXN0b3J5IjpbMTY3ODcyMzEwOCwzMjA3NDU0NjYsLTU4Mj
+g1Mjg0NSwyODY5NTUyMTMsMTk2MDk0NzU1MSwtMjA1MzU0MDc3
+MiwtNTAxMjU3MDU0LC0xNjM0MjQ5OTgxXX0=
 -->
