@@ -74,7 +74,7 @@ For **alert investigation**, perform only 2 checks in the following order:
 
 2. Set the time range to **Past hour** when investigating alerts. (https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2049.png)
 ---
-**:warning:Lobby - Total CCU on cluster graph is a Critical Indicator.:warning:** If any gaps or drops are identified, it might indicate a CCU impact issue. Immediately create a new incident as described in **[L1] ADO Ticket Creation**. Escalate it as described in **[L1] Major Incident and MIM Process**, and complete investigation steps afterward.
+>**:warning:Lobby - Total CCU on cluster graph is a Critical Indicator.:warning:** If any gaps or drops are identified, it might indicate a CCU impact issue. Immediately create a new incident as described in **[L1] ADO Ticket Creation**. Escalate it as described in **[L1] Major Incident and MIM Process**, and complete investigation steps afterward.
 
 ---
 3. Select the **Lobby - Total CCU on cluster** graph.
@@ -82,8 +82,8 @@ For **alert investigation**, perform only 2 checks in the following order:
 5. Check if there are any any gaps or drops and act accordingly:
 ---
 **During daily EU/APAC check:**
--  If there are fewer than 5 missing points (or none), proceed to Step 6.
--   If there are **6 or more missing points**/a significant drop, record this information for **Sev1 Incident creation** and proceed to Step 6.
+-  **If there are fewer than 5 missing points (or none)**, proceed to Step 6.
+-   **If there are **6 or more missing points**/a significant drop**, record this information for **Sev1 Incident creation** and proceed to Step 6.
 ---
 **During daily MX check:**
 -   If there are fewer than 5 missing points (or none), proceed to Step 6.
@@ -168,5 +168,5 @@ For **alert investigation**, perform only 2 checks in the following order:
 20. **If necessary**, repeat the investigation process (steps 1–19) for the next cluster.
 21. **Once the checks for all clusters are complete**, proceed to the next check.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg5MDUxMjAzLC0xNjM0MjQ5OTgxXX0=
+eyJoaXN0b3J5IjpbMzU3NzE2MDE5LC0xNjM0MjQ5OTgxXX0=
 -->
