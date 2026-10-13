@@ -50,7 +50,7 @@ For **alert investigation**, perform only 2 checks in the following order:
 
 ### Cluster check
 1. **For Cluster Check**, open the Cluster's Dashboard by clicking the appropriate link from the list below, depending on the type of check/investigation:
-> [!IMPORTANT]
+> [!**IMPORTANT**]
 > To perform the Daily Cluster Sanity Check, the following clusters should be checked:
 > - **aoelive**
 > - **arthurlive**
@@ -160,8 +160,8 @@ For **alert investigation**, perform only 2 checks in the following order:
 20. **If necessary**, repeat the investigation process (steps 1–19) for the next cluster.
 21. **Once the checks for all clusters are complete**, proceed to the next check.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU1ODQ1ODA5LC0xMjgxNTU1MDA0LDMyMD
-c0NTQ2NiwtNTgyODUyODQ1LDI4Njk1NTIxMywxOTYwOTQ3NTUx
-LC0yMDUzNTQwNzcyLC01MDEyNTcwNTQsLTE2MzQyNDk5ODFdfQ
-==
+eyJoaXN0b3J5IjpbLTE2Mjk5NzgzMTksODU1ODQ1ODA5LC0xMj
+gxNTU1MDA0LDMyMDc0NTQ2NiwtNTgyODUyODQ1LDI4Njk1NTIx
+MywxOTYwOTQ3NTUxLC0yMDUzNTQwNzcyLC01MDEyNTcwNTQsLT
+E2MzQyNDk5ODFdfQ==
 -->
