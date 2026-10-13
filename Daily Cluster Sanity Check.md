@@ -162,12 +162,13 @@ For **alert investigation**, perform only 2 checks in the following order:
     - **If queries exceed 1000 milliseconds**, record this information for [**Sev2 Incident creation**](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation) after all the checks are finished.
     - **If queries do NOT exceed 1000 milliseconds**, proceed to step 20.
 - **During the alert investigation:** Make a screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Proceed to incident categorization as described in article [**[L1] Ticket Processing**](https://kb.epam.com/spaces/XBOXAOE/pages/2590766755/L1+Ticket+Processing).
-(https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2019.png)
+[Screenshot with issue]
+[Screenshot without issues](https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2019.png)
 
 20. **If necessary**, repeat the investigation process (steps 1–19) for the next cluster.
 21. **Once the checks for all clusters are complete**, proceed to the next check.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk0MjU5OTUyLDI4Njk1NTIxMywxOTYwOT
+eyJoaXN0b3J5IjpbNTg1MDA5NzgxLDI4Njk1NTIxMywxOTYwOT
 Q3NTUxLC0yMDUzNTQwNzcyLC01MDEyNTcwNTQsLTE2MzQyNDk5
 ODFdfQ==
 -->
