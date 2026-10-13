@@ -157,7 +157,7 @@ For **alert investigation**, perform only 2 checks in the following order:
 
 18. Select the **MySQL slow queries - total execution + locked time (seconds)** graph.
 
-19. Check that queries do not exceed **1000 milliseconds**:
+19. Check that queries do not exceed 1000 milliseconds:
 - **During daily check:**
     - **If queries exceed 1000 milliseconds**, record this information for **Sev2 Incident creation** after all the checks are finished.
     - *If queries do **NOT** exceed 1000 milliseconds*, proceed to step 20.
@@ -166,6 +166,6 @@ For **alert investigation**, perform only 2 checks in the following order:
 20. **If necessary**, repeat the investigation process (steps 1–19) for the next cluster.
 21. **Once the checks for all clusters are complete**, proceed to the next check.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NzgxODM1LC0yMDUzNTQwNzcyLC01MD
+eyJoaXN0b3J5IjpbNTkyNjMzOTk1LC0yMDUzNTQwNzcyLC01MD
 EyNTcwNTQsLTE2MzQyNDk5ODFdfQ==
 -->
