@@ -129,7 +129,7 @@ For **alert investigation**, perform only 2 checks in the following order:
 13. Check the thresholds on the graph and act accordingly:
 - **During daily check:**
     - **if no thresholds exceed 70%**, proceed to step 14.
-    - if any threshold exceeds **70%**, record this information for **Sev2 Incident creation** after all the checks are finished. Then proceed to step 14.
+    - **if any threshold exceeds 70%**, record this information for [**Sev2 Incident creation**](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation) after all the checks are finished. Then proceed to step 14.
 
     **During the alert investigation:** Make a screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Proceed to step 14.
 
@@ -162,7 +162,7 @@ For **alert investigation**, perform only 2 checks in the following order:
 20. **If necessary**, repeat the investigation process (steps 1–19) for the next cluster.
 21. **Once the checks for all clusters are complete**, proceed to the next check.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzOTgxMTc2MiwtNTgyODUyODQ1LDI4Nj
-k1NTIxMywxOTYwOTQ3NTUxLC0yMDUzNTQwNzcyLC01MDEyNTcw
-NTQsLTE2MzQyNDk5ODFdfQ==
+eyJoaXN0b3J5IjpbMzIwNzQ1NDY2LC01ODI4NTI4NDUsMjg2OT
+U1MjEzLDE5NjA5NDc1NTEsLTIwNTM1NDA3NzIsLTUwMTI1NzA1
+NCwtMTYzNDI0OTk4MV19
 -->
