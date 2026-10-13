@@ -103,11 +103,11 @@ For **alert investigation**, perform only 2 checks in the following order:
 
 7. Check the **Unhealthy Backend amount**:
 - **During daily check:**
-   - **if Unhealthy Backend is lower than **0.75**, proceed to step 8.
-   - if Unhealthy Backend is higher than **0.75**, record this information for **Sev2 Incident creation** after all the checks are finished. Then proceed to step 8.
-   - if an unhealthy backend that later recovered was identified, add a comment about that in the e-mail report about the check results. Make a screenshot and attach it as proof to the e-mail report as well. Then proceed to step 8.
+   - **if Unhealthy Backend is lower than 0.75**, proceed to step 8.
+   - **if Unhealthy Backend is higher than 0.75**, record this information for **Sev2 Incident creation** after all the checks are finished. Then proceed to step 8.
+   - **if an unhealthy backend that later recovered was identified**, add a comment about that in the e-mail report about the check results. Make a screenshot and attach it as proof to the e-mail report as well. Then proceed to step 8.
 
-   **During the alert investigation:** Make a screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Proceed to step 8.
+- **During the alert investigation:** Make a screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Proceed to step 8.
 
 8. Select the **App Gateway - Responses by Status** graph.
 
@@ -160,8 +160,8 @@ For **alert investigation**, perform only 2 checks in the following order:
 20. **If necessary**, repeat the investigation process (steps 1–19) for the next cluster.
 21. **Once the checks for all clusters are complete**, proceed to the next check.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMzg5OTQzOCwtMTI4MTU1NTAwNCwzMj
-A3NDU0NjYsLTU4Mjg1Mjg0NSwyODY5NTUyMTMsMTk2MDk0NzU1
-MSwtMjA1MzU0MDc3MiwtNTAxMjU3MDU0LC0xNjM0MjQ5OTgxXX
-0=
+eyJoaXN0b3J5IjpbODU1ODQ1ODA5LC0xMjgxNTU1MDA0LDMyMD
+c0NTQ2NiwtNTgyODUyODQ1LDI4Njk1NTIxMywxOTYwOTQ3NTUx
+LC0yMDUzNTQwNzcyLC01MDEyNTcwNTQsLTE2MzQyNDk5ODFdfQ
+==
 -->
