@@ -126,12 +126,10 @@ For **alert investigation**, perform only 2 checks in the following order:
     **During the alert investigation:** Make a screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Proceed to step 12.
 
 12. Select the **Lobby server VMs - CPU usage** graph.
-
 13. Check the thresholds on the graph and act accordingly:
-
-    **During daily check:**
-    - If no thresholds exceed **70%**, proceed to step 14.
-    - If any threshold exceeds **70%**, record this information for **Sev2 Incident creation** after all the checks are finished. Then proceed to step 14.
+- **During daily check:**
+    - **if no thresholds exceed 70%**, proceed to step 14.
+    - if any threshold exceeds **70%**, record this information for **Sev2 Incident creation** after all the checks are finished. Then proceed to step 14.
 
     **During the alert investigation:** Make a screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Proceed to step 14.
 
@@ -139,9 +137,9 @@ For **alert investigation**, perform only 2 checks in the following order:
 15. Check the thresholds on the graph and act accordingly:
  - **During daily check:**
     - **if any threshold exceeds 70%**, record this information for **[Sev2 Incident creation](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation)** after all the checks are finished.
-    - If no thresholds exceed **70%**, proceed to step 16.
+    - **if no thresholds exceed 70%**, proceed to step 16.
 
-    **During the alert investigation:** Make a screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Proceed to step 16.
+- **During the alert investigation:** Make a screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Proceed to step 16.
 
 16. Select the **FlexibleDB/MySQL - CPU/Memory/Storage** graph.
 
@@ -164,7 +162,7 @@ For **alert investigation**, perform only 2 checks in the following order:
 20. **If necessary**, repeat the investigation process (steps 1–19) for the next cluster.
 21. **Once the checks for all clusters are complete**, proceed to the next check.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5OTA1NDgzMiwtNTgyODUyODQ1LDI4Nj
+eyJoaXN0b3J5IjpbLTYzOTgxMTc2MiwtNTgyODUyODQ1LDI4Nj
 k1NTIxMywxOTYwOTQ3NTUxLC0yMDUzNTQwNzcyLC01MDEyNTcw
 NTQsLTE2MzQyNDk5ODFdfQ==
 -->
