@@ -97,7 +97,6 @@ For **alert investigation**, perform only 2 checks in the following order:
 > ```
 **During alert investigation:** make a  screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Then proceed to step 6.
 
-----------
 6. Select the **App Gateway - Backends health (below: unhealthy only)** graph.
 
 7. Check the **Unhealthy Backend amount**:
@@ -159,7 +158,7 @@ For **alert investigation**, perform only 2 checks in the following order:
 20. **If necessary**, repeat the investigation process (steps 1–19) for the next cluster.
 21. **Once the checks for all clusters are complete**, proceed to the next check.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1ODg5MzUxNCwtMTYyOTk3ODMxOSw4NT
+eyJoaXN0b3J5IjpbMTYxODU5MTY0MCwtMTYyOTk3ODMxOSw4NT
 U4NDU4MDksLTEyODE1NTUwMDQsMzIwNzQ1NDY2LC01ODI4NTI4
 NDUsMjg2OTU1MjEzLDE5NjA5NDc1NTEsLTIwNTM1NDA3NzIsLT
 UwMTI1NzA1NCwtMTYzNDI0OTk4MV19
