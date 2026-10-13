@@ -80,16 +80,15 @@ For **alert investigation**, perform only 2 checks in the following order:
 3. Select the **Lobby - Total CCU on cluster** graph.
 4. Double-click on the graph to zoom in.
 5. Check if there are any any gaps or drops and act accordingly:
----
 - **During daily EU/APAC check:**
   -  **If there are fewer than 5 missing points (or none)**, proceed to Step 6.
   -   **If there are **6 or more missing points**/a significant drop**, record this information for **Sev1 Incident creation** and proceed to Step 6.
----
+
 - **During daily MX check:**
   -   **if there are fewer than 5 missing points (or none)**, proceed to Step 6.
    -   **if there are **6 or more missing points**/a significant drop**, ask L2/L3 on the [**EPAM Support** channel](https://teams.microsoft.com/l/channel/19%3Adafce2499dd54f198259659ecca8e7ad%40thread.tacv2/EPAM%20support?groupId=e4f886a6-1b0d-472b-92e2-bb8f8a893db5&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47) in MS Teams to confirm if a ticket is needed, and follow the instructions. Meanwhile, proceed to Step 6.
----
-> **Teams message template:**
+
+> **MS Teams message template:**
 > 
 > ```
 > @everyone, hi team!
@@ -160,7 +159,7 @@ For **alert investigation**, perform only 2 checks in the following order:
 20. **If necessary**, repeat the investigation process (steps 1–19) for the next cluster.
 21. **Once the checks for all clusters are complete**, proceed to the next check.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MjM1MTgwNywtMTYyOTk3ODMxOSw4NT
+eyJoaXN0b3J5IjpbMTk1ODg5MzUxNCwtMTYyOTk3ODMxOSw4NT
 U4NDU4MDksLTEyODE1NTUwMDQsMzIwNzQ1NDY2LC01ODI4NTI4
 NDUsMjg2OTU1MjEzLDE5NjA5NDc1NTEsLTIwNTM1NDA3NzIsLT
 UwMTI1NzA1NCwtMTYzNDI0OTk4MV19
