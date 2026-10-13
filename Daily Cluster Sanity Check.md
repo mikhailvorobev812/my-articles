@@ -158,16 +158,14 @@ For **alert investigation**, perform only 2 checks in the following order:
 18. Select the **MySQL slow queries - total execution + locked time (seconds)** graph.
 
 19. Check that queries do not exceed **1000 milliseconds**:
-
-    **During daily check:**
+- **During daily check:**
     - If queries exceed **1000 milliseconds**, record this information for **Sev2 Incident creation** after all the checks are finished.
     - If queries do **NOT** exceed 1000 milliseconds, proceed to step 20.
-
-    **During the alert investigation:** Make a screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Proceed to incident categorization as described in article **[L1] Ticket Processing**.
+- **During the alert investigation:** Make a screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Proceed to incident categorization as described in article **[L1] Ticket Processing**.
 
 20. **If necessary**, repeat the investigation process (steps 1–19) for the next cluster.
 21. **Once the checks for all clusters are complete**, proceed to the next check.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTM1NDA3NzIsLTUwMTI1NzA1NCwtMT
-YzNDI0OTk4MV19
+eyJoaXN0b3J5IjpbMTkxNTY0Nzk2NiwtMjA1MzU0MDc3MiwtNT
+AxMjU3MDU0LC0xNjM0MjQ5OTgxXX0=
 -->
