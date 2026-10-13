@@ -87,7 +87,7 @@ For **alert investigation**, perform only 2 checks in the following order:
 ---
 **During daily MX check:**
 -   **If there are fewer than 5 missing points (or none)**, proceed to Step 6.
--   **If there are **6 or more missing points**/a significant drop**, ask L2/L3 on the [**EPAM Support** channel] (https://teams.microsoft.com/l/channel/19%3Adafce2499dd54f198259659ecca8e7ad%40thread.tacv2/EPAM%20support?groupId=e4f886a6-1b0d-472b-92e2-bb8f8a893db5&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47) in MS Teams to confirm if a ticket is needed, and follow the instructions. Meanwhile, proceed to Step 6.
+-   **If there are **6 or more missing points**/a significant drop**, ask L2/L3 on the [**EPAM Support** channel](https://teams.microsoft.com/l/channel/19%3Adafce2499dd54f198259659ecca8e7ad%40thread.tacv2/EPAM%20support?groupId=e4f886a6-1b0d-472b-92e2-bb8f8a893db5&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47) in MS Teams to confirm if a ticket is needed, and follow the instructions. Meanwhile, proceed to Step 6.
 ---
 > **Teams message template:**
 > 
@@ -168,5 +168,6 @@ For **alert investigation**, perform only 2 checks in the following order:
 20. **If necessary**, repeat the investigation process (steps 1–19) for the next cluster.
 21. **Once the checks for all clusters are complete**, proceed to the next check.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMTI1NzA1NCwtMTYzNDI0OTk4MV19
+eyJoaXN0b3J5IjpbLTIwNTM1NDA3NzIsLTUwMTI1NzA1NCwtMT
+YzNDI0OTk4MV19
 -->
