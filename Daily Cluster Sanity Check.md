@@ -16,7 +16,7 @@
 
 ## General information
 **Concurrent Users (CCU)** is the number of people actively connected to a cluster at the same time. This metric is important to understand because it tells us about player load and potential performance impact.
----
+
 |  | Preprod Clusters (AOETest, AOEFlight) | Prod Clusters (AOELive, Arthurlive, MYTHLive) |
 |---|---|---|
 | **Who connects** | Only Developers and EdgeLink Members. | Thousands of real players around the globe. |
@@ -457,7 +457,7 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNTgyNDgxMiwtMTQ5Njc2NjMxNywxOT
+eyJoaXN0b3J5IjpbMTk5NjkwMjg4OSwtMTQ5Njc2NjMxNywxOT
 k2Nzc5MjkwLDIwMzA2NTA1NjQsMTYxODU5MTY0MCwtMTYyOTk3
 ODMxOSw4NTU4NDU4MDksLTEyODE1NTUwMDQsMzIwNzQ1NDY2LC
 01ODI4NTI4NDUsMjg2OTU1MjEzLDE5NjA5NDc1NTEsLTIwNTM1
