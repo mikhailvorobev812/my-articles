@@ -157,11 +157,408 @@ For **alert investigation**, perform only 2 checks in the following order:
 20. **If necessary**, repeat the investigation process (steps 1–19) for the next cluster.
 21. **Once the checks for all clusters are complete**, proceed to the next check.
 
+### Test Client Check
 
+*Click here to expand the detailed instruction*
+
+> **NOTE!**
+> Before the 1st check, ensure that the Test Client application was downloaded as described in article **XBOX-AOE: Team onboarding** → tab *Guide for L1 Agent* → action *Configure Test Client*.
+
+The Test Plan Check during the **Daily Cluster Check** is performed for the following clusters:
+- aoelive
+- arthurlive
+- mythlive
+- tournament
+
+For **alert investigation**, the following clusters are checked:
+- aoelive
+- arthurlive
+- mythlive
+- tournament
+- aoeflight
+- aoetest
+
+**1.** Open the folder on your laptop where the Test Client is stored (e.g., `TestClient_Win_Feb22`).
+**2.** Right-click on the **TestClientConfig.json** file icon and select **Edit with Notepad**.
+**3.** Copy the code and replace the entire content of the file based on the cluster:
+
+> **NOTE!** Blank spaces and indentations are important.
+
+**Cluster:** `mythlive`
+```json
+{
+    "titleID": 5,
+    "name": "elink",
+    "majorVersion": "4.0.0",
+    "minorVersion": 0,
+    "simPeriodSeconds": 0.125,
+    "defaultServer": "aoe"
+}
+
+```
+
+**Cluster:** `aoelive`, `arthurlive`, `aoeflight`, `aoetest`, `tournament`
+
+```json
+{
+    "titleID": 2,
+    "name": "rlink",
+    "majorVersion": "4.0.0",
+    "minorVersion": 0,
+    "simPeriodSeconds": 0.125,
+    "defaultServer": "aoe"
+}
+
+```
+
+**4.** Save the changes and close the file. **5.** In the directory path, type the command `powershell`. **6.** Press **Enter**. **7.** In the displayed command prompt, enter the command for the appropriate cluster:
+
+Cluster
+
+Command
+
+aoeflight
+
+`.\TestClient_Win.exe -server aoeflight.worldsedgelink.com`
+
+aoelive
+
+`.\TestClient_Win.exe -server aoe-api.worldsedgelink.com`
+
+aoetest
+
+`.\TestClient_Win.exe -server aoetest.worldsedgelink.com`
+
+arthurlive
+
+`.\TestClient_Win.exe -server arthurlive.worldsedgelink.com`
+
+mythlive
+
+`.\TestClient_Win.exe -server mythlive.worldsedgelink.com`
+
+tournament
+
+`.\TestClient_Win.exe -server ci6nbk4m67-api.worldsedgelink.com`
+
+**8.** Press **Enter**. **9.** Once the home page is displayed, click the **Profile** tab.
+
+> **IMPORTANT!** The test client check is an important indicator. If it does not work correctly, it might indicate a critical issue. Immediately create a new incident as described in article **[L1] ADO Ticket Creation**, escalate it as described in article **[L1] Major Incident & MIM Process**, and complete investigation steps afterwards.
+
+**10.** Click the **Platform Login** button. **11.** Fill in the **Username** and **Password** with appropriate credentials depending on the cluster, stored in the **CyberArk portal**. **12.** Click the **Login** button. **13.** Wait for the authentication to complete and act accordingly:
+
+-   **During daily check:**
+    
+    -   If authentication takes **≤30 sec** → record for the report (_Login < 30 sec_) and proceed to step 14.
+        
+    -   If authentication takes **>30 sec but <3 min** → post the following message into the **EPAM support channel** in MS Teams and follow instructions. Meanwhile, record for the report (_Login XX sec_) and proceed to step 14.
+        
+        > @everyone, hi team! The authentication during the cluster check for _name of the cluster_ takes approximately ** seconds. Please advise if any actions are needed from the L1 team?
+        
+    -   If authentication takes **>3 min or fails** → record for the report (_Login >3 min_) and **Sev2 Incident creation** after all checks are finished. Then proceed to step 14.
+        
+        > **NOTE!** Monitor the right-hand Status panel. Actions are queued and removed as they are carried out. If there is no activity on this panel for 3 minutes, a ticket should be raised with **Sev1**.
+        
+-   **During the alert investigation:** record this information for the report (_Login XX_) and proceed to step 14.
+    
+
+**14.** Check the server in the status panel on the right to ensure you are logged into the correct server. **15.** Click the **Play** tab. **16.** Click the **Host** tab. **17.** Click **OK**. **18.** Wait for the connection to the Lobby game to be established and act accordingly:
+
+-   **During daily check:**
+    
+    -   **≤30 sec** → record (_Battle Servers - Host Game < 30 sec_), proceed to step 19.
+        
+    -   **>30 sec but <3 min** → post message to **EPAM support channel** in MS Teams:
+        
+        > @everyone, hi team! The connection to Lobby game during the cluster check for _name of the cluster_ takes approximately ** seconds. Please advise if any actions are needed from the L1 team?
+        
+        Record (_Battle Servers - Host Game XX_), proceed to step 19.
+        
+    -   **>3 min or fails** → record (_Battle Servers - Host Game >3 min_) and **Sev2 Incident creation** after all checks finish, then proceed to step 19.
+        
+        > **NOTE!** Monitor the Status panel; if no activity for 3 minutes, raise a ticket with **Sev1**.
+        
+-   **During the alert investigation:** record (_Battle Servers - Host Game XX_), proceed to step 19.
+    
+
+**19.** From the **Slots** drop-down menu, in the first slot select **AI**. **20.** Click the **Ready** button. **21.** Wait for the new screen to load and act depending on the loading time:
+
+> FYI: Once the next screen is displayed, the virtual in-game action and test are successful.
+
+-   **During daily check:**
+    -   **≤30 sec** → record (_Battle Servers - Load into game < 30 sec_), proceed to step 22.
+        
+    -   **>30 sec but <3 min** → post to **EPAM support channel**:
+        
+        > @everyone, hi team! The creation of the game during the cluster check for _name of the cluster_ takes approximately ** seconds. Please advise if any actions are needed from the L1 team?
+        
+        Record (_Battle Servers - Load into game XX sec_), proceed to step 22.
+        
+    -   **>3 min or fails** → record (_Battle Servers - Load into game >3 min / failed_) and **Sev2 Incident creation** after all checks finish, proceed to step 22.
+        
+-   **During the alert investigation:** record (_Battle Servers - Load into game XX_), proceed to step 22.
+
+**22.** On the displayed page, select any button to complete the game (_a disconnecting screen is displayed_). **23.** Wait for game completion and act depending on time:
+
+-   **During daily check:**
+    
+    -   **≤30 sec** → record (_Battle Servers - Completing a game < 30 sec_), proceed to step 24.
+        
+    -   **>30 sec but <3 min** → post to **EPAM support channel**:
+        
+        > @everyone, hi team! The completion of the game during the cluster check for _name of the cluster_ takes approximately ** seconds. Please advise if any actions are needed from the L1 team?
+        
+        Record (_Battle Servers - Completing a game XX sec_), proceed to step 24.
+        
+    -   **>3 min or fails** → record (_Battle Servers - Completing a game >3 min / failed_) and **Sev2 Incident creation** after all checks finish, proceed to step 24.
+        
+        > **NOTE!** Monitor the Status panel; if no activity for 3 minutes, raise a ticket with **Sev1**.
+        
+-   **During the alert investigation:** record (_Battle Servers - Completing a game XX_), proceed to step 24.
+    
+
+**24.** In the **Party** tab, click **Create Party**. **25.** Wait for the lobby slots to become active and act depending on waiting time:
+
+-   **During daily check:**
+    -   **≤30 sec** → record (_Lobby Servers - Create Party < 30 sec_), proceed to step 26.
+        
+    -   **>30 sec but <3 min** → post to **EPAM support channel**:
+        
+        > @everyone, hi team! The party creation during the cluster check for _name of the cluster_ takes approximately ** seconds. Please advise if any actions are needed from the L1 team?
+        
+        Record (_Lobby Servers - Create Party XX sec_), proceed to step 26.
+        
+    -   **>3 min or fails** → record (_Lobby Servers - Create Party >3 min / failed_) and **Sev2 Incident creation** after all checks finish, proceed to step 26.
+        
+-   **During the alert investigation:** record (_Lobby Servers - Create Party XX_), proceed to step 26.
+
+**26.** Click **Leave Party**. **27.** Click the **Chat** tab. **28.** Select one of the **Available Channels**. **29.** Click **Join**. **30.** Confirm you successfully joined the channel (**Channel** and **Joined** sections). **31.** Write a test message in the text box. **32.** Click **Send**. **33.** Wait for the message to be displayed in the **Channel** section (test successful) and act depending on waiting time:
+
+-   **During daily check:**
+    
+    -   **≤30 sec** → record (_Chat check successful_), proceed to step 34.
+        
+    -   **>30 sec but <3 min** → post to **EPAM support channel**:
+        
+        > @everyone, hi team! The communication with the chat during the cluster check for _name of the cluster_ takes approximately ** seconds. Please advise if any actions are needed from the L1 team?
+        
+        Record (_Chat check XX_), proceed to step 34.
+        
+    -   **>3 min or fails** → record (_Chat check >3 min / failed_) and **Sev2 Incident creation** after all checks finish, proceed to step 34.
+        
+        > **NOTE!** Monitor the Status panel; if no activity for 3 minutes, raise a ticket with **Sev1**.
+        
+-   **During the alert investigation:** record (_Chat check XX_) and proceed with **Cluster Check**.
+    
+
+**34.** Once the checks for test client are complete, proceed to the next check.
+
+----------
+
+### Leader Board Check
+
+_Click here to expand the detailed instruction_
+
+**1.** Go to **AoE Live Leaderboard**. **2.** Check the result message and act accordingly:
+
+-   If there is a `"SUCCESS"` status → record for the report, proceed to step 3.
+-   If there is another status → record for **new Incident creation** after all checks finish, proceed to step 3.
+
+**3.** Go to **Myth Live Leaderboard**. **4.** Check the result message and act accordingly:
+
+-   `"SUCCESS"` → record for the report, proceed to step 5.
+-   Other status → record for **new Incident creation** after all checks finish, proceed to step 5.
+
+**5.** Go to **AoE Flighting Leaderboard**. **6.** Check the result message and act accordingly:
+
+-   `"SUCCESS"` → record for the report, proceed to step 9.
+-   Other status → record for **new Incident creation** after all checks finish, proceed to step 9.
+
+**7.** Go to **AoE Test Leaderboard**. **8.** Check the result message and act accordingly:
+
+-   `"SUCCESS"` → proceed to **Azure Service Health check**.
+-   Other status → record for **new Incident creation** after all checks finish, then proceed to **Azure Service Health check**.
+
+Example JSON response with SUCCESS status:
+
+```json
+{
+    "result": {"code": 0, "message": "SUCCESS"},
+    "statGroups": [ ... ]
+}
+
+```
+
+----------
+
+### Azure Service Health
+
+_Click here to expand the detailed instruction_
+
+**1.** Go to the **Azure Service Health** page. **2.** Check the affected locations (red location status) and act accordingly:
+
+-   **No affected locations** → proceed to processing cluster check results.
+-   **Affected locations detected** → take a screenshot of the dashboard, save it locally, and proceed to step 3.
+
+**3.** Click on the **Issue name** link. **4.** Take a screenshot of the page and save it locally to be uploaded into the related ADO ticket. **5.** Copy the **issue name** and use it for naming when creating a new Incident after all the checks are finished. **6.** Proceed to **processing cluster check results** → tab _Issues detected_.
+
+----------
+
+## 2. Processing cluster check results
+
+### Daily Cluster Sanity Check Results
+
+Depending on the Daily Cluster Sanity Check results, proceed with the following steps:
+
+#### A) If no issues were found
+
+Send the following report using the mail template:
+
+-   For Classic Outlook: `XBOX-AOE_Daily_Cluster_Sanity_Check_Report.msg`
+-   For New Outlook: `XBOX-AOE_Daily_Cluster_Sanity_Check_Report.eml`
+
+_Click here to expand the "no issues" template_
+
+Field
+
+Value
+
+FROM
+
+[supportxbox-aoel1@epam.com](mailto:supportxbox-aoel1@epam.com)
+
+TO
+
+[edge_link@microsoft.com](mailto:edge_link@microsoft.com);
+
+CC
+
+[supportxbox-aoel1@epam.com](mailto:supportxbox-aoel1@epam.com)
+
+Subject
+
+XBOX-AOE: Daily Cluster Sanity Check 1:00 AM/PM
+
+Message
+
+Hello Team,  
+  
+We have performed our Sanity Check for the following Clusters:  
+• aoelive  
+• arthurlive  
+• mythlive  
+• tournament  
+  
+**Test Plan AoeLive Cluster Check.**  
+• Login < 30 sec  
+• Lobby Servers - Create Party < 30 sec  
+• Battle Servers - Host Game < 30 sec  
+• Battle Servers - Load into game < 30 sec  
+• Battle Servers - Completing a game < 30 sec  
+• Chat check successful  
+  
+**Test Plan Arthurlive Cluster Check.**  
+_(same 6 bullet points as above)_  
+  
+**Test Plan Mythlive Cluster Check.**  
+_(same 6 bullet points as above)_  
+  
+**Test Plan Tournament Cluster Check.**  
+_(same 6 bullet points as above)_  
+  
+Leader Board Test Were Successful  
+  
+Azure Service Health  
+_Attach screenshot from Service Health_  
+  
+Best regards,  
+_Epam signature_
+
+#### B) If any issues were found
+
+Make sure an ADO ticket is created as described in article **[L1] ADO Ticket Creation** (→ tab _Ticket for Cluster Check_).
+
+Send the following report using mail template: `XBOX-AOE_Daily_Cluster_Sanity_Check_Report_issue_detected.msg`
+
+_Click here to expand the email details_
+
+Field
+
+Value
+
+FROM
+
+[supportxbox-aoel1@epam.com](mailto:supportxbox-aoel1@epam.com)
+
+TO
+
+[edge_link@microsoft.com](mailto:edge_link@microsoft.com);
+
+CC
+
+[supportxbox-aoel1@epam.com](mailto:supportxbox-aoel1@epam.com)
+
+Subject
+
+XBOX-AOE: Daily Cluster Sanity Check 1:00 AM/PM
+
+Message
+
+Hello Team,  
+  
+We have performed our Sanity Check for the following Clusters:  
+• aoeflight  
+• aoelive  
+• arthurlive  
+• mythlive  
+  
+_An issue was identified on Cluster xxxx on Board xxxx. The following ticket was created xxxx._  
+_Attach Screenshot of the issue(s) identified_  
+  
+**Test Plan AoeLive Cluster Check.**  
+• Login < 30 sec / XX sec / >3 min / failed  
+• Lobby Servers - Create Party < 30 sec / XX sec / >3 min / failed  
+• Battle Servers - Host Game < 30 sec / XX sec / >3 min / failed  
+• Battle Servers - Load into game < 30 sec / XX sec / >3 min / failed  
+• Battle Servers - Completing a game < 30 sec / XX sec / >3 min / failed  
+• Chat check successful / XX sec / >3 min / failed  
+  
+**Test Plan Arthurlive Cluster Check.**  
+_(same pattern as above)_  
+  
+**Test Plan Mythlive Cluster Check.**  
+_(same pattern as above)_  
+  
+**Test Plan Tournament Cluster Check.**  
+_(same pattern as above)_  
+  
+**Leader Board Test Were Successful / Failed**  
+  
+**Azure Service Health**  
+_Attach screenshot from Service Health_  
+  
+Best regards,  
+_Epam signature_
+
+----------
+
+### Alert investigation
+
+> ℹ️ Alert-investigation-specific instructions are embedded inline within each check above (look for the **"During the alert investigation"** bullet points under Cluster check, Test Client Check, Leader Board Check, and Azure Service Health). No separate standalone procedure was provided in the source beyond those inline branches.
+
+```
+
+A few notes on this conversion:
+- I flagged a couple of source typos I noticed (e.g., "Test Cluster Check" vs. "Test Client Check" used inconsistently in the ordering list on page 3, and a stray "750px1000" artifact in the 4xx/5xx error step on page 8) — I kept the text as-is but happy to clean those up too if you want.
+- Screenshots are referenced as `*(screenshot)*` placeholders since images can't be embedded directly in text-only Markdown here — I can add `![alt](path)` placeholders if you'll be dropping in actual image files.
+
+Want me to (a) output this as a downloadable `.md` file, (b) also list out the typos/inconsistencies I spotted (like in the previous doc), or (c) merge this with the earlier LAPP-SACC markdown into one knowledge base file?
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEzNjkxMDQwLDIwMzA2NTA1NjQsMTYxOD
-U5MTY0MCwtMTYyOTk3ODMxOSw4NTU4NDU4MDksLTEyODE1NTUw
-MDQsMzIwNzQ1NDY2LC01ODI4NTI4NDUsMjg2OTU1MjEzLDE5Nj
-A5NDc1NTEsLTIwNTM1NDA3NzIsLTUwMTI1NzA1NCwtMTYzNDI0
-OTk4MV19
+eyJoaXN0b3J5IjpbMTk5Njc3OTI5MCwyMDMwNjUwNTY0LDE2MT
+g1OTE2NDAsLTE2Mjk5NzgzMTksODU1ODQ1ODA5LC0xMjgxNTU1
+MDA0LDMyMDc0NTQ2NiwtNTgyODUyODQ1LDI4Njk1NTIxMywxOT
+YwOTQ3NTUxLC0yMDUzNTQwNzcyLC01MDEyNTcwNTQsLTE2MzQy
+NDk5ODFdfQ==
 -->
