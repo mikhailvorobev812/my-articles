@@ -15,9 +15,8 @@
     - [Alert investigation](#alert-investigation)
 
 ## General information
-
 **Concurrent Users (CCU)** is the number of people actively connected to a cluster at the same time. This metric is important to understand because it tells us about player load and potential performance impact.
-
+---
 |  | Preprod Clusters (AOETest, AOEFlight) | Prod Clusters (AOELive, Arthurlive, MYTHLive) |
 |---|---|---|
 | **Who connects** | Only Developers and EdgeLink Members. | Thousands of real players around the globe. |
@@ -27,9 +26,8 @@
 | **Screenshot** |(https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%201.jpg) |(https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%202.jpg)  |
 ---
 ⚠️ **NOTE!**
-The Daily Cluster Sanity Check should be performed >  **daily (including weekends) at 3:00 AM CDT and 3:00  PM CDT / 2:00 AM CST and 2:00 PM CST**  
-(for other time zones,follow the link to the  [time converter](https://www.worldtimebuddy.com/?pl=1&lid=306,30,611717,625144,314,312,206,0,212&h=306&hf=0),
-or as part of an alert investigation.
+The Daily Cluster Sanity Check should be performed  **daily (including weekends) at 3:00 AM CDT and 3:00  PM CDT / 2:00 AM CST and 2:00 PM CST**  
+(for other time zones,follow the link to the  [time converter](https://www.worldtimebuddy.com/?pl=1&lid=306,30,611717,625144,314,312,206,0,212&h=306&hf=0), or as part of an alert investigation.
 
 # Daily Cluster Sanity Check
 
@@ -459,7 +457,7 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNTI3NjIzOSwtMTQ5Njc2NjMxNywxOT
+eyJoaXN0b3J5IjpbMTkzNTgyNDgxMiwtMTQ5Njc2NjMxNywxOT
 k2Nzc5MjkwLDIwMzA2NTA1NjQsMTYxODU5MTY0MCwtMTYyOTk3
 ODMxOSw4NTU4NDU4MDksLTEyODE1NTUwMDQsMzIwNzQ1NDY2LC
 01ODI4NTI4NDUsMjg2OTU1MjEzLDE5NjA5NDc1NTEsLTIwNTM1
