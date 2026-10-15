@@ -156,9 +156,12 @@ For **alert investigation**, perform only 2 checks in the following order:
 
 20. **If necessary**, repeat the investigation process (steps 1–19) for the next cluster.
 21. **Once the checks for all clusters are complete**, proceed to the next check.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMDY1MDU2NCwxNjE4NTkxNjQwLC0xNj
-I5OTc4MzE5LDg1NTg0NTgwOSwtMTI4MTU1NTAwNCwzMjA3NDU0
-NjYsLTU4Mjg1Mjg0NSwyODY5NTUyMTMsMTk2MDk0NzU1MSwtMj
-A1MzU0MDc3MiwtNTAxMjU3MDU0LC0xNjM0MjQ5OTgxXX0=
+eyJoaXN0b3J5IjpbMzEzNjkxMDQwLDIwMzA2NTA1NjQsMTYxOD
+U5MTY0MCwtMTYyOTk3ODMxOSw4NTU4NDU4MDksLTEyODE1NTUw
+MDQsMzIwNzQ1NDY2LC01ODI4NTI4NDUsMjg2OTU1MjEzLDE5Nj
+A5NDc1NTEsLTIwNTM1NDA3NzIsLTUwMTI1NzA1NCwtMTYzNDI0
+OTk4MV19
 -->
