@@ -26,11 +26,12 @@
 | **Example** | If AOETest shows a CCU of 5, that simply means a handful of developers are connected. This does not reflect real player traffic. | **Scenarios of CCU Impact in Prod:**<br><br>1. **High CCU (e.g., 50,000+ concurrent players)**<br>   - Matchmaking times may increase.<br>   - Servers may experience higher CPU/memory usage.<br>   - Some regions could see delays or instability.<br><br>2. **Sudden Spike in CCU (e.g., post-update or event launch)**<br>   - Logins may temporarily fail or slow down.<br>   - Backend services (auth, inventory, etc.) can become bottlenecks.<br><br>3. **Low CCU (e.g., during maintenance or downtime)**<br>   - Fewer reports from players.<br>   - Easier to run hotfix validations and monitoring checks. |
 | **Screenshot** |(https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%201.jpg) |(https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%202.jpg)  |
 
-[!NOTE]
+```
+> [!NOTE]
 The Daily Cluster Sanity Check should be performed >  **daily (including weekends) at 3:00 AM CDT and 3:00  PM CDT / 2:00 AM CST and 2:00 PM CST**  
 (for other time zones,follow the link to the  [time converter](https://www.worldtimebuddy.com/?pl=1&lid=306,30,611717,625144,314,312,206,0,212&h=306&hf=0),
 or as part of an alert investigation.
-
+```
 # Daily Cluster Sanity Check
 
 ## 1. Performing Checks
@@ -460,9 +461,9 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTY3NjYzMTcsMTk5Njc3OTI5MCwyMD
-MwNjUwNTY0LDE2MTg1OTE2NDAsLTE2Mjk5NzgzMTksODU1ODQ1
-ODA5LC0xMjgxNTU1MDA0LDMyMDc0NTQ2NiwtNTgyODUyODQ1LD
-I4Njk1NTIxMywxOTYwOTQ3NTUxLC0yMDUzNTQwNzcyLC01MDEy
-NTcwNTQsLTE2MzQyNDk5ODFdfQ==
+eyJoaXN0b3J5IjpbMTYwNTk1OTc4MywtMTQ5Njc2NjMxNywxOT
+k2Nzc5MjkwLDIwMzA2NTA1NjQsMTYxODU5MTY0MCwtMTYyOTk3
+ODMxOSw4NTU4NDU4MDksLTEyODE1NTUwMDQsMzIwNzQ1NDY2LC
+01ODI4NTI4NDUsMjg2OTU1MjEzLDE5NjA5NDc1NTEsLTIwNTM1
+NDA3NzIsLTUwMTI1NzA1NCwtMTYzNDI0OTk4MV19
 -->
