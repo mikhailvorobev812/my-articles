@@ -47,7 +47,7 @@ For **alert investigation**, perform only 2 checks in the following order:
 ### Cluster check
 | Actions | Screenshots with issues | Screenshots without issues |
 |---|---|---|
-| **1.** For **Cluster Check**, open the Cluster's Dashboard by clicking an appropriate link from the list below depending on the type of check/investigation:<br><br>**IMPORTANT!**<br>To perform the **Daily Cluster Sanity Check**, the following clusters should be checked:<br>- aoelive<br>- arthurlive<br>- mythlive<br>- tournament<br><br>For **alert investigation**, only the **cluster mentioned in the alert** notification should be checked.<br><br>**For daily cluster check:** | — | — |
+| **1.** For **Cluster Check**, open the Cluster's Dashboard by clicking an appropriate link from the list below depending on the type of check/investigation:<br><br>**IMPORTANT!**<br>To perform the **Daily Cluster Sanity Check**, the following clusters should be checked:<br>**- aoelive**<br>- arthurlive<br>- mythlive<br>For **alert investigation**, only the **cluster mentioned in the alert** notification should be checked.<br><br>**For daily cluster check:** | — | — |
 | **2.** Set the time range to **Past hour** for investigating alerts:<br>![Set time range to Past hour](path/to/img-set-time-range.png) | — | — |
 | **IMPORTANT!**<br>**Lobby - Total CCU on the cluster** graph is a critical indicator. If any gaps or drops are identified, it might indicate a CCU impact issue.<br><br>Immediately create a new incident as described in article **[L1] ADO Ticket Creation**. Escalate it as described in article **[L1] Major Incident & MIM Process** and complete investigation steps afterward.<br><br>**3.** Select the **Lobby - Total CCU on cluster** graph.<br>**4.** Double-click on the graph to zoom in.<br>**5.** Check if there are any gaps or drops and act accordingly:<br><br>**During daily EU/APAC check:**<br>- if fewer than 5 missing points or no missing points → proceed to step 6.<br>- if 6+ missing points / a significant drop → record for **Sev1 Incident creation** and proceed to step 6.<br><br>**During daily MX check:**<br>- if fewer than 5 missing points or no missing points → proceed to step 6.<br>- if 6+ missing points / a significant drop → ask L2/L3 on the **EPAM support channel** in MS Teams to confirm if a ticket is needed, follow instructions. Meanwhile, proceed to step 6.<br><br>> @everyone, hi team!<br>> During the cluster check, we found a 5-point gap on *name of the cluster*.<br>> Please advise if any actions are needed from the L1 team<br><br>**During the alert investigation:** take a screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Then proceed to step 6. | **The graph with significant drop:**<br>![CCU graph with drop](path/to/img-ccu-drop.png)<br><br>**The gap with 6 missing points:**<br>![CCU graph with 6-point gap circled](path/to/img-ccu-gap.png) | **The graph without gaps:**<br>![CCU graph without gaps](path/to/img-ccu-nogaps.png)<br><br>**The graph zoomed by double-click:**<br>![CCU graph zoomed](path/to/img-ccu-zoomed.png) |
 | **6.** Select the **App Gateway - Backends health (below: unhealthy only)** graph.<br>**7.** Check **Unhealthy Backend** amount:<br><br>**During daily check:**<br>- if Unhealthy Backend is **lower than 0.75** → proceed to step 8.<br>- if Unhealthy Backend is **higher than 0.75** → record for **Sev2 Incident creation** after all checks finish. Then proceed to step 8.<br>- if an unhealthy backend that later recovered was identified → add a comment about that in the e-mail report about the check results. Take a screenshot and attach it as proof to the e-mail report as well. Then proceed to step 8.<br><br>**During the alert investigation:** take a screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Proceed to step 8. | **Unhealthy Backend is higher than 0.75**<br>![Unhealthy backend graph - issue](path/to/img-backend-unhealthy.png) | **Unhealthy Backend is lower than 0.75**<br>![Healthy backend graph](path/to/img-backend-healthy.png) |
@@ -457,10 +457,10 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MzI0Mzk3LDE5OTY5MDI4ODksLTE0OT
-Y3NjYzMTcsMTk5Njc3OTI5MCwyMDMwNjUwNTY0LDE2MTg1OTE2
-NDAsLTE2Mjk5NzgzMTksODU1ODQ1ODA5LC0xMjgxNTU1MDA0LD
-MyMDc0NTQ2NiwtNTgyODUyODQ1LDI4Njk1NTIxMywxOTYwOTQ3
-NTUxLC0yMDUzNTQwNzcyLC01MDEyNTcwNTQsLTE2MzQyNDk5OD
-FdfQ==
+eyJoaXN0b3J5IjpbLTE2MDQwOTUxODEsLTM5MzI0Mzk3LDE5OT
+Y5MDI4ODksLTE0OTY3NjYzMTcsMTk5Njc3OTI5MCwyMDMwNjUw
+NTY0LDE2MTg1OTE2NDAsLTE2Mjk5NzgzMTksODU1ODQ1ODA5LC
+0xMjgxNTU1MDA0LDMyMDc0NTQ2NiwtNTgyODUyODQ1LDI4Njk1
+NTIxMywxOTYwOTQ3NTUxLC0yMDUzNTQwNzcyLC01MDEyNTcwNT
+QsLTE2MzQyNDk5ODFdfQ==
 -->
