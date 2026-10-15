@@ -48,114 +48,18 @@ For **alert investigation**, perform only 2 checks in the following order:
 2.  [Cluster check](#cluster-check)
 
 ### Cluster check
-1. **For Cluster Check**, open the Cluster's Dashboard by clicking the appropriate link from the list below, depending on the type of check/investigation:
-> [!**IMPORTANT**]
-> To perform the Daily Cluster Sanity Check, the following clusters should be checked:
-> - **aoelive**
-> - **arthurlive**
-> - **mythlive**
->
-> For **alert investigation**, only the **cluster mentioned in the alert** notification should be checked.
-
-**For daily cluster check:**
-
--   `aoelive` → [AOE LIVE Monitoring Dashboard](https://portal.azure.com/#dashboard/arm/subscriptions/a6591785-2ac3-4686-bd24-9519787c46a8/resourceGroups/aoelive-tf-rsg/providers/Microsoft.Portal/dashboards/aoelive-monitoring-dashboard)
--   `arthurlive` → [Arthurlive Monitoring Dashboard](https://portal.azure.com/#@worldsedge.msgamestudios.com/dashboard/arm/subscriptions/a6591785-2ac3-4686-bd24-9519787c46a8/resourcegroups/arthurlive-tf-rsg/providers/microsoft.portal/dashboards/arthurlive-monitoring-dashboard)
--   `mythlive` → [Myth Live Monitoring Dashboard](https://portal.azure.com/#@worldsedge.msgamestudios.com/dashboard/arm/subscriptions/a6591785-2ac3-4686-bd24-9519787c46a8/resourcegroups/mythlive-tf-rsg/providers/microsoft.portal/dashboards/mythlive-monitoring-dashboard)
-
-**For alert investigation**
-
--   `aoeflight` → [AOE FLIGHT Monitoring Dashboard](https://portal.azure.com/#dashboard/arm/subscriptions/a6591785-2ac3-4686-bd24-9519787c46a8/resourceGroups/aoeflight-tf-rsg/providers/Microsoft.Portal/dashboards/aoeflight-monitoring-dashboard)
--   `aoelive` → [AOE LIVE Monitoring Dashboard](https://portal.azure.com/#dashboard/arm/subscriptions/a6591785-2ac3-4686-bd24-9519787c46a8/resourceGroups/aoelive-tf-rsg/providers/Microsoft.Portal/dashboards/aoelive-monitoring-dashboard)
--   `aoetest` → [AOE TEST Monitoring Dashboard](https://portal.azure.com/#dashboard/arm/subscriptions/a6591785-2ac3-4686-bd24-9519787c46a8/resourceGroups/aoetest-tf-rsg/providers/Microsoft.Portal/dashboards/aoetest-monitoring-dashboard)
--   `arthurlive` → [Arthurlive Monitoring Dashboard](https://portal.azure.com/#@worldsedge.msgamestudios.com/dashboard/arm/subscriptions/a6591785-2ac3-4686-bd24-9519787c46a8/resourcegroups/arthurlive-tf-rsg/providers/microsoft.portal/dashboards/arthurlive-monitoring-dashboard)
--   `mythlive` → [Myth Live Monitoring Dashboard](https://portal.azure.com/#@worldsedge.msgamestudios.com/dashboard/arm/subscriptions/a6591785-2ac3-4686-bd24-9519787c46a8/resourcegroups/mythlive-tf-rsg/providers/microsoft.portal/dashboards/mythlive-monitoring-dashboard)
-
-2. Set the time range to **Past hour** when investigating alerts. (https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2049.png)
----
->**:warning:Lobby - Total CCU on cluster graph is a Critical Indicator.:warning:** If any gaps or drops are identified, it might indicate a CCU impact issue. Immediately create a new incident as described in **[L1] ADO Ticket Creation**. Escalate it as described in **[L1] Major Incident and MIM Process**, and complete investigation steps afterward.
-
----
-3. Select the **Lobby - Total CCU on cluster** graph.
-4. Double-click on the graph to zoom in.
-5. Check if there are any any gaps or drops and act accordingly:
-- **During daily EU/APAC check:**
-  -  **If there are fewer than 5 missing points (or none)**, proceed to Step 6.
-  -   **If there are **6 or more missing points**/a significant drop**, record this information for **Sev1 Incident creation** and proceed to Step 6.
-
-- **During daily MX check:**
-  -   **if there are fewer than 5 missing points (or none)**, proceed to Step 6.
-   -   **if there are **6 or more missing points**/a significant drop**, ask L2/L3 on the [**EPAM Support** channel](https://teams.microsoft.com/l/channel/19%3Adafce2499dd54f198259659ecca8e7ad%40thread.tacv2/EPAM%20support?groupId=e4f886a6-1b0d-472b-92e2-bb8f8a893db5&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47) in MS Teams to confirm if a ticket is needed, and follow the instructions. Meanwhile, proceed to Step 6.
-
-> **MS Teams message template:**
-> 
-> ```
-> @everyone, hi team!
-> During the cluster check, we found a 5-point gap on <name of the cluster>.
-> Please advise if any actions are needed from the L1 team.
-> ```
-**During alert investigation:** make a  screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Then proceed to step 6.
-
-6. Select the **App Gateway - Backends health (below: unhealthy only)** graph.
-
-7. Check the **Unhealthy Backend amount**:
-- **During daily check:**
-   - **if Unhealthy Backend is lower than 0.75**, proceed to step 8.
-   - **if Unhealthy Backend is higher than 0.75**, record this information for **Sev2 Incident creation** after all the checks are finished. Then proceed to step 8.
-   - **if an unhealthy backend that later recovered was identified**, add a comment about that in the e-mail report about the check results. Make a screenshot and attach it as proof to the e-mail report as well. Then proceed to step 8.
-
-- **During the alert investigation:** Make a screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Proceed to step 8.
-
-8. Select the **App Gateway - Responses by Status** graph.
-
-9. Double-click on the graph to zoom in.
-
-10. Set the time range to **Past hour** for investigating alerts.
-
-11. Check the number of 4xx and 5xx errors detected and act accordingly:
-- **During daily check:**
-    - **if there are fewer than 3,500 4xx errors AND fewer than 250 5xx errors**, proceed to step 12.
-    - **if there are more than 3,500 4xx errors per sample (1 minute)**, record this information for [Sev2 Incident creation](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation) after all the checks are finished. Then proceed to step 12.
-    - **if there are more than 250 5xx errors per sample (1 minute)**, record this information for [**Sev2 Incident creation**](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation) after all the checks are finished. Then proceed to step 12.
-
-- **During the alert investigation:** Make a screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Proceed to step 12.
-
-12. Select the **Lobby server VMs - CPU usage** graph.
-13. Check the thresholds on the graph and act accordingly:
-- **During daily check:**
-    - **if no thresholds exceed 70%**, proceed to step 14.
-    - **if any threshold exceeds 70%**, record this information for [**Sev2 Incident creation**](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation) after all the checks are finished. Then proceed to step 14.
-
- - **During the alert investigation:** Make a screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Proceed to step 14.
-
-14. Select the **Battle VMs - CPU usage** graph.
-15. Check the thresholds on the graph and act accordingly:
- - **During daily check:**
-    - **if any threshold exceeds 70%**, record this information for **[Sev2 Incident creation](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation)** after all the checks are finished.
-    - **if no thresholds exceed 70%**, proceed to step 16.
-
-- **During the alert investigation:** Make a screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Proceed to step 16.
-
-16. Select the **FlexibleDB/MySQL - CPU/Memory/Storage** graph.
-
-17. Check the usage thresholds:
-- **During daily check:**
-    - **if any threshold exceeds 95%**, record this information for [**Sev2 Incident creation**](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation) after all the checks are finished.
-    - **if no thresholds exceed 95%**, proceed to step 18.
-- **During the alert investigation:** Make a screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Proceed to step 18.
-
-18. Select the **MySQL slow queries - total execution + locked time (seconds)** graph.
-
-19. Check that queries do not exceed 1000 milliseconds:
-- **During daily check:**
-    - **if queries exceed 1000 milliseconds**, record this information for [**Sev2 Incident creation**](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation) after all the checks are finished.
-    - **if queries do NOT exceed 1000 milliseconds**, proceed to step 20.
-- **During the alert investigation:** Make a screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Proceed to incident categorization as described in article [**[L1] Ticket Processing**](https://kb.epam.com/spaces/XBOXAOE/pages/2590766755/L1+Ticket+Processing).
-[Screenshot with issue](https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2018.png)
-[Screenshot without issues](https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2019.png)
-
-20. **If necessary**, repeat the investigation process (steps 1–19) for the next cluster.
-21. **Once the checks for all clusters are complete**, proceed to the next check.
+| Actions | Screenshots with issues | Screenshots without issues |
+|---|---|---|
+| **1.** For **Cluster Check**, open the Cluster's Dashboard by clicking an appropriate link from the list below depending on the type of check/investigation:<br><br>**IMPORTANT!**<br>To perform the **Daily Cluster Sanity Check**, the following clusters should be checked:<br>- aoelive<br>- arthurlive<br>- mythlive<br>- tournament<br><br>For **alert investigation**, only the **cluster mentioned in the alert** notification should be checked.<br><br>**For daily cluster check:** | — | — |
+| **2.** Set the time range to **Past hour** for investigating alerts:<br>![Set time range to Past hour](path/to/img-set-time-range.png) | — | — |
+| **IMPORTANT!**<br>**Lobby - Total CCU on the cluster** graph is a critical indicator. If any gaps or drops are identified, it might indicate a CCU impact issue.<br><br>Immediately create a new incident as described in article **[L1] ADO Ticket Creation**. Escalate it as described in article **[L1] Major Incident & MIM Process** and complete investigation steps afterward.<br><br>**3.** Select the **Lobby - Total CCU on cluster** graph.<br>**4.** Double-click on the graph to zoom in.<br>**5.** Check if there are any gaps or drops and act accordingly:<br><br>**During daily EU/APAC check:**<br>- if fewer than 5 missing points or no missing points → proceed to step 6.<br>- if 6+ missing points / a significant drop → record for **Sev1 Incident creation** and proceed to step 6.<br><br>**During daily MX check:**<br>- if fewer than 5 missing points or no missing points → proceed to step 6.<br>- if 6+ missing points / a significant drop → ask L2/L3 on the **EPAM support channel** in MS Teams to confirm if a ticket is needed, follow instructions. Meanwhile, proceed to step 6.<br><br>> @everyone, hi team!<br>> During the cluster check, we found a 5-point gap on *name of the cluster*.<br>> Please advise if any actions are needed from the L1 team<br><br>**During the alert investigation:** take a screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Then proceed to step 6. | **The graph with significant drop:**<br>![CCU graph with drop](path/to/img-ccu-drop.png)<br><br>**The gap with 6 missing points:**<br>![CCU graph with 6-point gap circled](path/to/img-ccu-gap.png) | **The graph without gaps:**<br>![CCU graph without gaps](path/to/img-ccu-nogaps.png)<br><br>**The graph zoomed by double-click:**<br>![CCU graph zoomed](path/to/img-ccu-zoomed.png) |
+| **6.** Select the **App Gateway - Backends health (below: unhealthy only)** graph.<br>**7.** Check **Unhealthy Backend** amount:<br><br>**During daily check:**<br>- if Unhealthy Backend is **lower than 0.75** → proceed to step 8.<br>- if Unhealthy Backend is **higher than 0.75** → record for **Sev2 Incident creation** after all checks finish. Then proceed to step 8.<br>- if an unhealthy backend that later recovered was identified → add a comment about that in the e-mail report about the check results. Take a screenshot and attach it as proof to the e-mail report as well. Then proceed to step 8.<br><br>**During the alert investigation:** take a screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Proceed to step 8. | **Unhealthy Backend is higher than 0.75**<br>![Unhealthy backend graph - issue](path/to/img-backend-unhealthy.png) | **Unhealthy Backend is lower than 0.75**<br>![Healthy backend graph](path/to/img-backend-healthy.png) |
+| **8.** Select the **App Gateway - Responses by Status** graph.<br>**9.** Double-click on the graph to zoom in.<br>**10.** Set the time range to **Past hour** for investigating alerts.<br>**11.** Check the number of **4xx** and **5xx** errors detected and act accordingly:<br><br>**During daily check:**<br>- if fewer than **3,500 4xx errors** AND fewer than **250 5xx errors** → proceed to step 11 (continue).<br>- if more than **3,500 4xx errors** per sample (1 minute) → record for **Sev2 Incident creation** after all checks finish. Then proceed to step 13.<br>- if more than **250 5xx errors** per sample (1 minute) → record for **Sev2 Incident creation** after all checks finish. Then proceed to step 11.<br><br>**During the alert investigation:** take a screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Proceed to step 11. | **More than 3,500 4xx errors per one sample (1 minute)**<br>![4xx errors spike](path/to/img-4xx-issue.png) | **The graph without zoom:**<br>![Responses by status - no zoom](path/to/img-status-nozoom.png)<br><br>**The graph zoomed by double-click:**<br>![Responses by status - zoomed](path/to/img-status-zoomed.png) |
+| **12.** Select the **Lobby server VMs - CPU usage** graph.<br>**13.** Check the thresholds on the graph and act accordingly:<br><br>**During daily check:**<br>- if no threshold exceeds **70%** → proceed to step 13.<br>- if any threshold exceeds **70%** → record for **Sev1 Incident creation** after all checks finish. Then proceed to step 13.<br><br>**During the alert investigation:** take a screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Proceed to step 13. | **The threshold exceeds 70%**<br>![Lobby VMs CPU usage - exceeded](path/to/img-lobbyvm-cpu-issue.png) | **No thresholds exceed 70%**<br>![Lobby VMs CPU usage - normal](path/to/img-lobbyvm-cpu-ok.png) |
+| **13.** Select the **Battle VMs - CPU usage** graph.<br>**14.** Check the thresholds on the graph and act accordingly:<br><br>**During daily check:**<br>- if any threshold exceeds **70%** → record for **Sev1 Incident creation** after all checks finish.<br>- if no threshold exceeds 70% → proceed to step 15.<br><br>**During the alert investigation:** take a screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Proceed to step 15. | — | **No thresholds exceed 70%**<br>![Battle VMs CPU usage - normal](path/to/img-battlevm-cpu-ok.png) |
+| **15.** Select the **FlexibleDB/MySQL - CPU/Memory/Storage** graph.<br>**16.** Check the usage thresholds:<br><br>**During daily check:**<br>- if any threshold exceeds **95%** → record for **Sev1 Incident creation** after all checks finish.<br>- if no threshold exceeds 95% → proceed to step 17.<br><br>**During the alert investigation:** take a screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Proceed to step 17. | — | **No thresholds exceed 95%**<br>![FlexibleDB/MySQL usage - normal](path/to/img-flexibledb-ok.png) |
+| **17.** Select the **MySQL slow queries - total execution + locked time (seconds)** graph.<br>**18.** Check that queries do not exceed **1000 milliseconds**:<br><br>**During daily check:**<br>- if queries exceed 1000 ms → record for **Sev1 Incident creation** after all checks finish.<br>- if queries do NOT exceed 1000 ms → proceed to step 19.<br><br>**During the alert investigation:** take a screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Proceed to incident categorization as described in article **[L1] Ticket Processing**. | ![MySQL slow queries - spike](path/to/img-mysql-slow-issue.png) | ![MySQL slow queries - normal](path/to/img-mysql-slow-ok.png) |
+| **19.** If necessary, repeat the investigation process (steps 1–18) for the next cluster.<br>**20.** Once the checks for all clusters are complete, proceed to the next Check. | — | — |
 
 ### Test Client Check
 
@@ -556,9 +460,9 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5Njc3OTI5MCwyMDMwNjUwNTY0LDE2MT
-g1OTE2NDAsLTE2Mjk5NzgzMTksODU1ODQ1ODA5LC0xMjgxNTU1
-MDA0LDMyMDc0NTQ2NiwtNTgyODUyODQ1LDI4Njk1NTIxMywxOT
-YwOTQ3NTUxLC0yMDUzNTQwNzcyLC01MDEyNTcwNTQsLTE2MzQy
-NDk5ODFdfQ==
+eyJoaXN0b3J5IjpbLTE0OTY3NjYzMTcsMTk5Njc3OTI5MCwyMD
+MwNjUwNTY0LDE2MTg1OTE2NDAsLTE2Mjk5NzgzMTksODU1ODQ1
+ODA5LC0xMjgxNTU1MDA0LDMyMDc0NTQ2NiwtNTgyODUyODQ1LD
+I4Njk1NTIxMywxOTYwOTQ3NTUxLC0yMDUzNTQwNzcyLC01MDEy
+NTcwNTQsLTE2MzQyNDk5ODFdfQ==
 -->
