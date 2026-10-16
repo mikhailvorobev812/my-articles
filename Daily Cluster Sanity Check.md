@@ -30,14 +30,14 @@ The Daily Cluster Sanity Check should be performed  **daily (including weekends)
 
 # Daily Cluster Sanity Check
 ## 1. Performing Checks
-Within the **Daily Cluster Sanity Check**, perform all 4 checks in the following order:
+Within the Daily Cluster Sanity Check, perform **all 4 checks** in the following order:
 
 1. [Cluster check](#cluster-check)
 2. [Test Client Check](#test-client-check)
 3. [Leader Board Check](#leader-board-check)
 4. [Azure Service Health](#azure-service-health)
 
-For **alert investigation**, perform only 2 checks in the following order:
+For alert investigation, perform only **2 checks** in the following order:
 
 1.  [Test Client Check](#test-client-check)
 2.  [Cluster check](#cluster-check)
@@ -455,11 +455,11 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzczNzUzMDMwLDE2MjE4Mjc0MDIsLTk1OD
-A0Mjc5OCwtMjAxMjg0NzU0OCwxOTQzODcwMTk4LC0zNzAyMDYw
-MjksLTM3MDIwNjAyOSwtMzkzMjQzOTcsMTk5NjkwMjg4OSwtMT
-Q5Njc2NjMxNywxOTk2Nzc5MjkwLDIwMzA2NTA1NjQsMTYxODU5
-MTY0MCwtMTYyOTk3ODMxOSw4NTU4NDU4MDksLTEyODE1NTUwMD
-QsMzIwNzQ1NDY2LC01ODI4NTI4NDUsMjg2OTU1MjEzLDE5NjA5
-NDc1NTFdfQ==
+eyJoaXN0b3J5IjpbLTIwMTYzOTcyNDIsMzczNzUzMDMwLDE2Mj
+E4Mjc0MDIsLTk1ODA0Mjc5OCwtMjAxMjg0NzU0OCwxOTQzODcw
+MTk4LC0zNzAyMDYwMjksLTM3MDIwNjAyOSwtMzkzMjQzOTcsMT
+k5NjkwMjg4OSwtMTQ5Njc2NjMxNywxOTk2Nzc5MjkwLDIwMzA2
+NTA1NjQsMTYxODU5MTY0MCwtMTYyOTk3ODMxOSw4NTU4NDU4MD
+ksLTEyODE1NTUwMDQsMzIwNzQ1NDY2LC01ODI4NTI4NDUsMjg2
+OTU1MjEzXX0=
 -->
