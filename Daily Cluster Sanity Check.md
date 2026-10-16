@@ -1,8 +1,6 @@
 
 # [L1] Daily Cluster Sanity Check
 
-## Table of contents
-
 - [General information](#general-information)
 - [Daily Cluster Sanity Check](#daily-cluster-sanity-check)
   - [1. Performing checks](#1-performing-checks)
@@ -457,11 +455,11 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1ODA0Mjc5OCwtMjAxMjg0NzU0OCwxOT
-QzODcwMTk4LC0zNzAyMDYwMjksLTM3MDIwNjAyOSwtMzkzMjQz
-OTcsMTk5NjkwMjg4OSwtMTQ5Njc2NjMxNywxOTk2Nzc5MjkwLD
-IwMzA2NTA1NjQsMTYxODU5MTY0MCwtMTYyOTk3ODMxOSw4NTU4
-NDU4MDksLTEyODE1NTUwMDQsMzIwNzQ1NDY2LC01ODI4NTI4ND
-UsMjg2OTU1MjEzLDE5NjA5NDc1NTEsLTIwNTM1NDA3NzIsLTUw
-MTI1NzA1NF19
+eyJoaXN0b3J5IjpbNjI0MTM0OTQxLC05NTgwNDI3OTgsLTIwMT
+I4NDc1NDgsMTk0Mzg3MDE5OCwtMzcwMjA2MDI5LC0zNzAyMDYw
+MjksLTM5MzI0Mzk3LDE5OTY5MDI4ODksLTE0OTY3NjYzMTcsMT
+k5Njc3OTI5MCwyMDMwNjUwNTY0LDE2MTg1OTE2NDAsLTE2Mjk5
+NzgzMTksODU1ODQ1ODA5LC0xMjgxNTU1MDA0LDMyMDc0NTQ2Ni
+wtNTgyODUyODQ1LDI4Njk1NTIxMywxOTYwOTQ3NTUxLC0yMDUz
+NTQwNzcyXX0=
 -->
