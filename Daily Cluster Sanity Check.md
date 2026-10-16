@@ -24,10 +24,10 @@
 | **Screenshot** |(https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%201.jpg) |(https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%202.jpg)  |
 
 ---
-⚠️ **NOTE!**
+>⚠️ **NOTE!**
 The Daily Cluster Sanity Check should be performed  **daily (including weekends) at 3:00 AM CDT and 3:00  PM CDT / 2:00 AM CST and 2:00 PM CST**  
 (for other time zones,follow the link to the  [time converter](https://www.worldtimebuddy.com/?pl=1&lid=306,30,611717,625144,314,312,206,0,212&h=306&hf=0), or as part of an alert investigation.
-
+---
 # Daily Cluster Sanity Check
 
 ## 1. Performing Checks
@@ -456,11 +456,11 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEyNjAxNzk3LC05NTgwNDI3OTgsLTIwMT
-I4NDc1NDgsMTk0Mzg3MDE5OCwtMzcwMjA2MDI5LC0zNzAyMDYw
-MjksLTM5MzI0Mzk3LDE5OTY5MDI4ODksLTE0OTY3NjYzMTcsMT
-k5Njc3OTI5MCwyMDMwNjUwNTY0LDE2MTg1OTE2NDAsLTE2Mjk5
-NzgzMTksODU1ODQ1ODA5LC0xMjgxNTU1MDA0LDMyMDc0NTQ2Ni
-wtNTgyODUyODQ1LDI4Njk1NTIxMywxOTYwOTQ3NTUxLC0yMDUz
-NTQwNzcyXX0=
+eyJoaXN0b3J5IjpbMTYyMTgyNzQwMiwtOTU4MDQyNzk4LC0yMD
+EyODQ3NTQ4LDE5NDM4NzAxOTgsLTM3MDIwNjAyOSwtMzcwMjA2
+MDI5LC0zOTMyNDM5NywxOTk2OTAyODg5LC0xNDk2NzY2MzE3LD
+E5OTY3NzkyOTAsMjAzMDY1MDU2NCwxNjE4NTkxNjQwLC0xNjI5
+OTc4MzE5LDg1NTg0NTgwOSwtMTI4MTU1NTAwNCwzMjA3NDU0Nj
+YsLTU4Mjg1Mjg0NSwyODY5NTUyMTMsMTk2MDk0NzU1MSwtMjA1
+MzU0MDc3Ml19
 -->
