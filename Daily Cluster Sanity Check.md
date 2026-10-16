@@ -47,28 +47,7 @@ For **alert investigation**, perform only 2 checks in the following order:
 ### Cluster check
 | Actions | Screenshots with issues | Screenshots without issues |
 |---|---|---|
-| **1.** 1. **For Cluster Check**, open the Cluster's Dashboard by clicking the appropriate link from the list below, depending on the type of check/investigation:
-> [!**IMPORTANT**]
-> To perform the Daily Cluster Sanity Check, the following clusters should be checked:
-> - **aoelive**
-> - **arthurlive**
-> - **mythlive**
->
-> For **alert investigation**, only the **cluster mentioned in the alert** notification should be checked.
-
-**For daily cluster check:**
-
--   `aoelive` → [AOE LIVE Monitoring Dashboard](https://portal.azure.com/#dashboard/arm/subscriptions/a6591785-2ac3-4686-bd24-9519787c46a8/resourceGroups/aoelive-tf-rsg/providers/Microsoft.Portal/dashboards/aoelive-monitoring-dashboard)
--   `arthurlive` → [Arthurlive Monitoring Dashboard](https://portal.azure.com/#@worldsedge.msgamestudios.com/dashboard/arm/subscriptions/a6591785-2ac3-4686-bd24-9519787c46a8/resourcegroups/arthurlive-tf-rsg/providers/microsoft.portal/dashboards/arthurlive-monitoring-dashboard)
--   `mythlive` → [Myth Live Monitoring Dashboard](https://portal.azure.com/#@worldsedge.msgamestudios.com/dashboard/arm/subscriptions/a6591785-2ac3-4686-bd24-9519787c46a8/resourcegroups/mythlive-tf-rsg/providers/microsoft.portal/dashboards/mythlive-monitoring-dashboard)
-
-**For alert investigation**
-
--   `aoeflight` → [AOE FLIGHT Monitoring Dashboard](https://portal.azure.com/#dashboard/arm/subscriptions/a6591785-2ac3-4686-bd24-9519787c46a8/resourceGroups/aoeflight-tf-rsg/providers/Microsoft.Portal/dashboards/aoeflight-monitoring-dashboard)
--   `aoelive` → [AOE LIVE Monitoring Dashboard](https://portal.azure.com/#dashboard/arm/subscriptions/a6591785-2ac3-4686-bd24-9519787c46a8/resourceGroups/aoelive-tf-rsg/providers/Microsoft.Portal/dashboards/aoelive-monitoring-dashboard)
--   `aoetest` → [AOE TEST Monitoring Dashboard](https://portal.azure.com/#dashboard/arm/subscriptions/a6591785-2ac3-4686-bd24-9519787c46a8/resourceGroups/aoetest-tf-rsg/providers/Microsoft.Portal/dashboards/aoetest-monitoring-dashboard)
--   `arthurlive` → [Arthurlive Monitoring Dashboard](https://portal.azure.com/#@worldsedge.msgamestudios.com/dashboard/arm/subscriptions/a6591785-2ac3-4686-bd24-9519787c46a8/resourcegroups/arthurlive-tf-rsg/providers/microsoft.portal/dashboards/arthurlive-monitoring-dashboard)
--   `mythlive` → [Myth Live Monitoring Dashboard](https://portal.azure.com/#@worldsedge.msgamestudios.com/dashboard/arm/subscriptions/a6591785-2ac3-4686-bd24-9519787c46a8/resourcegroups/mythlive-tf-rsg/providers/microsoft.portal/dashboards/mythlive-monitoring-dashboard)** | — | — |
+| **1.** For **Cluster Check**, open the Cluster's Dashboard by clicking an appropriate link from the list below depending on the type of check/investigation:<br><br>**IMPORTANT!**<br>To perform the **Daily Cluster Sanity Check**, the following clusters should be checked:<br>**- aoelive**<br>**- arthurlive**<br>**- mythlive**<br>For **alert investigation**, only the **cluster mentioned in the alert** notification should be checked.<br><br>**For daily cluster check:** | — | — |
 | **2.** Set the time range to **Past hour** for investigating alerts:<br>![Set time range to Past hour](path/to/img-set-time-range.png) | — | — |
 | **IMPORTANT!**<br>**Lobby - Total CCU on the cluster** graph is a critical indicator. If any gaps or drops are identified, it might indicate a CCU impact issue.<br><br>Immediately create a new incident as described in article **[L1] ADO Ticket Creation**. Escalate it as described in article **[L1] Major Incident & MIM Process** and complete investigation steps afterward.<br><br>**3.** Select the **Lobby - Total CCU on cluster** graph.<br>**4.** Double-click on the graph to zoom in.<br>**5.** Check if there are any gaps or drops and act accordingly:<br><br>**During daily EU/APAC check:**<br>- if fewer than 5 missing points or no missing points → proceed to step 6.<br>- if 6+ missing points / a significant drop → record for **Sev1 Incident creation** and proceed to step 6.<br><br>**During daily MX check:**<br>- if fewer than 5 missing points or no missing points → proceed to step 6.<br>- if 6+ missing points / a significant drop → ask L2/L3 on the **EPAM support channel** in MS Teams to confirm if a ticket is needed, follow instructions. Meanwhile, proceed to step 6.<br><br>> @everyone, hi team!<br>> During the cluster check, we found a 5-point gap on *name of the cluster*.<br>> Please advise if any actions are needed from the L1 team<br><br>**During the alert investigation:** take a screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Then proceed to step 6. | **The graph with significant drop:**<br>![CCU graph with drop](path/to/img-ccu-drop.png)<br><br>**The gap with 6 missing points:**<br>![CCU graph with 6-point gap circled](path/to/img-ccu-gap.png) | **The graph without gaps:**<br>![CCU graph without gaps](path/to/img-ccu-nogaps.png)<br><br>**The graph zoomed by double-click:**<br>![CCU graph zoomed](path/to/img-ccu-zoomed.png) |
 | **6.** Select the **App Gateway - Backends health (below: unhealthy only)** graph.<br>**7.** Check **Unhealthy Backend** amount:<br><br>**During daily check:**<br>- if Unhealthy Backend is **lower than 0.75** → proceed to step 8.<br>- if Unhealthy Backend is **higher than 0.75** → record for **Sev2 Incident creation** after all checks finish. Then proceed to step 8.<br>- if an unhealthy backend that later recovered was identified → add a comment about that in the e-mail report about the check results. Take a screenshot and attach it as proof to the e-mail report as well. Then proceed to step 8.<br><br>**During the alert investigation:** take a screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Proceed to step 8. | **Unhealthy Backend is higher than 0.75**<br>![Unhealthy backend graph - issue](path/to/img-backend-unhealthy.png) | **Unhealthy Backend is lower than 0.75**<br>![Healthy backend graph](path/to/img-backend-healthy.png) |
@@ -478,10 +457,10 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjIxMjk0MjEsLTM3MDIwNjAyOSwtMz
-kzMjQzOTcsMTk5NjkwMjg4OSwtMTQ5Njc2NjMxNywxOTk2Nzc5
-MjkwLDIwMzA2NTA1NjQsMTYxODU5MTY0MCwtMTYyOTk3ODMxOS
-w4NTU4NDU4MDksLTEyODE1NTUwMDQsMzIwNzQ1NDY2LC01ODI4
-NTI4NDUsMjg2OTU1MjEzLDE5NjA5NDc1NTEsLTIwNTM1NDA3Nz
-IsLTUwMTI1NzA1NCwtMTYzNDI0OTk4MV19
+eyJoaXN0b3J5IjpbLTM3MDIwNjAyOSwtMzcwMjA2MDI5LC0zOT
+MyNDM5NywxOTk2OTAyODg5LC0xNDk2NzY2MzE3LDE5OTY3Nzky
+OTAsMjAzMDY1MDU2NCwxNjE4NTkxNjQwLC0xNjI5OTc4MzE5LD
+g1NTg0NTgwOSwtMTI4MTU1NTAwNCwzMjA3NDU0NjYsLTU4Mjg1
+Mjg0NSwyODY5NTUyMTMsMTk2MDk0NzU1MSwtMjA1MzU0MDc3Mi
+wtNTAxMjU3MDU0LC0xNjM0MjQ5OTgxXX0=
 -->
