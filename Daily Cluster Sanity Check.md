@@ -23,13 +23,12 @@
 | **Example** | If AOETest shows a CCU of 5, that simply means a handful of developers are connected. This does not reflect real player traffic. | **Scenarios of CCU Impact in Prod:**<br><br>1. **High CCU (e.g., 50,000+ concurrent players)**<br>   - Matchmaking times may increase.<br>   - Servers may experience higher CPU/memory usage.<br>   - Some regions could see delays or instability.<br><br>2. **Sudden Spike in CCU (e.g., post-update or event launch)**<br>   - Logins may temporarily fail or slow down.<br>   - Backend services (auth, inventory, etc.) can become bottlenecks.<br><br>3. **Low CCU (e.g., during maintenance or downtime)**<br>   - Fewer reports from players.<br>   - Easier to run hotfix validations and monitoring checks. |
 | **Screenshot** |(https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%201.jpg) |(https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%202.jpg)  |
 
----
+
 >⚠️ **NOTE!**
 The Daily Cluster Sanity Check should be performed  **daily (including weekends) at 3:00 AM CDT and 3:00  PM CDT / 2:00 AM CST and 2:00 PM CST**  
 (for other time zones,follow the link to the  [time converter](https://www.worldtimebuddy.com/?pl=1&lid=306,30,611717,625144,314,312,206,0,212&h=306&hf=0), or as part of an alert investigation.
----
-# Daily Cluster Sanity Check
 
+# Daily Cluster Sanity Check
 ## 1. Performing Checks
 Within the **Daily Cluster Sanity Check**, perform all 4 checks in the following order:
 
@@ -456,11 +455,11 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMTgyNzQwMiwtOTU4MDQyNzk4LC0yMD
-EyODQ3NTQ4LDE5NDM4NzAxOTgsLTM3MDIwNjAyOSwtMzcwMjA2
-MDI5LC0zOTMyNDM5NywxOTk2OTAyODg5LC0xNDk2NzY2MzE3LD
-E5OTY3NzkyOTAsMjAzMDY1MDU2NCwxNjE4NTkxNjQwLC0xNjI5
-OTc4MzE5LDg1NTg0NTgwOSwtMTI4MTU1NTAwNCwzMjA3NDU0Nj
-YsLTU4Mjg1Mjg0NSwyODY5NTUyMTMsMTk2MDk0NzU1MSwtMjA1
-MzU0MDc3Ml19
+eyJoaXN0b3J5IjpbMzczNzUzMDMwLDE2MjE4Mjc0MDIsLTk1OD
+A0Mjc5OCwtMjAxMjg0NzU0OCwxOTQzODcwMTk4LC0zNzAyMDYw
+MjksLTM3MDIwNjAyOSwtMzkzMjQzOTcsMTk5NjkwMjg4OSwtMT
+Q5Njc2NjMxNywxOTk2Nzc5MjkwLDIwMzA2NTA1NjQsMTYxODU5
+MTY0MCwtMTYyOTk3ODMxOSw4NTU4NDU4MDksLTEyODE1NTUwMD
+QsMzIwNzQ1NDY2LC01ODI4NTI4NDUsMjg2OTU1MjEzLDE5NjA5
+NDc1NTFdfQ==
 -->
