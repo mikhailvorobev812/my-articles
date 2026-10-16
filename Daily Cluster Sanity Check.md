@@ -19,8 +19,8 @@
 The Daily Cluster Sanity Check should be performed  **daily (including weekends) at 3:00 AM CDT and 3:00  PM CDT / 2:00 AM CST and 2:00 PM CST**  
 (for other time zones,follow the link to the  [time converter](https://www.worldtimebuddy.com/?pl=1&lid=306,30,611717,625144,314,312,206,0,212&h=306&hf=0), or as part of an alert investigation.
 
-# Daily Cluster Sanity Check
-## 1. Performing Checks
+## Daily Cluster Sanity Check
+### 1. Performing Checks
 Within the Daily Cluster Sanity Check, perform **all 4 checks** in the following order:
 
 1. [Cluster check](#cluster-check)
@@ -33,7 +33,7 @@ For alert investigation, perform only **2 checks** in the following order:
 1.  [Test Client Check](#test-client-check)
 2.  [Cluster check](#cluster-check)
 
-### Cluster check
+#### Cluster check
 | Actions | Screenshots with issues | Screenshots without issues |
 |---|---|---|
 |1. For **Cluster Check**, open the Cluster's Dashboard by clicking an appropriate link from the list below depending on the type of check/investigation:<br><br>**⚠️IMPORTANT!**<br>To perform the **Daily Cluster Sanity Check**, the following clusters should be checked:<br>&bull;**aoelive**<br>&bull;**arthurlive**<br>&bull;**mythlive**<br>For alert investigation, only the **cluster mentioned in the alert** notification should be checked.<br><br> For daily cluster check: <br>&bull;aoelive → [AOE LIVE Monitoring Dashboard](https://portal.azure.com/#dashboard/arm/subscriptions/a6591785-2ac3-4686-bd24-9519787c46a8/resourceGroups/aoelive-tf-rsg/providers/Microsoft.Portal/dashboards/aoelive-monitoring-dashboard) &bull;arthurlive → [Arthurlive Monitoring Dashboard](https://portal.azure.com/#@worldsedge.msgamestudios.com/dashboard/arm/subscriptions/a6591785-2ac3-4686-bd24-9519787c46a8/resourcegroups/arthurlive-tf-rsg/providers/microsoft.portal/dashboards/arthurlive-monitoring-dashboard) &bull;mythlive → [Myth Live Monitoring Dashboard](https://portal.azure.com/#@worldsedge.msgamestudios.com/dashboard/arm/subscriptions/a6591785-2ac3-4686-bd24-9519787c46a8/resourcegroups/mythlive-tf-rsg/providers/microsoft.portal/dashboards/mythlive-monitoring-dashboard)<br><br>For daily cluster check: <br>&bull;aoeflight → [ [AOE FLIGHT Monitoring Dashboard](https://portal.azure.com/#dashboard/arm/subscriptions/a6591785-2ac3-4686-bd24-9519787c46a8/resourceGroups/aoeflight-tf-rsg/providers/Microsoft.Portal/dashboards/aoeflight-monitoring-dashboard) <br>&bull;aoelive → [AOE LIVE Monitoring Dashboard](https://portal.azure.com/#dashboard/arm/subscriptions/a6591785-2ac3-4686-bd24-9519787c46a8/resourceGroups/aoelive-tf-rsg/providers/Microsoft.Portal/dashboards/aoelive-monitoring-dashboard) <br>&bull;aoetest → [AOE TEST Monitoring Dashboard](https://portal.azure.com/#dashboard/arm/subscriptions/a6591785-2ac3-4686-bd24-9519787c46a8/resourceGroups/aoetest-tf-rsg/providers/Microsoft.Portal/dashboards/aoetest-monitoring-dashboard) <br>&bull;mythlive → [Myth Live Monitoring Dashboard](https://portal.azure.com/#@worldsedge.msgamestudios.com/dashboard/arm/subscriptions/a6591785-2ac3-4686-bd24-9519787c46a8/resourcegroups/mythlive-tf-rsg/providers/microsoft.portal/dashboards/mythlive-monitoring-dashboard)| — | — |
@@ -47,7 +47,7 @@ For alert investigation, perform only **2 checks** in the following order:
 | **17.** Select the **MySQL slow queries - total execution + locked time (seconds)** graph.<br>**18.** Check that queries do not exceed **1000 milliseconds**:<br><br>**During daily check:**<br>- if queries exceed 1000 ms → record for **Sev1 Incident creation** after all checks finish.<br>- if queries do NOT exceed 1000 ms → proceed to step 19.<br><br>**During the alert investigation:** take a screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Proceed to incident categorization as described in article **[L1] Ticket Processing**. | ![MySQL slow queries - spike](path/to/img-mysql-slow-issue.png) | ![MySQL slow queries - normal](path/to/img-mysql-slow-ok.png) |
 | **19.** If necessary, repeat the investigation process (steps 1–18) for the next cluster.<br>**20.** Once the checks for all clusters are complete, proceed to the next Check. | — | — |
 
-### Test Client Check
+#### Test Client Check
 
 *Click here to expand the detailed instruction*
 
@@ -446,11 +446,11 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNjE5NzY5OCwtNzc1MDU1NjQxLC0xNj
-g4Mjg0MDMzLC0xOTIxMjI1MzExLDQwNzMyNTMzOCwtMTM3NzMz
-Njk0NSwtMTcyNDY3MTk5LC0xNzI1NDI1NDMyLC0xMzc3NDc5Nj
-MxLC0zOTEwMzQzMTAsLTIwMTYzOTcyNDIsMzczNzUzMDMwLDE2
-MjE4Mjc0MDIsLTk1ODA0Mjc5OCwtMjAxMjg0NzU0OCwxOTQzOD
-cwMTk4LC0zNzAyMDYwMjksLTM3MDIwNjAyOSwtMzkzMjQzOTcs
-MTk5NjkwMjg4OV19
+eyJoaXN0b3J5IjpbOTU2ODk5MTIwLC03NzUwNTU2NDEsLTE2OD
+gyODQwMzMsLTE5MjEyMjUzMTEsNDA3MzI1MzM4LC0xMzc3MzM2
+OTQ1LC0xNzI0NjcxOTksLTE3MjU0MjU0MzIsLTEzNzc0Nzk2Mz
+EsLTM5MTAzNDMxMCwtMjAxNjM5NzI0MiwzNzM3NTMwMzAsMTYy
+MTgyNzQwMiwtOTU4MDQyNzk4LC0yMDEyODQ3NTQ4LDE5NDM4Nz
+AxOTgsLTM3MDIwNjAyOSwtMzcwMjA2MDI5LC0zOTMyNDM5Nywx
+OTk2OTAyODg5XX0=
 -->
