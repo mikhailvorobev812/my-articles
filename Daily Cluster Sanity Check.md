@@ -3,7 +3,7 @@
 
 [[_TOC_]]
 
-# General information
+## General information
 **Concurrent Users (CCU)** is the number of people actively connected to a cluster at the same time. This metric is important to understand because it tells us about player load and potential performance impact.
 
 |  | Preprod Clusters (AOETest, AOEFlight) | Prod Clusters (AOELive, Arthurlive, MYTHLive) |
@@ -446,11 +446,11 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NTA1NTY0MSwtMTY4ODI4NDAzMywtMT
-kyMTIyNTMxMSw0MDczMjUzMzgsLTEzNzczMzY5NDUsLTE3MjQ2
-NzE5OSwtMTcyNTQyNTQzMiwtMTM3NzQ3OTYzMSwtMzkxMDM0Mz
-EwLC0yMDE2Mzk3MjQyLDM3Mzc1MzAzMCwxNjIxODI3NDAyLC05
-NTgwNDI3OTgsLTIwMTI4NDc1NDgsMTk0Mzg3MDE5OCwtMzcwMj
-A2MDI5LC0zNzAyMDYwMjksLTM5MzI0Mzk3LDE5OTY5MDI4ODks
-LTE0OTY3NjYzMTddfQ==
+eyJoaXN0b3J5IjpbLTUxNjE5NzY5OCwtNzc1MDU1NjQxLC0xNj
+g4Mjg0MDMzLC0xOTIxMjI1MzExLDQwNzMyNTMzOCwtMTM3NzMz
+Njk0NSwtMTcyNDY3MTk5LC0xNzI1NDI1NDMyLC0xMzc3NDc5Nj
+MxLC0zOTEwMzQzMTAsLTIwMTYzOTcyNDIsMzczNzUzMDMwLDE2
+MjE4Mjc0MDIsLTk1ODA0Mjc5OCwtMjAxMjg0NzU0OCwxOTQzOD
+cwMTk4LC0zNzAyMDYwMjksLTM3MDIwNjAyOSwtMzkzMjQzOTcs
+MTk5NjkwMjg4OV19
 -->
