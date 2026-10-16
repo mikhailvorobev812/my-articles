@@ -1,16 +1,7 @@
 
 # [L1] Daily Cluster Sanity Check
 
-- [General information](#general-information)
-- [Daily Cluster Sanity Check](#daily-cluster-sanity-check)
-  - [1. Performing checks](#1-performing-checks)
-    - [Cluster check](#cluster-check)
-    - [Test Client Check](#test-client-check)
-    - [Leader Board Check](#leader-board-check)
-    - [Azure Service Health](#azure-service-health)
-  - [2. Processing cluster check results](#2-processing-cluster-check-results)
-    - [Daily Cluster Sanity Check](#daily-cluster-sanity-check-1)
-    - [Alert investigation](#alert-investigation)
+[[_TOC_]]
 
 ## General information
 **Concurrent Users (CCU)** is the number of people actively connected to a cluster at the same time. This metric is important to understand because it tells us about player load and potential performance impact.
@@ -455,11 +446,11 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMDY5NDMzMCwtMzkxMDM0MzEwLC0yMD
-E2Mzk3MjQyLDM3Mzc1MzAzMCwxNjIxODI3NDAyLC05NTgwNDI3
-OTgsLTIwMTI4NDc1NDgsMTk0Mzg3MDE5OCwtMzcwMjA2MDI5LC
-0zNzAyMDYwMjksLTM5MzI0Mzk3LDE5OTY5MDI4ODksLTE0OTY3
-NjYzMTcsMTk5Njc3OTI5MCwyMDMwNjUwNTY0LDE2MTg1OTE2ND
-AsLTE2Mjk5NzgzMTksODU1ODQ1ODA5LC0xMjgxNTU1MDA0LDMy
-MDc0NTQ2Nl19
+eyJoaXN0b3J5IjpbLTEzNzc0Nzk2MzEsLTM5MTAzNDMxMCwtMj
+AxNjM5NzI0MiwzNzM3NTMwMzAsMTYyMTgyNzQwMiwtOTU4MDQy
+Nzk4LC0yMDEyODQ3NTQ4LDE5NDM4NzAxOTgsLTM3MDIwNjAyOS
+wtMzcwMjA2MDI5LC0zOTMyNDM5NywxOTk2OTAyODg5LC0xNDk2
+NzY2MzE3LDE5OTY3NzkyOTAsMjAzMDY1MDU2NCwxNjE4NTkxNj
+QwLC0xNjI5OTc4MzE5LDg1NTg0NTgwOSwtMTI4MTU1NTAwNCwz
+MjA3NDU0NjZdfQ==
 -->
