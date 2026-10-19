@@ -45,7 +45,7 @@ For alert investigation, perform only **2 checks** in the following order:
 | 14. Select the **Battle VMs - CPU usage** graph.<br>15. Check the thresholds on the graph and act accordingly:<br><br>&bull;**During daily check:**<br>&bull;**if any threshold exceeds 70%**,record for **[Sev1 Incident creation](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation)** after all checks finish.<br>&bull;**if no threshold exceeds 70%**, proceed to step 16.<br><br>&bull;**During the alert investigation:** take a screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Proceed to step 16. | — | [No thresholds exceed 70%](https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2016.png) |
 | 16. Select the **FlexibleDB/MySQL - CPU/Memory/Storage** graph.<br>17. Check the usage thresholds:<br>&bull;**During daily check:**<br>&bull; **if any threshold exceeds **95%**, record this information for **[Sev2 Incident creation](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation)** after all checks finish.<br>&bull;**if no threshold exceeds 95%**, proceed to step 18.<br><br>**During the alert investigation:** take a screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Proceed to step 18. | — |[No thresholds exceed 95%](https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2017.png) |
 | 18. Select the **MySQL slow queries - total execution + locked time (seconds)** graph.<br>19. Check that queries do not exceed 1000 milliseconds:<br>&bull;**During daily check:**<br>&bull; **if queries exceed 1000 milliseconds** → record for **[Sev2 Incident creation](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation)** after all checks finish.<br>&bull; **if queries do NOT exceed 1000 ms**, proceed to step 20.<br><br>**&bull;During the alert investigation:** take a screenshot of the graph and save it locally to be later uploaded into the related ADO ticket. Proceed to incident categorization as described in article [[L1] Ticket Processing](https://kb.epam.com/spaces/XBOXAOE/pages/2590766755/L1+Ticket+Processing). | [MySQL slow queries exceeds 1000 milliseconds](https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2018.png) | [MySQL slow queries do NOT exceed 1000 ms](https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2019.png) |
-| **19.** If necessary, repeat the investigation process (steps 1–18) for the next cluster.<br>**20.** Once the checks for all clusters are complete, proceed to the next Check. | — | — |
+|20. **If necessary**, repeat the investigation process (steps 1–19) for the next cluster.<br>21. **Once the checks for all clusters are complete**, proceed to the next Check. | — | — |
 
 #### Test Client Check
 
@@ -446,7 +446,7 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzOTY4MTY0LDE0NDAzMzkwOSwtMTgxOD
+eyJoaXN0b3J5IjpbNDU0OTk3NDY2LDE0NDAzMzkwOSwtMTgxOD
 E0MjE3NCwxNjA0MDkyMTU4LDIwMTcyNzI4OTAsLTQ3MDA2NDYy
 LC02MzA1NDM1MTgsMzkxMjkxODc0LC01NzQxMjIzMTMsMTYyNz
 MxNzI5OCwtMjA1MTY0MzIxNCwtMTI5ODgyODg2MiwtMTI4MTU1
