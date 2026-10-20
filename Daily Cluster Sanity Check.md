@@ -280,7 +280,8 @@ tournament
 [**Issue name**](https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2047.png)
 4. Make a  screenshot of the page and save it locally to be later uploaded into the related ADO ticket.
 5. Copy the **issue name** and use it for naming when creating a [new Incident](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation) after all the checks are finished:
-**6.** Proceed to **processing cluster check results** → tab _Issues detected_.
+(https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2048.png)
+6. Proceed to **processing cluster check results** → tab _Issues detected_.
 
 ----------
 
@@ -436,11 +437,11 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY2MDE0OTI5LDE5NzAyOTk1NDQsMTUwMT
-I4MDU1NiwtMTE0OTIwNTY5OCw1ODIyNjg4NjAsLTIxMDYyMTU5
-MjQsNzc3NDczODE0LC0xODkwMzE0OTE4LDQ1NDk5NzQ2NiwxND
-QwMzM5MDksLTE4MTgxNDIxNzQsMTYwNDA5MjE1OCwyMDE3Mjcy
-ODkwLC00NzAwNjQ2MiwtNjMwNTQzNTE4LDM5MTI5MTg3NCwtNT
-c0MTIyMzEzLDE2MjczMTcyOTgsLTIwNTE2NDMyMTQsLTEyOTg4
-Mjg4NjJdfQ==
+eyJoaXN0b3J5IjpbLTEwMDA1NzgxMDgsMTk3MDI5OTU0NCwxNT
+AxMjgwNTU2LC0xMTQ5MjA1Njk4LDU4MjI2ODg2MCwtMjEwNjIx
+NTkyNCw3Nzc0NzM4MTQsLTE4OTAzMTQ5MTgsNDU0OTk3NDY2LD
+E0NDAzMzkwOSwtMTgxODE0MjE3NCwxNjA0MDkyMTU4LDIwMTcy
+NzI4OTAsLTQ3MDA2NDYyLC02MzA1NDM1MTgsMzkxMjkxODc0LC
+01NzQxMjIzMTMsMTYyNzMxNzI5OCwtMjA1MTY0MzIxNCwtMTI5
+ODgyODg2Ml19
 -->
