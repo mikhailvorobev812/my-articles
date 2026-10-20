@@ -261,12 +261,11 @@ tournament
   -   **if there is a part of code with SUCCESS status,** record this information for the report and  proceed to step 7.
     -   **if there is a part of code with another status,** record this information for [new Incident creation](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation) after all the checks are finished. Then proceed to step 7.
 [AoE Flighting Leaderboard with SUCCESS status](https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2043.png)
-7. 
-1.  Go to [AoE Test Leaderboard](https://aoetest-api.worldsedgelink.com/community/Leaderboard/getLeaderboard2?leaderboard_id=1&sortBy=1&start=1&count=200&title=age2&format=jsonpretty).
-2.  Check the result **message** and act accordingly:  
-    -   **if there is a part of code with SUCCESS status,** proceed to [Azure Service Health check](https://kb.epam.com/spaces/XBOXAOE/pages/2702409893/L1+Daily+Cluster+Sanity+Check#id-[L1]DailyClusterSanityCheck-AzureServiceHealth).
-    -   **if there is a part of code with another status,** record this information for [new Incident creation](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation) after all the checks are finished. Then proceed to [Azure Service Health check](https://kb.epam.com/spaces/XBOXAOE/pages/2702409893/L1+Daily+Cluster+Sanity+Check#id-[L1]DailyClusterSanityCheck-AzureServiceHealth).
-
+7. Go to [AoE Test Leaderboard](https://aoetest-api.worldsedgelink.com/community/Leaderboard/getLeaderboard2?leaderboard_id=1&sortBy=1&start=1&count=200&title=age2&format=jsonpretty).
+8. Check the result **message** and act accordingly:  
+  -   **if there is a part of code with SUCCESS status,** proceed to Azure Service Health check.
+    -   **if there is a part of code with another status,** record this information for [new Incident creation](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation) after all the checks are finished. Then proceed to Azure Service Health check.
+AoE Test Leaderboard
 ----------
 
 ### Azure Service Health
@@ -434,11 +433,11 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjI3NDYzNTEsNTgyMjY4ODYwLC0yMT
-A2MjE1OTI0LDc3NzQ3MzgxNCwtMTg5MDMxNDkxOCw0NTQ5OTc0
-NjYsMTQ0MDMzOTA5LC0xODE4MTQyMTc0LDE2MDQwOTIxNTgsMj
-AxNzI3Mjg5MCwtNDcwMDY0NjIsLTYzMDU0MzUxOCwzOTEyOTE4
-NzQsLTU3NDEyMjMxMywxNjI3MzE3Mjk4LC0yMDUxNjQzMjE0LC
-0xMjk4ODI4ODYyLC0xMjgxNTUwMDk2LC05NTM2ODI2MjQsMTQ1
-OTM4NzMwMV19
+eyJoaXN0b3J5IjpbLTUxMzExNzA0Miw1ODIyNjg4NjAsLTIxMD
+YyMTU5MjQsNzc3NDczODE0LC0xODkwMzE0OTE4LDQ1NDk5NzQ2
+NiwxNDQwMzM5MDksLTE4MTgxNDIxNzQsMTYwNDA5MjE1OCwyMD
+E3MjcyODkwLC00NzAwNjQ2MiwtNjMwNTQzNTE4LDM5MTI5MTg3
+NCwtNTc0MTIyMzEzLDE2MjczMTcyOTgsLTIwNTE2NDMyMTQsLT
+EyOTg4Mjg4NjIsLTEyODE1NTAwOTYsLTk1MzY4MjYyNCwxNDU5
+Mzg3MzAxXX0=
 -->
