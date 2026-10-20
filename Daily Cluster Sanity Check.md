@@ -73,15 +73,12 @@ For alert investigation, perform only **2 checks** in the following order:
 
 **Cluster:** `mythlive`
 ```json
-{
     "titleID": 5,
     "name": "elink",
     "majorVersion": "4.0.0",
     "minorVersion": 0,
     "simPeriodSeconds": 0.125,
     "defaultServer": "aoe"
-}
-
 ```
 
 **Cluster:** `aoelive`, `arthurlive`, `aoeflight`, `aoetest`, `tournament`
@@ -433,11 +430,11 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTE3NDEzMDUsLTU4Nzc1Mjc1NCwxOT
-cwMjk5NTQ0LDE1MDEyODA1NTYsLTExNDkyMDU2OTgsNTgyMjY4
-ODYwLC0yMTA2MjE1OTI0LDc3NzQ3MzgxNCwtMTg5MDMxNDkxOC
-w0NTQ5OTc0NjYsMTQ0MDMzOTA5LC0xODE4MTQyMTc0LDE2MDQw
-OTIxNTgsMjAxNzI3Mjg5MCwtNDcwMDY0NjIsLTYzMDU0MzUxOC
-wzOTEyOTE4NzQsLTU3NDEyMjMxMywxNjI3MzE3Mjk4LC0yMDUx
-NjQzMjE0XX0=
+eyJoaXN0b3J5IjpbMzExNjQ4MzkzLC01ODc3NTI3NTQsMTk3MD
+I5OTU0NCwxNTAxMjgwNTU2LC0xMTQ5MjA1Njk4LDU4MjI2ODg2
+MCwtMjEwNjIxNTkyNCw3Nzc0NzM4MTQsLTE4OTAzMTQ5MTgsND
+U0OTk3NDY2LDE0NDAzMzkwOSwtMTgxODE0MjE3NCwxNjA0MDky
+MTU4LDIwMTcyNzI4OTAsLTQ3MDA2NDYyLC02MzA1NDM1MTgsMz
+kxMjkxODc0LC01NzQxMjIzMTMsMTYyNzMxNzI5OCwtMjA1MTY0
+MzIxNF19
 -->
