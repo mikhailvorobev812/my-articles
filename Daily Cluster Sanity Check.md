@@ -87,15 +87,12 @@ For alert investigation, perform only **2 checks** in the following order:
 **Cluster:** `aoelive`, `arthurlive`, `aoeflight`, `aoetest`, `tournament`
 
 ```json
-{
     "titleID": 2,
     "name": "rlink",
     "majorVersion": "4.0.0",
     "minorVersion": 0,
     "simPeriodSeconds": 0.125,
     "defaultServer": "aoe"
-}
-
 ```
 4. Save the changes and close the file. 
 5. In the directory path, type the command `powershell`. 
@@ -436,11 +433,11 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMDQwMjQ0MywtNTg3NzUyNzU0LDE5Nz
-AyOTk1NDQsMTUwMTI4MDU1NiwtMTE0OTIwNTY5OCw1ODIyNjg4
-NjAsLTIxMDYyMTU5MjQsNzc3NDczODE0LC0xODkwMzE0OTE4LD
-Q1NDk5NzQ2NiwxNDQwMzM5MDksLTE4MTgxNDIxNzQsMTYwNDA5
-MjE1OCwyMDE3MjcyODkwLC00NzAwNjQ2MiwtNjMwNTQzNTE4LD
-M5MTI5MTg3NCwtNTc0MTIyMzEzLDE2MjczMTcyOTgsLTIwNTE2
-NDMyMTRdfQ==
+eyJoaXN0b3J5IjpbLTEyMTE3NDEzMDUsLTU4Nzc1Mjc1NCwxOT
+cwMjk5NTQ0LDE1MDEyODA1NTYsLTExNDkyMDU2OTgsNTgyMjY4
+ODYwLC0yMTA2MjE1OTI0LDc3NzQ3MzgxNCwtMTg5MDMxNDkxOC
+w0NTQ5OTc0NjYsMTQ0MDMzOTA5LC0xODE4MTQyMTc0LDE2MDQw
+OTIxNTgsMjAxNzI3Mjg5MCwtNDcwMDY0NjIsLTYzMDU0MzUxOC
+wzOTEyOTE4NzQsLTU3NDEyMjMxMywxNjI3MzE3Mjk4LC0yMDUx
+NjQzMjE0XX0=
 -->
