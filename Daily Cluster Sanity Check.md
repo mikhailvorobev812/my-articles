@@ -255,7 +255,7 @@ tournament
 4. Check the result **message** and act accordingly:
 -  **if there is a part of code with SUCCESS status,** record this information for the report and proceed to step 5.
 -   **if there is a part of code with another status,** record this information for [new Incident creation](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation) after all the Checks are finished. Then proceed to step 5.
-Myth Live Leaderboard
+[Myth Live Leaderboard with SUCCESS status](https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2042.png)
 **5.** Go to **AoE Flighting Leaderboard**. **6.** Check the result message and act accordingly:
 
 -   `"SUCCESS"` → record for the report, proceed to step 9.
@@ -443,7 +443,7 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzAzODY4MDAsNzc3NDczODE0LC0xOD
+eyJoaXN0b3J5IjpbLTIxMDYyMTU5MjQsNzc3NDczODE0LC0xOD
 kwMzE0OTE4LDQ1NDk5NzQ2NiwxNDQwMzM5MDksLTE4MTgxNDIx
 NzQsMTYwNDA5MjE1OCwyMDE3MjcyODkwLC00NzAwNjQ2MiwtNj
 MwNTQzNTE4LDM5MTI5MTg3NCwtNTc0MTIyMzEzLDE2MjczMTcy
