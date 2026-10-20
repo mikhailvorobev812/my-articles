@@ -274,10 +274,11 @@ tournament
 2.  Check the affected Locations (red location status) and act accordingly:
 [**No affected locations**](https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2045.png)
 [**Affected locations detected**](https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2046.png)
--   **if there are NO Affected locations** proceed to [processing cluster check results].
+-   **if there are NO Affected locations** proceed to processing cluster check results.
 -   **if there are** **Affected locations,** make a  screenshot of the dashboard and save it locally to be later uploaded and proceed to step 3.
-
-**3.** Click on the **Issue name** link. **4.** Take a screenshot of the page and save it locally to be uploaded into the related ADO ticket. **5.** Copy the **issue name** and use it for naming when creating a new Incident after all the checks are finished. **6.** Proceed to **processing cluster check results** → tab _Issues detected_.
+3. Click on the **Issue name** link. 
+[**Issue name**](https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2047.png)
+**4.** Take a screenshot of the page and save it locally to be uploaded into the related ADO ticket. **5.** Copy the **issue name** and use it for naming when creating a new Incident after all the checks are finished. **6.** Proceed to **processing cluster check results** → tab _Issues detected_.
 
 ----------
 
@@ -433,11 +434,11 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIxMDYxNTg0LC0xMTQ5MjA1Njk4LDU4Mj
-I2ODg2MCwtMjEwNjIxNTkyNCw3Nzc0NzM4MTQsLTE4OTAzMTQ5
-MTgsNDU0OTk3NDY2LDE0NDAzMzkwOSwtMTgxODE0MjE3NCwxNj
-A0MDkyMTU4LDIwMTcyNzI4OTAsLTQ3MDA2NDYyLC02MzA1NDM1
-MTgsMzkxMjkxODc0LC01NzQxMjIzMTMsMTYyNzMxNzI5OCwtMj
-A1MTY0MzIxNCwtMTI5ODgyODg2MiwtMTI4MTU1MDA5NiwtOTUz
-NjgyNjI0XX0=
+eyJoaXN0b3J5IjpbMTUwMTI4MDU1NiwtMTE0OTIwNTY5OCw1OD
+IyNjg4NjAsLTIxMDYyMTU5MjQsNzc3NDczODE0LC0xODkwMzE0
+OTE4LDQ1NDk5NzQ2NiwxNDQwMzM5MDksLTE4MTgxNDIxNzQsMT
+YwNDA5MjE1OCwyMDE3MjcyODkwLC00NzAwNjQ2MiwtNjMwNTQz
+NTE4LDM5MTI5MTg3NCwtNTc0MTIyMzEzLDE2MjczMTcyOTgsLT
+IwNTE2NDMyMTQsLTEyOTg4Mjg4NjIsLTEyODE1NTAwOTYsLTk1
+MzY4MjYyNF19
 -->
