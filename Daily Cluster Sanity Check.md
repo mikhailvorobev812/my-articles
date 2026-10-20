@@ -250,12 +250,12 @@ tournament
 2. Check the result **message** and act accordingly:
 &bull;  **if there is a `"SUCCESS"` status**, record for the report, proceed to step 3.
 &bull;    **if there is another status**, record for [new Incident creation](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation) after all checks finish, proceed to step 3.
-[AoE Live Leaderboard with  SUCCESS status](https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2041.png)
+[AoE Live Leaderboard with SUCCESS status](https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2041.png)
 3. Go to **[Myth Live Leaderboard](https://athens-live-api.worldsedgelink.com/community/Leaderboard/getLeaderboard2?leaderboard_id=1&sortBy=1&start=1&count=200&title=athens&format=jsonpretty)**. 
 4. Check the result **message** and act accordingly:
--   `"SUCCESS"` → record for the report, proceed to step 5.
--   Other status → record for **new Incident creation** after all checks finish, proceed to step 5.
-
+-  **if there is a part of code with SUCCESS status,** record this information for the report and proceed to step 5.
+-   **if there is a part of code with another status,** record this information for [new Incident creation](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation) after all the Checks are finished. Then proceed to step 5.
+Myth Live Leaderboard
 **5.** Go to **AoE Flighting Leaderboard**. **6.** Check the result message and act accordingly:
 
 -   `"SUCCESS"` → record for the report, proceed to step 9.
@@ -443,11 +443,11 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc3NDczODE0LC0xODkwMzE0OTE4LDQ1ND
-k5NzQ2NiwxNDQwMzM5MDksLTE4MTgxNDIxNzQsMTYwNDA5MjE1
-OCwyMDE3MjcyODkwLC00NzAwNjQ2MiwtNjMwNTQzNTE4LDM5MT
-I5MTg3NCwtNTc0MTIyMzEzLDE2MjczMTcyOTgsLTIwNTE2NDMy
-MTQsLTEyOTg4Mjg4NjIsLTEyODE1NTAwOTYsLTk1MzY4MjYyNC
-wxNDU5Mzg3MzAxLC04NzUyMDg0MjgsOTU2ODk5MTIwLC03NzUw
-NTU2NDFdfQ==
+eyJoaXN0b3J5IjpbLTE2MzAzODY4MDAsNzc3NDczODE0LC0xOD
+kwMzE0OTE4LDQ1NDk5NzQ2NiwxNDQwMzM5MDksLTE4MTgxNDIx
+NzQsMTYwNDA5MjE1OCwyMDE3MjcyODkwLC00NzAwNjQ2MiwtNj
+MwNTQzNTE4LDM5MTI5MTg3NCwtNTc0MTIyMzEzLDE2MjczMTcy
+OTgsLTIwNTE2NDMyMTQsLTEyOTg4Mjg4NjIsLTEyODE1NTAwOT
+YsLTk1MzY4MjYyNCwxNDU5Mzg3MzAxLC04NzUyMDg0MjgsOTU2
+ODk5MTIwXX0=
 -->
