@@ -48,25 +48,21 @@ For alert investigation, perform only **2 checks** in the following order:
 |20. **If necessary**, repeat the investigation process (steps 1–19) for the next cluster.<br>21. **Once the checks for all clusters are complete**, proceed to the next Check. | — | — |
 
 #### Test Client Check
-
-*Click here to expand the detailed instruction*
-
 > **NOTE!**
-> Before the 1st check, ensure that the Test Client application was downloaded as described in article **XBOX-AOE: Team onboarding** → tab *Guide for L1 Agent* → action *Configure Test Client*.
-
-The Test Plan Check during the **Daily Cluster Check** is performed for the following clusters:
-- aoelive
-- arthurlive
-- mythlive
-- tournament
-
-For **alert investigation**, the following clusters are checked:
-- aoelive
-- arthurlive
-- mythlive
-- tournament
-- aoeflight
-- aoetest
+> Before the 1st check, ensure that the Test Client application was >downloaded as described in article **XBOX-AOE: Team onboarding** → tab *Guide for L1 Agent* → action *Configure Test Client*.
+>
+>The Test Plan Check during the **Daily Cluster Check** is performed for the following clusters:
+>- aoelive
+>- arthurlive
+>- mythlive
+>- tournament
+>For **alert investigation**, the following clusters are checked:
+>- aoelive
+>- arthurlive
+>- mythlive
+>- tournament
+>- aoeflight
+>- aoetest
 
 **1.** Open the folder on your laptop where the Test Client is stored (e.g., `TestClient_Win_Feb22`).
 **2.** Right-click on the **TestClientConfig.json** file icon and select **Edit with Notepad**.
@@ -437,11 +433,11 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDQwMjA4OTIsMTk3MDI5OTU0NCwxNT
-AxMjgwNTU2LC0xMTQ5MjA1Njk4LDU4MjI2ODg2MCwtMjEwNjIx
-NTkyNCw3Nzc0NzM4MTQsLTE4OTAzMTQ5MTgsNDU0OTk3NDY2LD
-E0NDAzMzkwOSwtMTgxODE0MjE3NCwxNjA0MDkyMTU4LDIwMTcy
-NzI4OTAsLTQ3MDA2NDYyLC02MzA1NDM1MTgsMzkxMjkxODc0LC
-01NzQxMjIzMTMsMTYyNzMxNzI5OCwtMjA1MTY0MzIxNCwtMTI5
-ODgyODg2Ml19
+eyJoaXN0b3J5IjpbLTU4Nzc1Mjc1NCwxOTcwMjk5NTQ0LDE1MD
+EyODA1NTYsLTExNDkyMDU2OTgsNTgyMjY4ODYwLC0yMTA2MjE1
+OTI0LDc3NzQ3MzgxNCwtMTg5MDMxNDkxOCw0NTQ5OTc0NjYsMT
+Q0MDMzOTA5LC0xODE4MTQyMTc0LDE2MDQwOTIxNTgsMjAxNzI3
+Mjg5MCwtNDcwMDY0NjIsLTYzMDU0MzUxOCwzOTEyOTE4NzQsLT
+U3NDEyMjMxMywxNjI3MzE3Mjk4LC0yMDUxNjQzMjE0LC0xMjk4
+ODI4ODYyXX0=
 -->
