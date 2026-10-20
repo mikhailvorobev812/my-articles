@@ -64,8 +64,8 @@ For alert investigation, perform only **2 checks** in the following order:
 >- aoeflight
 >- aoetest
 
-**1.** Open the folder on your laptop where the Test Client is stored (e.g., `TestClient_Win_Feb22`).
-**2.** Right-click on the **TestClientConfig.json** file icon and select **Edit with Notepad**.
+1. **For the Test Client Check**, open the folder on your laptop where the Test Client is stored: (e.g., `TestClient_Win_Feb22`).
+2. Right-click on the **TestClientConfig.json** file icon and select **Edit with Notepad**.
 **3.** Copy the code and replace the entire content of the file based on the cluster:
 
 > **NOTE!** Blank spaces and indentations are important.
@@ -433,11 +433,11 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4Nzc1Mjc1NCwxOTcwMjk5NTQ0LDE1MD
-EyODA1NTYsLTExNDkyMDU2OTgsNTgyMjY4ODYwLC0yMTA2MjE1
-OTI0LDc3NzQ3MzgxNCwtMTg5MDMxNDkxOCw0NTQ5OTc0NjYsMT
-Q0MDMzOTA5LC0xODE4MTQyMTc0LDE2MDQwOTIxNTgsMjAxNzI3
-Mjg5MCwtNDcwMDY0NjIsLTYzMDU0MzUxOCwzOTEyOTE4NzQsLT
-U3NDEyMjMxMywxNjI3MzE3Mjk4LC0yMDUxNjQzMjE0LC0xMjk4
-ODI4ODYyXX0=
+eyJoaXN0b3J5IjpbLTIxMTUzNDYwNDksLTU4Nzc1Mjc1NCwxOT
+cwMjk5NTQ0LDE1MDEyODA1NTYsLTExNDkyMDU2OTgsNTgyMjY4
+ODYwLC0yMTA2MjE1OTI0LDc3NzQ3MzgxNCwtMTg5MDMxNDkxOC
+w0NTQ5OTc0NjYsMTQ0MDMzOTA5LC0xODE4MTQyMTc0LDE2MDQw
+OTIxNTgsMjAxNzI3Mjg5MCwtNDcwMDY0NjIsLTYzMDU0MzUxOC
+wzOTEyOTE4NzQsLTU3NDEyMjMxMywxNjI3MzE3Mjk4LC0yMDUx
+NjQzMjE0XX0=
 -->
