@@ -270,7 +270,7 @@ tournament
 
 ### Azure Service Health
 
- 1.  **For Azure Service Health** check go to [Azure Service Health](https://portal.azure.com/#view/Microsoft_Azure_Health/AzureHealthBrowseBlade/~/serviceIssues) page
+ 1.  **For Azure Service Health** check go to [Azure Service Health](https://portal.azure.com/#view/Microsoft_Azure_Health/AzureHealthBrowseBlade/~/serviceIssues) page.
 2.  Check the affected Locations (red location status) and act accordingly:
 [**No affected locations**](https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2045.png)
 [**Affected locations detected**](https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2046.png)
@@ -278,7 +278,9 @@ tournament
 -   **if there are** **Affected locations,** make a  screenshot of the dashboard and save it locally to be later uploaded and proceed to step 3.
 3. Click on the **Issue name** link. 
 [**Issue name**](https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2047.png)
-**4.** Take a screenshot of the page and save it locally to be uploaded into the related ADO ticket. **5.** Copy the **issue name** and use it for naming when creating a new Incident after all the checks are finished. **6.** Proceed to **processing cluster check results** → tab _Issues detected_.
+4. Make a  screenshot of the page and save it locally to be later uploaded into the related ADO ticket.
+5. Copy the **issue name** and use it for naming when creating a [new Incident](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation) after all the checks are finished:
+**6.** Proceed to **processing cluster check results** → tab _Issues detected_.
 
 ----------
 
@@ -434,11 +436,11 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MDI5OTU0NCwxNTAxMjgwNTU2LC0xMT
-Q5MjA1Njk4LDU4MjI2ODg2MCwtMjEwNjIxNTkyNCw3Nzc0NzM4
-MTQsLTE4OTAzMTQ5MTgsNDU0OTk3NDY2LDE0NDAzMzkwOSwtMT
-gxODE0MjE3NCwxNjA0MDkyMTU4LDIwMTcyNzI4OTAsLTQ3MDA2
-NDYyLC02MzA1NDM1MTgsMzkxMjkxODc0LC01NzQxMjIzMTMsMT
-YyNzMxNzI5OCwtMjA1MTY0MzIxNCwtMTI5ODgyODg2MiwtMTI4
-MTU1MDA5Nl19
+eyJoaXN0b3J5IjpbODY2MDE0OTI5LDE5NzAyOTk1NDQsMTUwMT
+I4MDU1NiwtMTE0OTIwNTY5OCw1ODIyNjg4NjAsLTIxMDYyMTU5
+MjQsNzc3NDczODE0LC0xODkwMzE0OTE4LDQ1NDk5NzQ2NiwxND
+QwMzM5MDksLTE4MTgxNDIxNzQsMTYwNDA5MjE1OCwyMDE3Mjcy
+ODkwLC00NzAwNjQ2MiwtNjMwNTQzNTE4LDM5MTI5MTg3NCwtNT
+c0MTIyMzEzLDE2MjczMTcyOTgsLTIwNTE2NDMyMTQsLTEyOTg4
+Mjg4NjJdfQ==
 -->
