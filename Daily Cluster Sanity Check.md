@@ -246,10 +246,7 @@ tournament
 ----------
 
 ### Leader Board Check
-
-_Click here to expand the detailed instruction_
-
-**1.** Go to **AoE Live Leaderboard**. **2.** Check the result message and act accordingly:
+1. Go to **AoE Live Leaderboard**. **2.** Check the result message and act accordingly:
 
 -   If there is a `"SUCCESS"` status → record for the report, proceed to step 3.
 -   If there is another status → record for **new Incident creation** after all checks finish, proceed to step 3.
@@ -446,11 +443,11 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU0OTk3NDY2LDE0NDAzMzkwOSwtMTgxOD
-E0MjE3NCwxNjA0MDkyMTU4LDIwMTcyNzI4OTAsLTQ3MDA2NDYy
-LC02MzA1NDM1MTgsMzkxMjkxODc0LC01NzQxMjIzMTMsMTYyNz
-MxNzI5OCwtMjA1MTY0MzIxNCwtMTI5ODgyODg2MiwtMTI4MTU1
-MDA5NiwtOTUzNjgyNjI0LDE0NTkzODczMDEsLTg3NTIwODQyOC
-w5NTY4OTkxMjAsLTc3NTA1NTY0MSwtMTY4ODI4NDAzMywtMTky
-MTIyNTMxMV19
+eyJoaXN0b3J5IjpbLTE4OTAzMTQ5MTgsNDU0OTk3NDY2LDE0ND
+AzMzkwOSwtMTgxODE0MjE3NCwxNjA0MDkyMTU4LDIwMTcyNzI4
+OTAsLTQ3MDA2NDYyLC02MzA1NDM1MTgsMzkxMjkxODc0LC01Nz
+QxMjIzMTMsMTYyNzMxNzI5OCwtMjA1MTY0MzIxNCwtMTI5ODgy
+ODg2MiwtMTI4MTU1MDA5NiwtOTUzNjgyNjI0LDE0NTkzODczMD
+EsLTg3NTIwODQyOCw5NTY4OTkxMjAsLTc3NTA1NTY0MSwtMTY4
+ODI4NDAzM119
 -->
