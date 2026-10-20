@@ -246,7 +246,8 @@ tournament
 ----------
 
 ### Leader Board Check
-1. Go to **AoE Live Leaderboard**. **2.** Check the result message and act accordingly:
+1.  **For Leader Board Check**, go to [AoE Live Leaderboard](https://aoe-api.worldsedgelink.com/community/Leaderboard/getLeaderboard2?leaderboard_id=1&sortBy=1&start=1&count=200&title=age2&format=jsonpretty). 
+2. Check the result message and act accordingly:
 
 -   If there is a `"SUCCESS"` status → record for the report, proceed to step 3.
 -   If there is another status → record for **new Incident creation** after all checks finish, proceed to step 3.
@@ -443,11 +444,11 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTAzMTQ5MTgsNDU0OTk3NDY2LDE0ND
-AzMzkwOSwtMTgxODE0MjE3NCwxNjA0MDkyMTU4LDIwMTcyNzI4
-OTAsLTQ3MDA2NDYyLC02MzA1NDM1MTgsMzkxMjkxODc0LC01Nz
-QxMjIzMTMsMTYyNzMxNzI5OCwtMjA1MTY0MzIxNCwtMTI5ODgy
-ODg2MiwtMTI4MTU1MDA5NiwtOTUzNjgyNjI0LDE0NTkzODczMD
-EsLTg3NTIwODQyOCw5NTY4OTkxMjAsLTc3NTA1NTY0MSwtMTY4
-ODI4NDAzM119
+eyJoaXN0b3J5IjpbNzEyMzQ4NjAwLC0xODkwMzE0OTE4LDQ1ND
+k5NzQ2NiwxNDQwMzM5MDksLTE4MTgxNDIxNzQsMTYwNDA5MjE1
+OCwyMDE3MjcyODkwLC00NzAwNjQ2MiwtNjMwNTQzNTE4LDM5MT
+I5MTg3NCwtNTc0MTIyMzEzLDE2MjczMTcyOTgsLTIwNTE2NDMy
+MTQsLTEyOTg4Mjg4NjIsLTEyODE1NTAwOTYsLTk1MzY4MjYyNC
+wxNDU5Mzg3MzAxLC04NzUyMDg0MjgsOTU2ODk5MTIwLC03NzUw
+NTU2NDFdfQ==
 -->
