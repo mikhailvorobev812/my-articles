@@ -270,8 +270,6 @@ tournament
 
 ### Azure Service Health
 
-_Click here to expand the detailed instruction_
-
 **1.** Go to the **Azure Service Health** page. **2.** Check the affected locations (red location status) and act accordingly:
 
 -   **No affected locations** → proceed to processing cluster check results.
@@ -433,11 +431,11 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDkyMDU2OTgsNTgyMjY4ODYwLC0yMT
-A2MjE1OTI0LDc3NzQ3MzgxNCwtMTg5MDMxNDkxOCw0NTQ5OTc0
-NjYsMTQ0MDMzOTA5LC0xODE4MTQyMTc0LDE2MDQwOTIxNTgsMj
-AxNzI3Mjg5MCwtNDcwMDY0NjIsLTYzMDU0MzUxOCwzOTEyOTE4
-NzQsLTU3NDEyMjMxMywxNjI3MzE3Mjk4LC0yMDUxNjQzMjE0LC
-0xMjk4ODI4ODYyLC0xMjgxNTUwMDk2LC05NTM2ODI2MjQsMTQ1
-OTM4NzMwMV19
+eyJoaXN0b3J5IjpbLTc2MzE3NDczNiwtMTE0OTIwNTY5OCw1OD
+IyNjg4NjAsLTIxMDYyMTU5MjQsNzc3NDczODE0LC0xODkwMzE0
+OTE4LDQ1NDk5NzQ2NiwxNDQwMzM5MDksLTE4MTgxNDIxNzQsMT
+YwNDA5MjE1OCwyMDE3MjcyODkwLC00NzAwNjQ2MiwtNjMwNTQz
+NTE4LDM5MTI5MTg3NCwtNTc0MTIyMzEzLDE2MjczMTcyOTgsLT
+IwNTE2NDMyMTQsLTEyOTg4Mjg4NjIsLTEyODE1NTAwOTYsLTk1
+MzY4MjYyNF19
 -->
