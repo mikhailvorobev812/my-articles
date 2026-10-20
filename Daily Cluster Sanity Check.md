@@ -256,11 +256,10 @@ tournament
 -  **if there is a part of code with SUCCESS status,** record this information for the report and proceed to step 5.
 -   **if there is a part of code with another status,** record this information for [new Incident creation](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation) after all the Checks are finished. Then proceed to step 5.
 [Myth Live Leaderboard with SUCCESS status](https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2042.png)
-**5.** Go to **AoE Flighting Leaderboard**. **6.** Check the result message and act accordingly:
-
--   `"SUCCESS"` → record for the report, proceed to step 9.
--   Other status → record for **new Incident creation** after all checks finish, proceed to step 9.
-
+5. Go to [AoE Flighting Leaderboard](https://flighting-api.worldsedgelink.com/community/Leaderboard/getLeaderboard2?leaderboard_id=1&sortBy=1&start=1&count=200&title=age2&format=jsonpretty).
+6. Check the result **message** and act accordingly:  
+    -   **if there is a part of code with SUCCESS status,** record this information for the report and  proceed to step 9.
+    -   **if there is a part of code with another status,** record this information for [new Incident creation](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation) after all the checks are finished. Then proceed to step 9.
 **7.** Go to **AoE Test Leaderboard**. **8.** Check the result message and act accordingly:
 
 -   `"SUCCESS"` → proceed to **Azure Service Health check**.
@@ -443,11 +442,11 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDYyMTU5MjQsNzc3NDczODE0LC0xOD
-kwMzE0OTE4LDQ1NDk5NzQ2NiwxNDQwMzM5MDksLTE4MTgxNDIx
-NzQsMTYwNDA5MjE1OCwyMDE3MjcyODkwLC00NzAwNjQ2MiwtNj
-MwNTQzNTE4LDM5MTI5MTg3NCwtNTc0MTIyMzEzLDE2MjczMTcy
-OTgsLTIwNTE2NDMyMTQsLTEyOTg4Mjg4NjIsLTEyODE1NTAwOT
-YsLTk1MzY4MjYyNCwxNDU5Mzg3MzAxLC04NzUyMDg0MjgsOTU2
-ODk5MTIwXX0=
+eyJoaXN0b3J5IjpbNTgyMjY4ODYwLC0yMTA2MjE1OTI0LDc3Nz
+Q3MzgxNCwtMTg5MDMxNDkxOCw0NTQ5OTc0NjYsMTQ0MDMzOTA5
+LC0xODE4MTQyMTc0LDE2MDQwOTIxNTgsMjAxNzI3Mjg5MCwtND
+cwMDY0NjIsLTYzMDU0MzUxOCwzOTEyOTE4NzQsLTU3NDEyMjMx
+MywxNjI3MzE3Mjk4LC0yMDUxNjQzMjE0LC0xMjk4ODI4ODYyLC
+0xMjgxNTUwMDk2LC05NTM2ODI2MjQsMTQ1OTM4NzMwMSwtODc1
+MjA4NDI4XX0=
 -->
