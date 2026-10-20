@@ -97,8 +97,10 @@ For alert investigation, perform only **2 checks** in the following order:
 }
 
 ```
-
-**4.** Save the changes and close the file. **5.** In the directory path, type the command `powershell`. **6.** Press **Enter**. **7.** In the displayed command prompt, enter the command for the appropriate cluster:
+4. Save the changes and close the file. 
+5. In the directory path, type the command `powershell`. 
+6. Press the **Enter** button. 
+7. In the displayed command prompt, enter the command for the appropriate cluster:
 
 Cluster
 
@@ -434,7 +436,7 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNDczOTcwNCwtNTg3NzUyNzU0LDE5Nz
+eyJoaXN0b3J5IjpbLTMzMDQwMjQ0MywtNTg3NzUyNzU0LDE5Nz
 AyOTk1NDQsMTUwMTI4MDU1NiwtMTE0OTIwNTY5OCw1ODIyNjg4
 NjAsLTIxMDYyMTU5MjQsNzc3NDczODE0LC0xODkwMzE0OTE4LD
 Q1NDk5NzQ2NiwxNDQwMzM5MDksLTE4MTgxNDIxNzQsMTYwNDA5
