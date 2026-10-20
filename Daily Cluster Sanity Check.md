@@ -250,7 +250,7 @@ tournament
 2. Check the result **message** and act accordingly:
 &bull;  **if there is a `"SUCCESS"` status**, record for the report, proceed to step 3.
 &bull;    **if there is another status**, record for [new Incident creation](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation) after all checks finish, proceed to step 3.
-
+(https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2041.png)
 **3.** Go to **Myth Live Leaderboard**. **4.** Check the result message and act accordingly:
 
 -   `"SUCCESS"` → record for the report, proceed to step 5.
@@ -443,7 +443,7 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMTY4MTk4MCwtMTg5MDMxNDkxOCw0NT
+eyJoaXN0b3J5IjpbLTIzOTgyNjYzNiwtMTg5MDMxNDkxOCw0NT
 Q5OTc0NjYsMTQ0MDMzOTA5LC0xODE4MTQyMTc0LDE2MDQwOTIx
 NTgsMjAxNzI3Mjg5MCwtNDcwMDY0NjIsLTYzMDU0MzUxOCwzOT
 EyOTE4NzQsLTU3NDEyMjMxMywxNjI3MzE3Mjk4LC0yMDUxNjQz
