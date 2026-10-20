@@ -66,8 +66,8 @@ For alert investigation, perform only **2 checks** in the following order:
 
 1. **For the Test Client Check**, open the folder on your laptop where the Test Client is stored: (e.g., `TestClient_Win_Feb22`).
 (https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2020.png)
-3. Right-click on the **TestClientConfig.json** file icon and select **Edit with Notepad**.
-**3.** Copy the code and replace the entire content of the file based on the cluster:
+2. Right-click on the **TestClientConfig.json** file icon and select **Edit with Notepad**.
+3. Copy the code and replace the entire content of the file based on the cluster:
 
 > **NOTE!** Blank spaces and indentations are important.
 
@@ -434,7 +434,7 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMzI2NzczNSwtNTg3NzUyNzU0LDE5Nz
+eyJoaXN0b3J5IjpbMTgwNDczOTcwNCwtNTg3NzUyNzU0LDE5Nz
 AyOTk1NDQsMTUwMTI4MDU1NiwtMTE0OTIwNTY5OCw1ODIyNjg4
 NjAsLTIxMDYyMTU5MjQsNzc3NDczODE0LC0xODkwMzE0OTE4LD
 Q1NDk5NzQ2NiwxNDQwMzM5MDksLTE4MTgxNDIxNzQsMTYwNDA5
