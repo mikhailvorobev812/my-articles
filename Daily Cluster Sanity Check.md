@@ -272,6 +272,7 @@ tournament
 
  1.  **For Azure Service Health** check go to [Azure Service Health](https://portal.azure.com/#view/Microsoft_Azure_Health/AzureHealthBrowseBlade/~/serviceIssues) page
 2.  Check the affected Locations (red location status) and act accordingly:
+[**No affected locations**](https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2045.png)
 
 -   **No affected locations** → proceed to processing cluster check results.
 -   **Affected locations detected** → take a screenshot of the dashboard, save it locally, and proceed to step 3.
@@ -432,7 +433,7 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNzUzMjE3MiwtMTE0OTIwNTY5OCw1OD
+eyJoaXN0b3J5IjpbMTg2MTgyMzY3OSwtMTE0OTIwNTY5OCw1OD
 IyNjg4NjAsLTIxMDYyMTU5MjQsNzc3NDczODE0LC0xODkwMzE0
 OTE4LDQ1NDk5NzQ2NiwxNDQwMzM5MDksLTE4MTgxNDIxNzQsMT
 YwNDA5MjE1OCwyMDE3MjcyODkwLC00NzAwNjQ2MiwtNjMwNTQz
