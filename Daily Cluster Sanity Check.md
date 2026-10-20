@@ -250,8 +250,8 @@ tournament
 2. Check the result **message** and act accordingly:
 &bull;  **if there is a `"SUCCESS"` status**, record for the report, proceed to step 3.
 &bull;    **if there is another status**, record for [new Incident creation](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation) after all checks finish, proceed to step 3.
-AoE Live Leaderboard with  (https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2041.png)
-**3.** Go to **Myth Live Leaderboard**. **4.** Check the result message and act accordingly:
+[AoE Live Leaderboard with  SUCCESS status](https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2041.png)
+3. Go to **[Myth Live Leaderboard](https://athens-live-api.worldsedgelink.com/community/Leaderboard/getLeaderboard2?leaderboard_id=1&sortBy=1&start=1&count=200&title=athens&format=jsonpretty**. **4.** Check the result message and act accordingly:
 
 -   `"SUCCESS"` → record for the report, proceed to step 5.
 -   Other status → record for **new Incident creation** after all checks finish, proceed to step 5.
@@ -443,7 +443,7 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDE2MDA5NjAsLTE4OTAzMTQ5MTgsND
+eyJoaXN0b3J5IjpbLTEyODYwOTMzNjUsLTE4OTAzMTQ5MTgsND
 U0OTk3NDY2LDE0NDAzMzkwOSwtMTgxODE0MjE3NCwxNjA0MDky
 MTU4LDIwMTcyNzI4OTAsLTQ3MDA2NDYyLC02MzA1NDM1MTgsMz
 kxMjkxODc0LC01NzQxMjIzMTMsMTYyNzMxNzI5OCwtMjA1MTY0
