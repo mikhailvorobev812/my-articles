@@ -157,14 +157,15 @@ For alert investigation, perform only **2 checks** in the following order:
 (https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2030.png)
 21. Wait for the new screen to be loaded and act depending on the loading time:
 
-> FYI: Once the next screen is displayed, the virtual in-game action and test are successful.
-
+> **FYI:**
+>  Once the next screen is displayed, the virtual in-game action and test are successful.
+(https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2031.png)
 -   **During daily check:**
-    -   **≤30 sec** → record (_Battle Servers - Load into game < 30 sec_), proceed to step 22.
+    -   **if the creation of the game takes up to 30 sec**, record this information for the report (_Battle Servers - Load into game < 30 sec_) and proceed to step 22.
+    -   **if the creation of the game takes** **more than 30 sec but less than 3 minutes**, post the following message into [EPAM support channel](https://teams.microsoft.com/l/channel/19%3Adafce2499dd54f198259659ecca8e7ad%40thread.tacv2/EPAM%20support?groupId=e4f886a6-1b0d-472b-92e2-bb8f8a893db5&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47) in MS Teams and follow the instructions. Meanwhile, record this information for the report (_Battle Servers - Load into game XX sec_) and proceed to step 22.
         
-    -   **>30 sec but <3 min** → post to **EPAM support channel**:
-        
-        > @everyone, hi team! The creation of the game during the cluster check for _name of the cluster_ takes approximately ** seconds. Please advise if any actions are needed from the L1 team?
+        > @everyone, hi team! 
+        The creation of the game during the cluster check for _name of the cluster_ takes approximately ** seconds. Please advise if any actions are needed from the L1 team?
         
         Record (_Battle Servers - Load into game XX sec_), proceed to step 22.
         
@@ -421,11 +422,11 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ1MTM2NTA5LDExMzU1OTQ1NDMsNDgwND
-M1NTAyLDIwNzcxMDk3NDQsLTU5NDA2ODI0Niw0NDE5Nzg4MjAs
-MzExNjQ4MzkzLC01ODc3NTI3NTQsMTk3MDI5OTU0NCwxNTAxMj
-gwNTU2LC0xMTQ5MjA1Njk4LDU4MjI2ODg2MCwtMjEwNjIxNTky
-NCw3Nzc0NzM4MTQsLTE4OTAzMTQ5MTgsNDU0OTk3NDY2LDE0ND
-AzMzkwOSwtMTgxODE0MjE3NCwxNjA0MDkyMTU4LDIwMTcyNzI4
-OTBdfQ==
+eyJoaXN0b3J5IjpbLTQ5Mjk0OTQwNCwxMTM1NTk0NTQzLDQ4MD
+QzNTUwMiwyMDc3MTA5NzQ0LC01OTQwNjgyNDYsNDQxOTc4ODIw
+LDMxMTY0ODM5MywtNTg3NzUyNzU0LDE5NzAyOTk1NDQsMTUwMT
+I4MDU1NiwtMTE0OTIwNTY5OCw1ODIyNjg4NjAsLTIxMDYyMTU5
+MjQsNzc3NDczODE0LC0xODkwMzE0OTE4LDQ1NDk5NzQ2NiwxND
+QwMzM5MDksLTE4MTgxNDIxNzQsMTYwNDA5MjE1OCwyMDE3Mjcy
+ODkwXX0=
 -->
