@@ -216,18 +216,16 @@ For alert investigation, perform only **2 checks** in the following order:
 32.  Click **Send** button:
 (https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2039.jpg)
 33. Wait for the message to be displayed in the **Channe**l section (i.e., the test is successful) and act depending on the waiting time:
-
+(https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2040.png)
 -   **During daily check:**
-    
-    -   **≤30 sec** → record (_Chat check successful_), proceed to step 34.
+    -   **if the communication with the Chat takes** **up to 30 sec**, record this information for the report (_Chat check successful_) and proceed to step 34.
+    -   **if the communication with the Chat takes more than 30 sec but less than 3 minutes**, post the following message into [EPAM support channel](https://teams.microsoft.com/l/channel/19%3Adafce2499dd54f198259659ecca8e7ad%40thread.tacv2/EPAM%20support?groupId=e4f886a6-1b0d-472b-92e2-bb8f8a893db5&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47) and follow the instructions. Meanwhile, record this information for the report (_Chat check XX_) and proceed to step 34.
         
-    -   **>30 sec but <3 min** → post to **EPAM support channel**:
+        > @everyone, hi team! 
+        The communication with the chat during the cluster check for _name of the cluster_ takes approximately ** seconds. 
+        Please advise if any actions are needed from the L1 team?
         
-        > @everyone, hi team! The communication with the chat during the cluster check for _name of the cluster_ takes approximately ** seconds. Please advise if any actions are needed from the L1 team?
-        
-        Record (_Chat check XX_), proceed to step 34.
-        
-    -   **>3 min or fails** → record (_Chat check >3 min / failed_) and **Sev2 Incident creation** after all checks finish, proceed to step 34.
+    -  **if the communication with the Chat takes** **more than 3 minutes or fails**, record this information for the report (_Chat check >3 min / failed_) and [**Sev2 Incident** creation](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation) after all the Checks are finished. Then proceed to step 34.
         
         > **NOTE!** Monitor the Status panel; if no activity for 3 minutes, raise a ticket with **Sev1**.
         
@@ -430,7 +428,7 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NzM3NzE4NywtMTM3MTY4MjIwNywtMj
+eyJoaXN0b3J5IjpbMTIyNjUxNTc2NywtMTM3MTY4MjIwNywtMj
 AwMzI0NDAxMywxMTM1NTk0NTQzLDQ4MDQzNTUwMiwyMDc3MTA5
 NzQ0LC01OTQwNjgyNDYsNDQxOTc4ODIwLDMxMTY0ODM5MywtNT
 g3NzUyNzU0LDE5NzAyOTk1NDQsMTUwMTI4MDU1NiwtMTE0OTIw
