@@ -145,13 +145,11 @@ For alert investigation, perform only **2 checks** in the following order:
         
         > @everyone, hi team! The connection to Lobby game during the cluster check for _name of the cluster_ takes approximately ** seconds. Please advise if any actions are needed from the L1 team?
         
-        Record (_Battle Servers - Host Game XX_), proceed to step 19.
-        
-    -   **>3 min or fails** → record (_Battle Servers - Host Game >3 min_) and **Sev2 Incident creation** after all checks finish, then proceed to step 19.
+    -   **if connection to Lobby game takes more than 3 minutes or fails**, record this information for the report (_Battle Servers - Host Game >3 min_) and  [**Sev2 Incident** creation](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation) after all the Checks are finished. Then proceed to step 19.
         
         > **NOTE!** Monitor the Status panel; if no activity for 3 minutes, raise a ticket with **Sev1**.
         
--   **During the alert investigation:** record (_Battle Servers - Host Game XX_), proceed to step 19.
+-   -   **During the alert investigation**, record this information for the report (_Battle Servers - Host Game XX_) proceed to step 19..
     
 
 **19.** From the **Slots** drop-down menu, in the first slot select **AI**. **20.** Click the **Ready** button. **21.** Wait for the new screen to load and act depending on the loading time:
@@ -420,11 +418,11 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MTAyOTg2MSwxMTM1NTk0NTQzLDQ4MD
-QzNTUwMiwyMDc3MTA5NzQ0LC01OTQwNjgyNDYsNDQxOTc4ODIw
-LDMxMTY0ODM5MywtNTg3NzUyNzU0LDE5NzAyOTk1NDQsMTUwMT
-I4MDU1NiwtMTE0OTIwNTY5OCw1ODIyNjg4NjAsLTIxMDYyMTU5
-MjQsNzc3NDczODE0LC0xODkwMzE0OTE4LDQ1NDk5NzQ2NiwxND
-QwMzM5MDksLTE4MTgxNDIxNzQsMTYwNDA5MjE1OCwyMDE3Mjcy
-ODkwXX0=
+eyJoaXN0b3J5IjpbNTYyMTQ3NjExLDExMzU1OTQ1NDMsNDgwND
+M1NTAyLDIwNzcxMDk3NDQsLTU5NDA2ODI0Niw0NDE5Nzg4MjAs
+MzExNjQ4MzkzLC01ODc3NTI3NTQsMTk3MDI5OTU0NCwxNTAxMj
+gwNTU2LC0xMTQ5MjA1Njk4LDU4MjI2ODg2MCwtMjEwNjIxNTky
+NCw3Nzc0NzM4MTQsLTE4OTAzMTQ5MTgsNDU0OTk3NDY2LDE0ND
+AzMzkwOSwtMTgxODE0MjE3NCwxNjA0MDkyMTU4LDIwMTcyNzI4
+OTBdfQ==
 -->
