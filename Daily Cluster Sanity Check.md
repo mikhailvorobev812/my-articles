@@ -152,7 +152,10 @@ For alert investigation, perform only **2 checks** in the following order:
 -   **During the alert investigation:** record (_Battle Servers - Host Game XX_), proceed to step 19.
 
 19.  On the appeared menu from the **Slots** drop-down menu, in the first slot select **AI**:
-20.  Click the **Ready** button. **21.** Wait for the new screen to load and act depending on the loading time:
+(https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2029.png)
+20.  Click the **Ready** button:
+(https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2030.png)
+21. Wait for the new screen to be loaded and act depending on the loading time:
 
 > FYI: Once the next screen is displayed, the virtual in-game action and test are successful.
 
@@ -418,7 +421,7 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgwNzg1MzExLDExMzU1OTQ1NDMsNDgwND
+eyJoaXN0b3J5IjpbNDQ1MTM2NTA5LDExMzU1OTQ1NDMsNDgwND
 M1NTAyLDIwNzcxMDk3NDQsLTU5NDA2ODI0Niw0NDE5Nzg4MjAs
 MzExNjQ4MzkzLC01ODc3NTI3NTQsMTk3MDI5OTU0NCwxNTAxMj
 gwNTU2LC0xMTQ5MjA1Njk4LDU4MjI2ODg2MCwtMjEwNjIxNTky
