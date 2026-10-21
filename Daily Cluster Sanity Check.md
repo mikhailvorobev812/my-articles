@@ -177,21 +177,21 @@ For alert investigation, perform only **2 checks** in the following order:
 
 > **FYI:** A disconnecting screen is displayed.
 ![Disconnecting screen](https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2033.png)
-24. Wait for game completion and act depending on time:
-
--   **During daily check:**
-    
-    -   **≤30 sec** → record (_Battle Servers - Completing a game < 30 sec_), proceed to step 24.
-        
-    -   **>30 sec but <3 min** → post to **EPAM support channel**:
+23. 
+1.  Wait for the game completion and act depending on the time it takes:
+   -   **During daily check:**
+        -   **if the game completion takes** **up to 30 sec**, record this information for the report (_Battle Servers - Completing a game < 30 sec_) and proceed to step 24.
+        -   **if the game completion takes more than 30 sec but less than 3 minutes**, post the following message into [EPAM support channel](https://teams.microsoft.com/l/channel/19%3Adafce2499dd54f198259659ecca8e7ad%40thread.tacv2/EPAM%20support?groupId=e4f886a6-1b0d-472b-92e2-bb8f8a893db5&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47) and follow the provided instructions. Meanwhile, record this information for the report (_Battle Servers - Completing a game XX sec_) proceed to step 24.
         
         > @everyone, hi team! The completion of the game during the cluster check for _name of the cluster_ takes approximately ** seconds. Please advise if any actions are needed from the L1 team?
         
-        Record (_Battle Servers - Completing a game XX sec_), proceed to step 24.
+       -   **if the game completion takes** **more than 3 minutes or fails**, record this information for the report (_Battle Servers - Completing a game >3 min / failed)_ and [**Sev2 Incident** creation](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation)  after all the Checks are finished. Then proceed to step 24.
         
     -   **>3 min or fails** → record (_Battle Servers - Completing a game >3 min / failed_) and **Sev2 Incident creation** after all checks finish, proceed to step 24.
         
-        > **NOTE!** Monitor the Status panel; if no activity for 3 minutes, raise a ticket with **Sev1**.
+        > **NOTE!** Monitor the right-hand side **Status** panel. Actions are queued and removed as they are carried out.
+
+If there is no activity on this panel for 3 minutes, a ticket should be raised with Sev1.
         
 -   **During the alert investigation:** record (_Battle Servers - Completing a game XX_), proceed to step 24.
     
@@ -426,11 +426,11 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMyMDQwMjExLC0yMDAzMjQ0MDEzLDExMz
-U1OTQ1NDMsNDgwNDM1NTAyLDIwNzcxMDk3NDQsLTU5NDA2ODI0
-Niw0NDE5Nzg4MjAsMzExNjQ4MzkzLC01ODc3NTI3NTQsMTk3MD
-I5OTU0NCwxNTAxMjgwNTU2LC0xMTQ5MjA1Njk4LDU4MjI2ODg2
-MCwtMjEwNjIxNTkyNCw3Nzc0NzM4MTQsLTE4OTAzMTQ5MTgsND
-U0OTk3NDY2LDE0NDAzMzkwOSwtMTgxODE0MjE3NCwxNjA0MDky
-MTU4XX0=
+eyJoaXN0b3J5IjpbLTg0Njk4MTExMywtMjAwMzI0NDAxMywxMT
+M1NTk0NTQzLDQ4MDQzNTUwMiwyMDc3MTA5NzQ0LC01OTQwNjgy
+NDYsNDQxOTc4ODIwLDMxMTY0ODM5MywtNTg3NzUyNzU0LDE5Nz
+AyOTk1NDQsMTUwMTI4MDU1NiwtMTE0OTIwNTY5OCw1ODIyNjg4
+NjAsLTIxMDYyMTU5MjQsNzc3NDczODE0LC0xODkwMzE0OTE4LD
+Q1NDk5NzQ2NiwxNDQwMzM5MDksLTE4MTgxNDIxNzQsMTYwNDA5
+MjE1OF19
 -->
