@@ -131,7 +131,8 @@ For alert investigation, perform only **2 checks** in the following order:
 -   **During the alert investigation:** record this information for the report (_Login XX_) and proceed to step 14.
     
 
-**14.** Check the server in the status panel on the right to ensure you are logged into the correct server. 
+14. Check the server in the status panel on the right to ensure you are logged into the correct server:
+(https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2025.png)
 **15.** Click the **Play** tab. 
 **16.** Click the **Host** tab. 
 **17.** Click **OK**. 
@@ -420,11 +421,11 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkyNjA4NDgzLDQ4MDQzNTUwMiwyMDc3MT
-A5NzQ0LC01OTQwNjgyNDYsNDQxOTc4ODIwLDMxMTY0ODM5Mywt
-NTg3NzUyNzU0LDE5NzAyOTk1NDQsMTUwMTI4MDU1NiwtMTE0OT
-IwNTY5OCw1ODIyNjg4NjAsLTIxMDYyMTU5MjQsNzc3NDczODE0
-LC0xODkwMzE0OTE4LDQ1NDk5NzQ2NiwxNDQwMzM5MDksLTE4MT
-gxNDIxNzQsMTYwNDA5MjE1OCwyMDE3MjcyODkwLC00NzAwNjQ2
-Ml19
+eyJoaXN0b3J5IjpbMTEzNTU5NDU0Myw0ODA0MzU1MDIsMjA3Nz
+EwOTc0NCwtNTk0MDY4MjQ2LDQ0MTk3ODgyMCwzMTE2NDgzOTMs
+LTU4Nzc1Mjc1NCwxOTcwMjk5NTQ0LDE1MDEyODA1NTYsLTExND
+kyMDU2OTgsNTgyMjY4ODYwLC0yMTA2MjE1OTI0LDc3NzQ3Mzgx
+NCwtMTg5MDMxNDkxOCw0NTQ5OTc0NjYsMTQ0MDMzOTA5LC0xOD
+E4MTQyMTc0LDE2MDQwOTIxNTgsMjAxNzI3Mjg5MCwtNDcwMDY0
+NjJdfQ==
 -->
