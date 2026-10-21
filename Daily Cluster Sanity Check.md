@@ -100,23 +100,12 @@ For alert investigation, perform only **2 checks** in the following order:
 
 | Cluster | Command |
 |---|---|
-| aoeflight | `.\TestClient_Win.exe -server aoeflight.worldsedgelink.com`|
-| aoelive | `.\TestClient_Win.exe -server aoe-api.worldsedgelink.com` |
-aoetest
-
-`.\TestClient_Win.exe -server aoetest.worldsedgelink.com`
-
-arthurlive
-
-`.\TestClient_Win.exe -server arthurlive.worldsedgelink.com`
-
-mythlive
-
-`.\TestClient_Win.exe -server mythlive.worldsedgelink.com`
-
-tournament
-
-`.\TestClient_Win.exe -server ci6nbk4m67-api.worldsedgelink.com`
+| **aoeflight** | `.\TestClient_Win.exe -server aoeflight.worldsedgelink.com`|
+| **aoelive** | `.\TestClient_Win.exe -server aoe-api.worldsedgelink.com` |
+| **aoetest** |`.\TestClient_Win.exe -server aoetest.worldsedgelink.com`|
+| **arthurlive** |`.\TestClient_Win.exe -server arthurlive.worldsedgelink.com`|
+| **mythlive** |`.\TestClient_Win.exe -server mythlive.worldsedgelink.com`|
+| **tournament** |`.\TestClient_Win.exe -server ci6nbk4m67-api.worldsedgelink.com`|
 (https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2022.png)
 **8.** Press **Enter**. **9.** Once the home page is displayed, click the **Profile** tab.
 
@@ -424,7 +413,7 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NjczMzkzMiwtNTk0MDY4MjQ2LDQ0MT
+eyJoaXN0b3J5IjpbMjA3NzEwOTc0NCwtNTk0MDY4MjQ2LDQ0MT
 k3ODgyMCwzMTE2NDgzOTMsLTU4Nzc1Mjc1NCwxOTcwMjk5NTQ0
 LDE1MDEyODA1NTYsLTExNDkyMDU2OTgsNTgyMjY4ODYwLC0yMT
 A2MjE1OTI0LDc3NzQ3MzgxNCwtMTg5MDMxNDkxOCw0NTQ5OTc0
