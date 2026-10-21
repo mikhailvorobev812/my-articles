@@ -52,17 +52,17 @@ For alert investigation, perform only **2 checks** in the following order:
 > Before the 1st check, ensure that the Test Client application was >downloaded as described in article **XBOX-AOE: Team onboarding** → tab *Guide for L1 Agent* → action *Configure Test Client*.
 >
 >The Test Plan Check during the **Daily Cluster Check** is performed for the following clusters:
->- aoelive
->- arthurlive
->- mythlive
->- tournament
+>- **aoelive**
+>- **arthurlive**
+>- **mythlive**
+>- **tournament**
 >For **alert investigation**, the following clusters are checked:
->- aoelive
->- arthurlive
->- mythlive
->- tournament
->- aoeflight
->- aoetest
+>- **aoelive**
+>- **arthurlive**
+>- **mythlive**
+>- **tournament**
+>- **aoeflight**
+>- **aoetest**
 
 1. **For the Test Client Check**, open the folder on your laptop where the Test Client is stored: (e.g., `TestClient_Win_Feb22`).
 (https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2020.png)
@@ -430,7 +430,7 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMjM0Nzg5NSwzMTE2NDgzOTMsLTU4Nz
+eyJoaXN0b3J5IjpbLTg0NTY2MDc5MSwzMTE2NDgzOTMsLTU4Nz
 c1Mjc1NCwxOTcwMjk5NTQ0LDE1MDEyODA1NTYsLTExNDkyMDU2
 OTgsNTgyMjY4ODYwLC0yMTA2MjE1OTI0LDc3NzQ3MzgxNCwtMT
 g5MDMxNDkxOCw0NTQ5OTc0NjYsMTQ0MDMzOTA5LC0xODE4MTQy
