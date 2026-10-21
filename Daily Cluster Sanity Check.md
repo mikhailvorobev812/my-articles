@@ -48,7 +48,7 @@ For alert investigation, perform only **2 checks** in the following order:
 |20. **If necessary**, repeat the investigation process (steps 1–19) for the next cluster.<br>21. **Once the checks for all clusters are complete**, proceed to the next Check. | — | — |
 
 #### Test Client Check
-> **NOTE!**
+> ⚠️**NOTE!**
 > Before the 1st check, ensure that the Test Client application was >downloaded as described in article **XBOX-AOE: Team onboarding** → tab *Guide for L1 Agent* → action *Configure Test Client*.
 >
 >The Test Plan Check during the **Daily Cluster Check** is performed for the following clusters:
@@ -69,7 +69,8 @@ For alert investigation, perform only **2 checks** in the following order:
 2. Right-click on the **TestClientConfig.json** file icon and select **Edit with Notepad**.
 3. Copy the code and replace the entire content of the file based on the cluster:
 
-> **NOTE!** Blank spaces and indentations are important.
+> ⚠️**NOTE!** 
+> Blank spaces and indentations are important.
 
 **Cluster:** `mythlive`
 ```json
@@ -430,11 +431,11 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NTY2MDc5MSwzMTE2NDgzOTMsLTU4Nz
-c1Mjc1NCwxOTcwMjk5NTQ0LDE1MDEyODA1NTYsLTExNDkyMDU2
-OTgsNTgyMjY4ODYwLC0yMTA2MjE1OTI0LDc3NzQ3MzgxNCwtMT
-g5MDMxNDkxOCw0NTQ5OTc0NjYsMTQ0MDMzOTA5LC0xODE4MTQy
-MTc0LDE2MDQwOTIxNTgsMjAxNzI3Mjg5MCwtNDcwMDY0NjIsLT
-YzMDU0MzUxOCwzOTEyOTE4NzQsLTU3NDEyMjMxMywxNjI3MzE3
-Mjk4XX0=
+eyJoaXN0b3J5IjpbNjcxMzI0NjYzLDMxMTY0ODM5MywtNTg3Nz
+UyNzU0LDE5NzAyOTk1NDQsMTUwMTI4MDU1NiwtMTE0OTIwNTY5
+OCw1ODIyNjg4NjAsLTIxMDYyMTU5MjQsNzc3NDczODE0LC0xOD
+kwMzE0OTE4LDQ1NDk5NzQ2NiwxNDQwMzM5MDksLTE4MTgxNDIx
+NzQsMTYwNDA5MjE1OCwyMDE3MjcyODkwLC00NzAwNjQ2MiwtNj
+MwNTQzNTE4LDM5MTI5MTg3NCwtNTc0MTIyMzEzLDE2MjczMTcy
+OThdfQ==
 -->
