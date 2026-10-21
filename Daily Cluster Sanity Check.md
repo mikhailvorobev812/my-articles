@@ -94,13 +94,9 @@ For alert investigation, perform only **2 checks** in the following order:
 ```
 4. Save the changes and close the file. 
 5. In the directory path, type the command `powershell`. 
-
+(https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2021.png)
 6. Press the **Enter** button. 
-8. In the displayed command prompt, enter the command for the appropriate cluster:
-
-Cluster
-
-Command
+7. In the displayed command prompt, enter the command for the appropriate cluster:
 
 aoeflight
 
@@ -432,11 +428,11 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQxOTc4ODIwLDMxMTY0ODM5MywtNTg3Nz
-UyNzU0LDE5NzAyOTk1NDQsMTUwMTI4MDU1NiwtMTE0OTIwNTY5
-OCw1ODIyNjg4NjAsLTIxMDYyMTU5MjQsNzc3NDczODE0LC0xOD
-kwMzE0OTE4LDQ1NDk5NzQ2NiwxNDQwMzM5MDksLTE4MTgxNDIx
-NzQsMTYwNDA5MjE1OCwyMDE3MjcyODkwLC00NzAwNjQ2MiwtNj
-MwNTQzNTE4LDM5MTI5MTg3NCwtNTc0MTIyMzEzLDE2MjczMTcy
-OThdfQ==
+eyJoaXN0b3J5IjpbLTY1OTkxMjExNCw0NDE5Nzg4MjAsMzExNj
+Q4MzkzLC01ODc3NTI3NTQsMTk3MDI5OTU0NCwxNTAxMjgwNTU2
+LC0xMTQ5MjA1Njk4LDU4MjI2ODg2MCwtMjEwNjIxNTkyNCw3Nz
+c0NzM4MTQsLTE4OTAzMTQ5MTgsNDU0OTk3NDY2LDE0NDAzMzkw
+OSwtMTgxODE0MjE3NCwxNjA0MDkyMTU4LDIwMTcyNzI4OTAsLT
+Q3MDA2NDYyLC02MzA1NDM1MTgsMzkxMjkxODc0LC01NzQxMjIz
+MTNdfQ==
 -->
