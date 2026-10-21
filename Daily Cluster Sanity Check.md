@@ -112,8 +112,11 @@ For alert investigation, perform only **2 checks** in the following order:
 
 > **⚠️IMPORTANT!** The test client check is an important indicator. If it does not work correctly, it might indicate a critical issue. Immediately create a new incident as described in article **[[L1] ADO Ticket Creation](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation)**, escalate it as described in article **[[L1] Major Incident & MIM Process](https://kb.epam.com/spaces/XBOXAOE/pages/2274862346/L1+Major+Incident+and+MIM+Process)**, and complete investigation steps afterwards.
 
-10. Click the **Platform Login** button. 
-11. **11.** Fill in the **Username** and **Password** with appropriate credentials depending on the cluster, stored in the **CyberArk portal**. **12.** Click the **Login** button. **13.** Wait for the authentication to complete and act accordingly:
+10. Click the **Platform Login** button:
+(https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2023.png)
+11. Fill in the **Username** and **Password** with appropriate credentials depending on the cluster stored in [1Password](https://epam.1password.com/).
+12. Click the **Login** button:
+13.  Wait for the authentication to complete and act accordingly:
 
 -   **During daily check:**
     
@@ -415,11 +418,11 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NjU1OTY1NSwyMDc3MTA5NzQ0LC01OT
-QwNjgyNDYsNDQxOTc4ODIwLDMxMTY0ODM5MywtNTg3NzUyNzU0
-LDE5NzAyOTk1NDQsMTUwMTI4MDU1NiwtMTE0OTIwNTY5OCw1OD
-IyNjg4NjAsLTIxMDYyMTU5MjQsNzc3NDczODE0LC0xODkwMzE0
-OTE4LDQ1NDk5NzQ2NiwxNDQwMzM5MDksLTE4MTgxNDIxNzQsMT
-YwNDA5MjE1OCwyMDE3MjcyODkwLC00NzAwNjQ2MiwtNjMwNTQz
-NTE4XX0=
+eyJoaXN0b3J5IjpbNDgwNDM1NTAyLDIwNzcxMDk3NDQsLTU5ND
+A2ODI0Niw0NDE5Nzg4MjAsMzExNjQ4MzkzLC01ODc3NTI3NTQs
+MTk3MDI5OTU0NCwxNTAxMjgwNTU2LC0xMTQ5MjA1Njk4LDU4Mj
+I2ODg2MCwtMjEwNjIxNTkyNCw3Nzc0NzM4MTQsLTE4OTAzMTQ5
+MTgsNDU0OTk3NDY2LDE0NDAzMzkwOSwtMTgxODE0MjE3NCwxNj
+A0MDkyMTU4LDIwMTcyNzI4OTAsLTQ3MDA2NDYyLC02MzA1NDM1
+MThdfQ==
 -->
