@@ -145,14 +145,14 @@ For alert investigation, perform only **2 checks** in the following order:
         
         > @everyone, hi team! The connection to Lobby game during the cluster check for _name of the cluster_ takes approximately ** seconds. Please advise if any actions are needed from the L1 team?
         
-    -   **if connection to Lobby game takes more than 3 minutes or fails**, record this information for the report (_Battle Servers - Host Game >3 min_) and  [**Sev2 Incident** creation](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation) after all the Checks are finished. Then proceed to step 19.
+       -   **if connection to Lobby game takes more than 3 minutes or fails**, record this information for the report (_Battle Servers - Host Game >3 min_) and  [**Sev2 Incident** creation](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation) after all the Checks are finished. Then proceed to step 19.
         
         > **NOTE!** Monitor the Status panel; if no activity for 3 minutes, raise a ticket with **Sev1**.
         
--   -   **During the alert investigation**, record this information for the report (_Battle Servers - Host Game XX_) proceed to step 19..
-    
+-   **During the alert investigation:** record (_Battle Servers - Host Game XX_), proceed to step 19.
 
-**19.** From the **Slots** drop-down menu, in the first slot select **AI**. **20.** Click the **Ready** button. **21.** Wait for the new screen to load and act depending on the loading time:
+19.  On the appeared menu from the **Slots** drop-down menu, in the first slot select **AI**:
+20.  Click the **Ready** button. **21.** Wait for the new screen to load and act depending on the loading time:
 
 > FYI: Once the next screen is displayed, the virtual in-game action and test are successful.
 
@@ -418,7 +418,7 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYyMTQ3NjExLDExMzU1OTQ1NDMsNDgwND
+eyJoaXN0b3J5IjpbNjgwNzg1MzExLDExMzU1OTQ1NDMsNDgwND
 M1NTAyLDIwNzcxMDk3NDQsLTU5NDA2ODI0Niw0NDE5Nzg4MjAs
 MzExNjQ4MzkzLC01ODc3NTI3NTQsMTk3MDI5OTU0NCwxNTAxMj
 gwNTU2LC0xMTQ5MjA1Njk4LDU4MjI2ODg2MCwtMjEwNjIxNTky
