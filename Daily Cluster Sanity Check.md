@@ -191,9 +191,9 @@ For alert investigation, perform only **2 checks** in the following order:
         
         > **NOTE!** Monitor the right-hand side **Status** panel. Actions are queued and removed as they are carried out.
 
-If there is no activity on this panel for 3 minutes, a ticket should be raised with Sev1.
+  -   **if the game completion takes** **more than 3 minutes or fails**, record this information for the report (_Battle Servers - Completing a game >3 min / failed)_ and [**Sev2 Incident** creation](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation)  after all the Checks are finished. Then proceed to step 24.
         
--   **During the alert investigation:** record (_Battle Servers - Completing a game XX_), proceed to step 24.
+-   **During the alert investigation:** -   this information for the report (_Battle Servers - Completing a game XX)_ and  proceed to step 24.
     
 
 **24.** In the **Party** tab, click **Create Party**. **25.** Wait for the lobby slots to become active and act depending on waiting time:
@@ -426,11 +426,11 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0Njk4MTExMywtMjAwMzI0NDAxMywxMT
-M1NTk0NTQzLDQ4MDQzNTUwMiwyMDc3MTA5NzQ0LC01OTQwNjgy
-NDYsNDQxOTc4ODIwLDMxMTY0ODM5MywtNTg3NzUyNzU0LDE5Nz
-AyOTk1NDQsMTUwMTI4MDU1NiwtMTE0OTIwNTY5OCw1ODIyNjg4
-NjAsLTIxMDYyMTU5MjQsNzc3NDczODE0LC0xODkwMzE0OTE4LD
-Q1NDk5NzQ2NiwxNDQwMzM5MDksLTE4MTgxNDIxNzQsMTYwNDA5
-MjE1OF19
+eyJoaXN0b3J5IjpbMjMyOTczMTM2LC0yMDAzMjQ0MDEzLDExMz
+U1OTQ1NDMsNDgwNDM1NTAyLDIwNzcxMDk3NDQsLTU5NDA2ODI0
+Niw0NDE5Nzg4MjAsMzExNjQ4MzkzLC01ODc3NTI3NTQsMTk3MD
+I5OTU0NCwxNTAxMjgwNTU2LC0xMTQ5MjA1Njk4LDU4MjI2ODg2
+MCwtMjEwNjIxNTkyNCw3Nzc0NzM4MTQsLTE4OTAzMTQ5MTgsND
+U0OTk3NDY2LDE0NDAzMzkwOSwtMTgxODE0MjE3NCwxNjA0MDky
+MTU4XX0=
 -->
