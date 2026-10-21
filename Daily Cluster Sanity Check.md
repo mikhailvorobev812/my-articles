@@ -165,15 +165,14 @@ For alert investigation, perform only **2 checks** in the following order:
     -   **if the creation of the game takes** **more than 30 sec but less than 3 minutes**, post the following message into [EPAM support channel](https://teams.microsoft.com/l/channel/19%3Adafce2499dd54f198259659ecca8e7ad%40thread.tacv2/EPAM%20support?groupId=e4f886a6-1b0d-472b-92e2-bb8f8a893db5&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47) in MS Teams and follow the instructions. Meanwhile, record this information for the report (_Battle Servers - Load into game XX sec_) and proceed to step 22.
         
         > @everyone, hi team! 
-        The creation of the game during the cluster check for _name of the cluster_ takes approximately ** seconds. Please advise if any actions are needed from the L1 team?
-        
-        Record (_Battle Servers - Load into game XX sec_), proceed to step 22.
-        
-    -   **>3 min or fails** → record (_Battle Servers - Load into game >3 min / failed_) and **Sev2 Incident creation** after all checks finish, proceed to step 22.
-        
--   **During the alert investigation:** record (_Battle Servers - Load into game XX_), proceed to step 22.
+        The creation of the game during the cluster check for _name of the cluster_ takes approximately ** seconds. 
+        Please advise if any actions are needed from the L1 team?
+                
+    -  **if the creation of the game takes** **more than 3 minutes or fails**, record this information for the report (_Battle Servers - Load into game >3 min / failed_) and [**Sev2 Incident** creation](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation) after all the Checks are finished. Then proceed to step 22.  
+           
+-   **During the alert investigation**, record this information for the report (_Battle Servers - Load into game XX_) and proceed to step 22.
 
-**22.** On the displayed page, select any button to complete the game (_a disconnecting screen is displayed_). **23.** Wait for game completion and act depending on time:
+22. On the displayed page, select any button to complete the game (_a disconnecting screen is displayed_). **23.** Wait for game completion and act depending on time:
 
 -   **During daily check:**
     
@@ -422,11 +421,11 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5Mjk0OTQwNCwxMTM1NTk0NTQzLDQ4MD
-QzNTUwMiwyMDc3MTA5NzQ0LC01OTQwNjgyNDYsNDQxOTc4ODIw
-LDMxMTY0ODM5MywtNTg3NzUyNzU0LDE5NzAyOTk1NDQsMTUwMT
-I4MDU1NiwtMTE0OTIwNTY5OCw1ODIyNjg4NjAsLTIxMDYyMTU5
-MjQsNzc3NDczODE0LC0xODkwMzE0OTE4LDQ1NDk5NzQ2NiwxND
-QwMzM5MDksLTE4MTgxNDIxNzQsMTYwNDA5MjE1OCwyMDE3Mjcy
-ODkwXX0=
+eyJoaXN0b3J5IjpbLTEzNzgzMDkyMjUsMTEzNTU5NDU0Myw0OD
+A0MzU1MDIsMjA3NzEwOTc0NCwtNTk0MDY4MjQ2LDQ0MTk3ODgy
+MCwzMTE2NDgzOTMsLTU4Nzc1Mjc1NCwxOTcwMjk5NTQ0LDE1MD
+EyODA1NTYsLTExNDkyMDU2OTgsNTgyMjY4ODYwLC0yMTA2MjE1
+OTI0LDc3NzQ3MzgxNCwtMTg5MDMxNDkxOCw0NTQ5OTc0NjYsMT
+Q0MDMzOTA5LC0xODE4MTQyMTc0LDE2MDQwOTIxNTgsMjAxNzI3
+Mjg5MF19
 -->
