@@ -210,8 +210,12 @@ For alert investigation, perform only **2 checks** in the following order:
 28.  Select one of the **Available Channels**.
 29.  Click the **Join** button:
 (https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2037.jpg)
-30. Check that you successfully join the channel in the **Channel**  and  **Joined sections**
-31.  Write a test message in the text box. **32.** Click **Send**. **33.** Wait for the message to be displayed in the **Channel** section (test successful) and act depending on waiting time:
+30. Check that you successfully join the channel in the **Channel**  and  **Joined sections**:
+(https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2038.png)
+31.  Write a test message in the text box.
+32.  Click **Send** button:
+(https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2039.jpg)
+34. Wait for the message to be displayed in the **Channel** section (test successful) and act depending on waiting time:
 
 -   **During daily check:**
     
@@ -426,7 +430,7 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyODE3NTM0OCwtMTM3MTY4MjIwNywtMj
+eyJoaXN0b3J5IjpbMTg1Mjc3ODM3OCwtMTM3MTY4MjIwNywtMj
 AwMzI0NDAxMywxMTM1NTk0NTQzLDQ4MDQzNTUwMiwyMDc3MTA5
 NzQ0LC01OTQwNjgyNDYsNDQxOTc4ODIwLDMxMTY0ODM5MywtNT
 g3NzUyNzU0LDE5NzAyOTk1NDQsMTUwMTI4MDU1NiwtMTE0OTIw
