@@ -177,8 +177,7 @@ For alert investigation, perform only **2 checks** in the following order:
 
 > **FYI:** A disconnecting screen is displayed.
 ![Disconnecting screen](https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2033.png)
-23. 
-1.  Wait for the game completion and act depending on the time it takes:
+23. Wait for the game completion and act depending on the time it takes:
    -   **During daily check:**
         -   **if the game completion takes** **up to 30 sec**, record this information for the report (_Battle Servers - Completing a game < 30 sec_) and proceed to step 24.
         -   **if the game completion takes more than 30 sec but less than 3 minutes**, post the following message into [EPAM support channel](https://teams.microsoft.com/l/channel/19%3Adafce2499dd54f198259659ecca8e7ad%40thread.tacv2/EPAM%20support?groupId=e4f886a6-1b0d-472b-92e2-bb8f8a893db5&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47) and follow the provided instructions. Meanwhile, record this information for the report (_Battle Servers - Completing a game XX sec_) proceed to step 24.
@@ -187,11 +186,9 @@ For alert investigation, perform only **2 checks** in the following order:
         
        -   **if the game completion takes** **more than 3 minutes or fails**, record this information for the report (_Battle Servers - Completing a game >3 min / failed)_ and [**Sev2 Incident** creation](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation)  after all the Checks are finished. Then proceed to step 24.
         
-    -   **>3 min or fails** → record (_Battle Servers - Completing a game >3 min / failed_) and **Sev2 Incident creation** after all checks finish, proceed to step 24.
-        
         > **NOTE!** Monitor the right-hand side **Status** panel. Actions are queued and removed as they are carried out.
 
-  -   **if the game completion takes** **more than 3 minutes or fails**, record this information for the report (_Battle Servers - Completing a game >3 min / failed)_ and [**Sev2 Incident** creation](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation)  after all the Checks are finished. Then proceed to step 24.
+        -   **if the game completion takes** **more than 3 minutes or fails**, record this information for the report (_Battle Servers - Completing a game >3 min / failed)_ and [**Sev2 Incident** creation](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation)  after all the Checks are finished. Then proceed to step 24.
         
 -   **During the alert investigation:** -   this information for the report (_Battle Servers - Completing a game XX)_ and  proceed to step 24.
     
@@ -426,7 +423,7 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMyOTczMTM2LC0yMDAzMjQ0MDEzLDExMz
+eyJoaXN0b3J5IjpbMTI4Mjc2NjU4LC0yMDAzMjQ0MDEzLDExMz
 U1OTQ1NDMsNDgwNDM1NTAyLDIwNzcxMDk3NDQsLTU5NDA2ODI0
 Niw0NDE5Nzg4MjAsMzExNjQ4MzkzLC01ODc3NTI3NTQsMTk3MD
 I5OTU0NCwxNTAxMjgwNTU2LC0xMTQ5MjA1Njk4LDU4MjI2ODg2
