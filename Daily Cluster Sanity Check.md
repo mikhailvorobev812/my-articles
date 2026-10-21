@@ -97,6 +97,8 @@ For alert investigation, perform only **2 checks** in the following order:
 (https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2021.png)
 6. Press the **Enter** button. 
 7. In the displayed command prompt, enter the command for the appropriate cluster:
+|---|---|
+| Cluster | Command |
 |
 aoeflight
 
@@ -428,11 +430,11 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzgxODU2MjMsNDQxOTc4ODIwLDMxMT
-Y0ODM5MywtNTg3NzUyNzU0LDE5NzAyOTk1NDQsMTUwMTI4MDU1
-NiwtMTE0OTIwNTY5OCw1ODIyNjg4NjAsLTIxMDYyMTU5MjQsNz
-c3NDczODE0LC0xODkwMzE0OTE4LDQ1NDk5NzQ2NiwxNDQwMzM5
-MDksLTE4MTgxNDIxNzQsMTYwNDA5MjE1OCwyMDE3MjcyODkwLC
-00NzAwNjQ2MiwtNjMwNTQzNTE4LDM5MTI5MTg3NCwtNTc0MTIy
-MzEzXX0=
+eyJoaXN0b3J5IjpbLTU5NDA2ODI0Niw0NDE5Nzg4MjAsMzExNj
+Q4MzkzLC01ODc3NTI3NTQsMTk3MDI5OTU0NCwxNTAxMjgwNTU2
+LC0xMTQ5MjA1Njk4LDU4MjI2ODg2MCwtMjEwNjIxNTkyNCw3Nz
+c0NzM4MTQsLTE4OTAzMTQ5MTgsNDU0OTk3NDY2LDE0NDAzMzkw
+OSwtMTgxODE0MjE3NCwxNjA0MDkyMTU4LDIwMTcyNzI4OTAsLT
+Q3MDA2NDYyLC02MzA1NDM1MTgsMzkxMjkxODc0LC01NzQxMjIz
+MTNdfQ==
 -->
