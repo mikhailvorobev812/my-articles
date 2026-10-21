@@ -190,9 +190,9 @@ For alert investigation, perform only **2 checks** in the following order:
 -   **During the alert investigation,** record this information for the report (_Battle Servers - Completing a game XX)_ and  proceed to step 24.
     
 24. In the **Party** tab, click the **Create Party** button:
-
-26.  Wait for the lobby slots to become active and act depending on waiting time:
-
+(https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2034.png)
+25.  Wait for the lobby slots to become active and act depending on the waiting time:
+(https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2035.png)
 -   **During daily check:**
     -   **≤30 sec** → record (_Lobby Servers - Create Party < 30 sec_), proceed to step 26.
         
@@ -421,11 +421,11 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzE2ODIyMDcsLTIwMDMyNDQwMTMsMT
-EzNTU5NDU0Myw0ODA0MzU1MDIsMjA3NzEwOTc0NCwtNTk0MDY4
-MjQ2LDQ0MTk3ODgyMCwzMTE2NDgzOTMsLTU4Nzc1Mjc1NCwxOT
-cwMjk5NTQ0LDE1MDEyODA1NTYsLTExNDkyMDU2OTgsNTgyMjY4
-ODYwLC0yMTA2MjE1OTI0LDc3NzQ3MzgxNCwtMTg5MDMxNDkxOC
-w0NTQ5OTc0NjYsMTQ0MDMzOTA5LC0xODE4MTQyMTc0LDE2MDQw
-OTIxNThdfQ==
+eyJoaXN0b3J5IjpbLTkxODM0MDIzOCwtMTM3MTY4MjIwNywtMj
+AwMzI0NDAxMywxMTM1NTk0NTQzLDQ4MDQzNTUwMiwyMDc3MTA5
+NzQ0LC01OTQwNjgyNDYsNDQxOTc4ODIwLDMxMTY0ODM5MywtNT
+g3NzUyNzU0LDE5NzAyOTk1NDQsMTUwMTI4MDU1NiwtMTE0OTIw
+NTY5OCw1ODIyNjg4NjAsLTIxMDYyMTU5MjQsNzc3NDczODE0LC
+0xODkwMzE0OTE4LDQ1NDk5NzQ2NiwxNDQwMzM5MDksLTE4MTgx
+NDIxNzRdfQ==
 -->
