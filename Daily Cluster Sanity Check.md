@@ -174,6 +174,7 @@ For alert investigation, perform only **2 checks** in the following order:
 
 22. On the displayed page, select any button to complete the game:
 (https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2032.png)
+
 24. Wait for game completion and act depending on time:
 
 -   **During daily check:**
@@ -423,11 +424,11 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NTk1OTU1MSwxMTM1NTk0NTQzLDQ4MD
-QzNTUwMiwyMDc3MTA5NzQ0LC01OTQwNjgyNDYsNDQxOTc4ODIw
-LDMxMTY0ODM5MywtNTg3NzUyNzU0LDE5NzAyOTk1NDQsMTUwMT
-I4MDU1NiwtMTE0OTIwNTY5OCw1ODIyNjg4NjAsLTIxMDYyMTU5
-MjQsNzc3NDczODE0LC0xODkwMzE0OTE4LDQ1NDk5NzQ2NiwxND
-QwMzM5MDksLTE4MTgxNDIxNzQsMTYwNDA5MjE1OCwyMDE3Mjcy
-ODkwXX0=
+eyJoaXN0b3J5IjpbLTIwMDMyNDQwMTMsMTEzNTU5NDU0Myw0OD
+A0MzU1MDIsMjA3NzEwOTc0NCwtNTk0MDY4MjQ2LDQ0MTk3ODgy
+MCwzMTE2NDgzOTMsLTU4Nzc1Mjc1NCwxOTcwMjk5NTQ0LDE1MD
+EyODA1NTYsLTExNDkyMDU2OTgsNTgyMjY4ODYwLC0yMTA2MjE1
+OTI0LDc3NzQ3MzgxNCwtMTg5MDMxNDkxOCw0NTQ5OTc0NjYsMT
+Q0MDMzOTA5LC0xODE4MTQyMTc0LDE2MDQwOTIxNTgsMjAxNzI3
+Mjg5MF19
 -->
