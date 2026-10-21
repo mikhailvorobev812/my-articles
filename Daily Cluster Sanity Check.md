@@ -97,17 +97,11 @@ For alert investigation, perform only **2 checks** in the following order:
 (https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2021.png)
 6. Press the **Enter** button. 
 7. In the displayed command prompt, enter the command for the appropriate cluster:
-|---|---|
+
 | Cluster | Command |
-|
-aoeflight
-
-`.\TestClient_Win.exe -server aoeflight.worldsedgelink.com`
-
-aoelive
-
-`.\TestClient_Win.exe -server aoe-api.worldsedgelink.com`
-
+|---|---|
+| aoeflight | `.\TestClient_Win.exe -server aoeflight.worldsedgelink.com`|
+| aoelive | `.\TestClient_Win.exe -server aoe-api.worldsedgelink.com` |
 aoetest
 
 `.\TestClient_Win.exe -server aoetest.worldsedgelink.com`
@@ -430,11 +424,11 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NDA2ODI0Niw0NDE5Nzg4MjAsMzExNj
-Q4MzkzLC01ODc3NTI3NTQsMTk3MDI5OTU0NCwxNTAxMjgwNTU2
-LC0xMTQ5MjA1Njk4LDU4MjI2ODg2MCwtMjEwNjIxNTkyNCw3Nz
-c0NzM4MTQsLTE4OTAzMTQ5MTgsNDU0OTk3NDY2LDE0NDAzMzkw
-OSwtMTgxODE0MjE3NCwxNjA0MDkyMTU4LDIwMTcyNzI4OTAsLT
-Q3MDA2NDYyLC02MzA1NDM1MTgsMzkxMjkxODc0LC01NzQxMjIz
-MTNdfQ==
+eyJoaXN0b3J5IjpbMTc1NjczMzkzMiwtNTk0MDY4MjQ2LDQ0MT
+k3ODgyMCwzMTE2NDgzOTMsLTU4Nzc1Mjc1NCwxOTcwMjk5NTQ0
+LDE1MDEyODA1NTYsLTExNDkyMDU2OTgsNTgyMjY4ODYwLC0yMT
+A2MjE1OTI0LDc3NzQ3MzgxNCwtMTg5MDMxNDkxOCw0NTQ5OTc0
+NjYsMTQ0MDMzOTA5LC0xODE4MTQyMTc0LDE2MDQwOTIxNTgsMj
+AxNzI3Mjg5MCwtNDcwMDY0NjIsLTYzMDU0MzUxOCwzOTEyOTE4
+NzRdfQ==
 -->
