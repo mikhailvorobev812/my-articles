@@ -187,13 +187,10 @@ For alert investigation, perform only **2 checks** in the following order:
        -   **if the game completion takes** **more than 3 minutes or fails**, record this information for the report (_Battle Servers - Completing a game >3 min / failed)_ and [**Sev2 Incident** creation](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation)  after all the Checks are finished. Then proceed to step 24.
         
         > **NOTE!** Monitor the right-hand side **Status** panel. If there is no activity on this panel for 3 minutes, a ticket should be raised with Sev1
-
-        -   **if the game completion takes** **more than 3 minutes or fails**, record this information for the report (_Battle Servers - Completing a game >3 min / failed)_ and [**Sev2 Incident** creation](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation)  after all the Checks are finished. Then proceed to step 24.
-        
--   **During the alert investigation:** -   this information for the report (_Battle Servers - Completing a game XX)_ and  proceed to step 24.
+-   **During the alert investigation,** record this information for the report (_Battle Servers - Completing a game XX)_ and  proceed to step 24.
     
-
-**24.** In the **Party** tab, click **Create Party**. **25.** Wait for the lobby slots to become active and act depending on waiting time:
+24. In the **Party** tab, click the **Create Party** button:
+25.  Wait for the lobby slots to become active and act depending on waiting time:
 
 -   **During daily check:**
     -   **≤30 sec** → record (_Lobby Servers - Create Party < 30 sec_), proceed to step 26.
@@ -423,7 +420,7 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYzNTkyMjYwLC0yMDAzMjQ0MDEzLDExMz
+eyJoaXN0b3J5IjpbODE2MzYzNjY4LC0yMDAzMjQ0MDEzLDExMz
 U1OTQ1NDMsNDgwNDM1NTAyLDIwNzcxMDk3NDQsLTU5NDA2ODI0
 Niw0NDE5Nzg4MjAsMzExNjQ4MzkzLC01ODc3NTI3NTQsMTk3MD
 I5OTU0NCwxNTAxMjgwNTU2LC0xMTQ5MjA1Njk4LDU4MjI2ODg2
