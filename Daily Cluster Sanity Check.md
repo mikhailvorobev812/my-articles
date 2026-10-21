@@ -107,9 +107,10 @@ For alert investigation, perform only **2 checks** in the following order:
 | **mythlive** |`.\TestClient_Win.exe -server mythlive.worldsedgelink.com`|
 | **tournament** |`.\TestClient_Win.exe -server ci6nbk4m67-api.worldsedgelink.com`|
 (https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2022.png)
-**8.** Press **Enter**. **9.** Once the home page is displayed, click the **Profile** tab.
+8. Press the **Enter** button.
+9. Once the home page is displayed, click the **Profile** tab.
 
-> **IMPORTANT!** The test client check is an important indicator. If it does not work correctly, it might indicate a critical issue. Immediately create a new incident as described in article **[L1] ADO Ticket Creation**, escalate it as described in article **[L1] Major Incident & MIM Process**, and complete investigation steps afterwards.
+> **IMPORTANT!** The test client check is an important indicator. If it does not work correctly, it might indicate a critical issue. Immediately create a new incident as described in article **[[L1] ADO Ticket Creation](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation)**, escalate it as described in article **[L1] Major Incident & MIM Process**, and complete investigation steps afterwards.
 
 **10.** Click the **Platform Login** button. **11.** Fill in the **Username** and **Password** with appropriate credentials depending on the cluster, stored in the **CyberArk portal**. **12.** Click the **Login** button. **13.** Wait for the authentication to complete and act accordingly:
 
@@ -413,11 +414,11 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NzEwOTc0NCwtNTk0MDY4MjQ2LDQ0MT
-k3ODgyMCwzMTE2NDgzOTMsLTU4Nzc1Mjc1NCwxOTcwMjk5NTQ0
-LDE1MDEyODA1NTYsLTExNDkyMDU2OTgsNTgyMjY4ODYwLC0yMT
-A2MjE1OTI0LDc3NzQ3MzgxNCwtMTg5MDMxNDkxOCw0NTQ5OTc0
-NjYsMTQ0MDMzOTA5LC0xODE4MTQyMTc0LDE2MDQwOTIxNTgsMj
-AxNzI3Mjg5MCwtNDcwMDY0NjIsLTYzMDU0MzUxOCwzOTEyOTE4
-NzRdfQ==
+eyJoaXN0b3J5IjpbMzg5MTExMTU1LDIwNzcxMDk3NDQsLTU5ND
+A2ODI0Niw0NDE5Nzg4MjAsMzExNjQ4MzkzLC01ODc3NTI3NTQs
+MTk3MDI5OTU0NCwxNTAxMjgwNTU2LC0xMTQ5MjA1Njk4LDU4Mj
+I2ODg2MCwtMjEwNjIxNTkyNCw3Nzc0NzM4MTQsLTE4OTAzMTQ5
+MTgsNDU0OTk3NDY2LDE0NDAzMzkwOSwtMTgxODE0MjE3NCwxNj
+A0MDkyMTU4LDIwMTcyNzI4OTAsLTQ3MDA2NDYyLC02MzA1NDM1
+MThdfQ==
 -->
