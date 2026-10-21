@@ -122,17 +122,20 @@ For alert investigation, perform only **2 checks** in the following order:
     
     -   **if authentication takes 30 seconds or less**, record this information for the report (_Login < 30 sec_) and proceed to step 14.
        -   **if authentication** **takes more than 30 sec but less than 3 minutes**, post the following message into [EPAM support channel](https://teams.microsoft.com/l/channel/19%3Adafce2499dd54f198259659ecca8e7ad%40thread.tacv2/EPAM%20support?groupId=e4f886a6-1b0d-472b-92e2-bb8f8a893db5&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47) in MS Teams and follow the provided instructions. Meanwhile, record this information for the report (_Login XX sec_) and proceed to step 14.
-        
         > @everyone, hi team! The authentication during the cluster check for _name of the cluster_ takes approximately ** seconds. Please advise if any actions are needed from the L1 team?
         
-    -   If authentication takes **>3 min or fails** → record for the report (_Login >3 min_) and **Sev2 Incident creation** after all checks are finished. Then proceed to step 14.
+    -   **if authentication takes** **more than 3 minutes or fails**, record this information for the report (_Login >3 min_) and  [**Sev2 Incident** creation](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation) after all the Checks are finished. Then proceed to step 14.
         
-        > **NOTE!** Monitor the right-hand Status panel. Actions are queued and removed as they are carried out. If there is no activity on this panel for 3 minutes, a ticket should be raised with **Sev1**.
+        > **⚠️NOTE!** Monitor the right-hand Status panel. Actions are queued and removed as they are carried out. If there is no activity on this panel for 3 minutes, a ticket should be raised with **Sev1**.
         
 -   **During the alert investigation:** record this information for the report (_Login XX_) and proceed to step 14.
     
 
-**14.** Check the server in the status panel on the right to ensure you are logged into the correct server. **15.** Click the **Play** tab. **16.** Click the **Host** tab. **17.** Click **OK**. **18.** Wait for the connection to the Lobby game to be established and act accordingly:
+**14.** Check the server in the status panel on the right to ensure you are logged into the correct server. 
+**15.** Click the **Play** tab. 
+**16.** Click the **Host** tab. 
+**17.** Click **OK**. 
+**18.** Wait for the connection to the Lobby game to be established and act accordingly:
 
 -   **During daily check:**
     
@@ -417,7 +420,7 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM3ODQ3NzQ0LDQ4MDQzNTUwMiwyMDc3MT
+eyJoaXN0b3J5IjpbODkyNjA4NDgzLDQ4MDQzNTUwMiwyMDc3MT
 A5NzQ0LC01OTQwNjgyNDYsNDQxOTc4ODIwLDMxMTY0ODM5Mywt
 NTg3NzUyNzU0LDE5NzAyOTk1NDQsMTUwMTI4MDU1NiwtMTE0OT
 IwNTY5OCw1ODIyNjg4NjAsLTIxMDYyMTU5MjQsNzc3NDczODE0
