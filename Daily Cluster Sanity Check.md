@@ -120,9 +120,8 @@ For alert investigation, perform only **2 checks** in the following order:
 13.  Wait for the authentication to complete and act accordingly:
 -   **During daily check:**
     
-    -   If authentication takes **≤30 sec** → record for the report (_Login < 30 sec_) and proceed to step 14.
-        
-    -   If authentication takes **>30 sec but <3 min** → post the following message into the **EPAM support channel** in MS Teams and follow instructions. Meanwhile, record for the report (_Login XX sec_) and proceed to step 14.
+    -   **if authentication takes 30 seconds or less**, record this information for the report (_Login < 30 sec_) and proceed to step 14.
+       -   **if authentication** **takes more than 30 sec but less than 3 minutes**, post the following message into [EPAM support channel](https://teams.microsoft.com/l/channel/19%3Adafce2499dd54f198259659ecca8e7ad%40thread.tacv2/EPAM%20support?groupId=e4f886a6-1b0d-472b-92e2-bb8f8a893db5&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47) in MS Teams and follow the provided instructions. Meanwhile, record this information for the report (_Login XX sec_) and proceed to step 14.
         
         > @everyone, hi team! The authentication during the cluster check for _name of the cluster_ takes approximately ** seconds. Please advise if any actions are needed from the L1 team?
         
@@ -418,11 +417,11 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNTY4MTQxOSw0ODA0MzU1MDIsMjA3Nz
-EwOTc0NCwtNTk0MDY4MjQ2LDQ0MTk3ODgyMCwzMTE2NDgzOTMs
-LTU4Nzc1Mjc1NCwxOTcwMjk5NTQ0LDE1MDEyODA1NTYsLTExND
-kyMDU2OTgsNTgyMjY4ODYwLC0yMTA2MjE1OTI0LDc3NzQ3Mzgx
-NCwtMTg5MDMxNDkxOCw0NTQ5OTc0NjYsMTQ0MDMzOTA5LC0xOD
-E4MTQyMTc0LDE2MDQwOTIxNTgsMjAxNzI3Mjg5MCwtNDcwMDY0
-NjJdfQ==
+eyJoaXN0b3J5IjpbOTM3ODQ3NzQ0LDQ4MDQzNTUwMiwyMDc3MT
+A5NzQ0LC01OTQwNjgyNDYsNDQxOTc4ODIwLDMxMTY0ODM5Mywt
+NTg3NzUyNzU0LDE5NzAyOTk1NDQsMTUwMTI4MDU1NiwtMTE0OT
+IwNTY5OCw1ODIyNjg4NjAsLTIxMDYyMTU5MjQsNzc3NDczODE0
+LC0xODkwMzE0OTE4LDQ1NDk5NzQ2NiwxNDQwMzM5MDksLTE4MT
+gxNDIxNzQsMTYwNDA5MjE1OCwyMDE3MjcyODkwLC00NzAwNjQ2
+Ml19
 -->
