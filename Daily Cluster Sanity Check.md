@@ -204,7 +204,12 @@ For alert investigation, perform only **2 checks** in the following order:
        -   **if the party creation takes more than 3 minutes or fails**, record this information for the report (_Lobby Servers - Create Party >3 min / failed_) and [**Sev2 Incident** creation](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation) after all the Checks are finished. Then proceed to step 26.
 -   **During the alert investigation:** record this information for the report (_Lobby Servers - Create Party XX_) and proceed to step 26.
 
-**26.** Click **Leave Party**. **27.** Click the **Chat** tab. **28.** Select one of the **Available Channels**. **29.** Click **Join**. **30.** Confirm you successfully joined the channel (**Channel** and **Joined** sections). **31.** Write a test message in the text box. **32.** Click **Send**. **33.** Wait for the message to be displayed in the **Channel** section (test successful) and act depending on waiting time:
+26. Click the **Leave Party** button:
+(https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2036.png)
+27Click the **Chat** tab.
+2.  Select one of the **Available Channels**.
+3.  Click the **Join** button:
+**30.** Confirm you successfully joined the channel (**Channel** and **Joined** sections). **31.** Write a test message in the text box. **32.** Click **Send**. **33.** Wait for the message to be displayed in the **Channel** section (test successful) and act depending on waiting time:
 
 -   **During daily check:**
     
@@ -419,7 +424,7 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NDE4NzQ1MCwtMTM3MTY4MjIwNywtMj
+eyJoaXN0b3J5IjpbLTM5MDgwNTAyNCwtMTM3MTY4MjIwNywtMj
 AwMzI0NDAxMywxMTM1NTk0NTQzLDQ4MDQzNTUwMiwyMDc3MTA5
 NzQ0LC01OTQwNjgyNDYsNDQxOTc4ODIwLDMxMTY0ODM5MywtNT
 g3NzUyNzU0LDE5NzAyOTk1NDQsMTUwMTI4MDU1NiwtMTE0OTIw
