@@ -227,12 +227,12 @@ For alert investigation, perform only **2 checks** in the following order:
         
     -  **if the communication with the Chat takes** **more than 3 minutes or fails**, record this information for the report (_Chat check >3 min / failed_) and [**Sev2 Incident** creation](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation) after all the Checks are finished. Then proceed to step 34.
         
-        > **NOTE!** Monitor the Status panel; if no activity for 3 minutes, raise a ticket with **Sev1**.
+        > **NOTE!** 
+        Monitor the right-hand side **Status** panel. Actions are queued and removed as they are carried out.
         
--   **During the alert investigation:** record (_Chat check XX_) and proceed with **Cluster Check**.
+-    **During the alert investigation**, record this information for the report (_Chat check XX_) and proceed with Cluster Check.
     
-
-**34.** Once the checks for test client are complete, proceed to the next check.
+34. Once the checks for test client are complete, proceed to the next check.
 
 ----------
 
@@ -428,11 +428,11 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNjUxNTc2NywtMTM3MTY4MjIwNywtMj
-AwMzI0NDAxMywxMTM1NTk0NTQzLDQ4MDQzNTUwMiwyMDc3MTA5
-NzQ0LC01OTQwNjgyNDYsNDQxOTc4ODIwLDMxMTY0ODM5MywtNT
-g3NzUyNzU0LDE5NzAyOTk1NDQsMTUwMTI4MDU1NiwtMTE0OTIw
-NTY5OCw1ODIyNjg4NjAsLTIxMDYyMTU5MjQsNzc3NDczODE0LC
-0xODkwMzE0OTE4LDQ1NDk5NzQ2NiwxNDQwMzM5MDksLTE4MTgx
-NDIxNzRdfQ==
+eyJoaXN0b3J5IjpbLTIwNzMzNTE1ODYsLTEzNzE2ODIyMDcsLT
+IwMDMyNDQwMTMsMTEzNTU5NDU0Myw0ODA0MzU1MDIsMjA3NzEw
+OTc0NCwtNTk0MDY4MjQ2LDQ0MTk3ODgyMCwzMTE2NDgzOTMsLT
+U4Nzc1Mjc1NCwxOTcwMjk5NTQ0LDE1MDEyODA1NTYsLTExNDky
+MDU2OTgsNTgyMjY4ODYwLC0yMTA2MjE1OTI0LDc3NzQ3MzgxNC
+wtMTg5MDMxNDkxOCw0NTQ5OTc0NjYsMTQ0MDMzOTA5LC0xODE4
+MTQyMTc0XX0=
 -->
