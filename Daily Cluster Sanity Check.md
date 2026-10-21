@@ -116,8 +116,8 @@ For alert investigation, perform only **2 checks** in the following order:
 (https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2023.png)
 11. Fill in the **Username** and **Password** with appropriate credentials depending on the cluster stored in [1Password](https://epam.1password.com/).
 12. Click the **Login** button:
+(https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2024.png)
 13.  Wait for the authentication to complete and act accordingly:
-
 -   **During daily check:**
     
     -   If authentication takes **≤30 sec** → record for the report (_Login < 30 sec_) and proceed to step 14.
@@ -418,11 +418,11 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgwNDM1NTAyLDIwNzcxMDk3NDQsLTU5ND
-A2ODI0Niw0NDE5Nzg4MjAsMzExNjQ4MzkzLC01ODc3NTI3NTQs
-MTk3MDI5OTU0NCwxNTAxMjgwNTU2LC0xMTQ5MjA1Njk4LDU4Mj
-I2ODg2MCwtMjEwNjIxNTkyNCw3Nzc0NzM4MTQsLTE4OTAzMTQ5
-MTgsNDU0OTk3NDY2LDE0NDAzMzkwOSwtMTgxODE0MjE3NCwxNj
-A0MDkyMTU4LDIwMTcyNzI4OTAsLTQ3MDA2NDYyLC02MzA1NDM1
-MThdfQ==
+eyJoaXN0b3J5IjpbLTMxNTY4MTQxOSw0ODA0MzU1MDIsMjA3Nz
+EwOTc0NCwtNTk0MDY4MjQ2LDQ0MTk3ODgyMCwzMTE2NDgzOTMs
+LTU4Nzc1Mjc1NCwxOTcwMjk5NTQ0LDE1MDEyODA1NTYsLTExND
+kyMDU2OTgsNTgyMjY4ODYwLC0yMTA2MjE1OTI0LDc3NzQ3Mzgx
+NCwtMTg5MDMxNDkxOCw0NTQ5OTc0NjYsMTQ0MDMzOTA5LC0xOD
+E4MTQyMTc0LDE2MDQwOTIxNTgsMjAxNzI3Mjg5MCwtNDcwMDY0
+NjJdfQ==
 -->
