@@ -303,14 +303,14 @@ Send the following report using mail template:
 | To: | edge_link@microsoft.com; |
 | CC: | supportxbox-aoel1@epam.com |
 | Subject: | XBOX-AOE: Daily Cluster Sanity Check 12:00 AM/PM |
-| Body: | Hello Team,<br>We have performed our Sanity Check for both Clusters:<br><br>* aoetest <br>* arthurlive <br>*    mythlive<br><br>An issue was identified on Cluster xxxx on Board xxxx. The following ticket was created xxxx.<br><Attach Screenshot of the issue(s) identified><br><br> **Test Plan _NAME OF CLUSTER_ Cluster Check.**<br><Highlight where there were any issues if detected><br> <br>* Login < 30 sec<br>* Lobby Servers - Create Party  < 30 sec<br>* Battle Servers - Host Game  < 30 sec<br>* Battle Servers - Load into game < 30 sec<br>* Battle Servers - Completing a game < 30 sec<br>* Chat check successful<br><br>**Leader Board Test Were Successful.**<br><br>**Azure Service Health**<br><br><Attach Screenshot><br><br>Regards,<br><br><epam signature> |
+| Body: | Hello Team,<br>We have performed our Sanity Check for both Clusters:<br><br>* aoetest <br>* arthurlive <br>*    mythlive<br><br>An issue was identified on Cluster xxxx on Board xxxx. The following ticket was created xxxx.<br><Attach Screenshot of the issue(s) identified><br><br> **Test Plan _NAME OF CLUSTER_ Cluster Check.**<br><Highlight where there were any issues if detected><br> <br>* Login < 30 sec<br>* Lobby Servers - Create Party  < 30 sec<br>* Battle Servers - Host Game  < 30 sec<br>* Battle Servers - Load into game < 30 sec<br>* Battle Servers - Completing a game < 30 sec<br>* Chat check successful<br><br>**Leader Board Test Were Successful.**<br><br>**Azure Service Health**<br><br><Attach Screenshot><br><br>Best regards, <br><br> Epam signature |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NzYyNDkyLDY5MTk4NTEyNCwtMjY4NT
-c4MzEsLTY3MjA1ODU2MCwtMTU3NjcwMzcxOCwtMjA3MzM1MTU4
-NiwtMTM3MTY4MjIwNywtMjAwMzI0NDAxMywxMTM1NTk0NTQzLD
-Q4MDQzNTUwMiwyMDc3MTA5NzQ0LC01OTQwNjgyNDYsNDQxOTc4
-ODIwLDMxMTY0ODM5MywtNTg3NzUyNzU0LDE5NzAyOTk1NDQsMT
-UwMTI4MDU1NiwtMTE0OTIwNTY5OCw1ODIyNjg4NjAsLTIxMDYy
-MTU5MjRdfQ==
+eyJoaXN0b3J5IjpbMTQ5MTY5ODcyNiwtNTc3NjI0OTIsNjkxOT
+g1MTI0LC0yNjg1NzgzMSwtNjcyMDU4NTYwLC0xNTc2NzAzNzE4
+LC0yMDczMzUxNTg2LC0xMzcxNjgyMjA3LC0yMDAzMjQ0MDEzLD
+ExMzU1OTQ1NDMsNDgwNDM1NTAyLDIwNzcxMDk3NDQsLTU5NDA2
+ODI0Niw0NDE5Nzg4MjAsMzExNjQ4MzkzLC01ODc3NTI3NTQsMT
+k3MDI5OTU0NCwxNTAxMjgwNTU2LC0xMTQ5MjA1Njk4LDU4MjI2
+ODg2MF19
 -->
