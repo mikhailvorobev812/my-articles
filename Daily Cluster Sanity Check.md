@@ -295,7 +295,7 @@ Send the following report using the mail template:
 
 #### B) If any issues were found
 
-Make sure an ADO ticket is created as described in article **[L1] ADO Ticket Creation** (→ tab _Ticket for Cluster Check_).
+Make sure an ADO ticket is created as described in article [[L1] ADO Ticket Creation](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation).
 
 Send the following report using mail template:
 | From: | supportxbox-aoel1@epam.com |
@@ -305,24 +305,8 @@ Send the following report using mail template:
 | Subject: | XBOX-AOE: Daily Cluster Sanity Check 12:00 AM/PM |
 | Body: | Hello Team,<br>We have performed our Sanity Check for both Clusters:<br><br>* aoetest <br>* aoeflight<br>* aoelive<br><br>An issue was identified on Cluster xxxx on Board xxxx. The following ticket was created xxxx.<br><Attach Screenshot of the issue(s) identified><br><br> **Test Plan _NAME OF CLUSTER_ Cluster Check.**<br><Highlight where there were any issues if detected><br> <br>* Login < 30 sec<br>* Lobby Servers - Create Party  < 30 sec<br>* Battle Servers - Host Game  < 30 sec<br>* Battle Servers - Load into game < 30 sec<br>* Battle Servers - Completing a game < 30 sec<br>* Chat check successful<br><br>**Leader Board Test Were Successful.**<br><br>**Azure Service Health**<br><br><Attach Screenshot><br><br>Regards,<br><br><epam signature> |
 
-
-----------
-
-### Alert investigation
-
-> ℹ️ Alert-investigation-specific instructions are embedded inline within each check above (look for the **"During the alert investigation"** bullet points under Cluster check, Test Client Check, Leader Board Check, and Azure Service Health). No separate standalone procedure was provided in the source beyond those inline branches.
-
-```
-
-A few notes on this conversion:
-- I flagged a couple of source typos I noticed (e.g., "Test Cluster Check" vs. "Test Client Check" used inconsistently in the ordering list on page 3, and a stray "750px1000" artifact in the 4xx/5xx error step on page 8) — I kept the text as-is but happy to clean those up too if you want.
-- Screenshots are referenced as `*(screenshot)*` placeholders since images can't be embedded directly in text-only Markdown here — I can add `![alt](path)` placeholders if you'll be dropping in actual image files.
-
-Want me to (a) output this as a downloadable `.md` file, (b) also list out the typos/inconsistencies I spotted (like in the previous doc), or (c) merge this with the earlier LAPP-SACC markdown into one knowledge base file?
-
-```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTgyODI1MjMsLTIwNzMzNTE1ODYsLT
+eyJoaXN0b3J5IjpbLTE1NzY3MDM3MTgsLTIwNzMzNTE1ODYsLT
 EzNzE2ODIyMDcsLTIwMDMyNDQwMTMsMTEzNTU5NDU0Myw0ODA0
 MzU1MDIsMjA3NzEwOTc0NCwtNTk0MDY4MjQ2LDQ0MTk3ODgyMC
 wzMTE2NDgzOTMsLTU4Nzc1Mjc1NCwxOTcwMjk5NTQ0LDE1MDEy
