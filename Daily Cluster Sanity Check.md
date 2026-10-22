@@ -297,67 +297,14 @@ Send the following report using the mail template:
 
 Make sure an ADO ticket is created as described in article **[L1] ADO Ticket Creation** (→ tab _Ticket for Cluster Check_).
 
-Send the following report using mail template: `XBOX-AOE_Daily_Cluster_Sanity_Check_Report_issue_detected.msg`
+Send the following report using mail template:
+| From: | supportxbox-aoel1@epam.com |
+|:------|:---------------------------|
+| To: | edge_link@microsoft.com; Daniel_Gonzalez2@epam.com; martin_aguilera@epam.com |
+| CC: | supportxbox-aoel1@epam.com |
+| Subject: | XBOX-AOE: Daily Cluster Sanity Check 12:00 AM/PM |
+| Body: | Hello Team,<br>We have performed our Sanity Check for both Clusters:<br><br>* aoetest <br>* aoeflight<br>* aoelive<br><br>An issue was identified on Cluster xxxx on Board xxxx. The following ticket was created xxxx.<br><Attach Screenshot of the issue(s) identified><br><br> **Test Plan _NAME OF CLUSTER_ Cluster Check.**<br><Highlight where there were any issues if detected><br> <br>* Login < 30 sec<br>* Lobby Servers - Create Party  < 30 sec<br>* Battle Servers - Host Game  < 30 sec<br>* Battle Servers - Load into game < 30 sec<br>* Battle Servers - Completing a game < 30 sec<br>* Chat check successful<br><br>**Leader Board Test Were Successful.**<br><br>**Azure Service Health**<br><br><Attach Screenshot><br><br>Regards,<br><br><epam signature> |
 
-_Click here to expand the email details_
-
-Field
-
-Value
-
-FROM
-
-[supportxbox-aoel1@epam.com](mailto:supportxbox-aoel1@epam.com)
-
-TO
-
-[edge_link@microsoft.com](mailto:edge_link@microsoft.com);
-
-CC
-
-[supportxbox-aoel1@epam.com](mailto:supportxbox-aoel1@epam.com)
-
-Subject
-
-XBOX-AOE: Daily Cluster Sanity Check 1:00 AM/PM
-
-Message
-
-Hello Team,  
-  
-We have performed our Sanity Check for the following Clusters:  
-• aoeflight  
-• aoelive  
-• arthurlive  
-• mythlive  
-  
-_An issue was identified on Cluster xxxx on Board xxxx. The following ticket was created xxxx._  
-_Attach Screenshot of the issue(s) identified_  
-  
-**Test Plan AoeLive Cluster Check.**  
-• Login < 30 sec / XX sec / >3 min / failed  
-• Lobby Servers - Create Party < 30 sec / XX sec / >3 min / failed  
-• Battle Servers - Host Game < 30 sec / XX sec / >3 min / failed  
-• Battle Servers - Load into game < 30 sec / XX sec / >3 min / failed  
-• Battle Servers - Completing a game < 30 sec / XX sec / >3 min / failed  
-• Chat check successful / XX sec / >3 min / failed  
-  
-**Test Plan Arthurlive Cluster Check.**  
-_(same pattern as above)_  
-  
-**Test Plan Mythlive Cluster Check.**  
-_(same pattern as above)_  
-  
-**Test Plan Tournament Cluster Check.**  
-_(same pattern as above)_  
-  
-**Leader Board Test Were Successful / Failed**  
-  
-**Azure Service Health**  
-_Attach screenshot from Service Health_  
-  
-Best regards,  
-_Epam signature_
 
 ----------
 
@@ -375,7 +322,7 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDYzMjQ3NjMsLTIwNzMzNTE1ODYsLT
+eyJoaXN0b3J5IjpbLTE4NTgyODI1MjMsLTIwNzMzNTE1ODYsLT
 EzNzE2ODIyMDcsLTIwMDMyNDQwMTMsMTEzNTU5NDU0Myw0ODA0
 MzU1MDIsMjA3NzEwOTc0NCwtNTk0MDY4MjQ2LDQ0MTk3ODgyMC
 wzMTE2NDgzOTMsLTU4Nzc1Mjc1NCwxOTcwMjk5NTQ0LDE1MDEy
