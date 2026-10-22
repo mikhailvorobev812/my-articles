@@ -291,7 +291,7 @@ Send the following report using the mail template:
 | To: | edge_link@microsoft.com; Daniel_Gonzalez2@epam.com; martin_aguilera@epam.com |
 | CC: | supportxbox-aoel1@epam.com |
 | Subject: | XBOX-AOE: Daily Cluster Sanity Check 12:00 AM/PM |
-| Body: | Hello Team,<br>We have performed our Sanity Check for both Clusters:<br><br>* aoetest <br>* arthurlive <br>*    mythlive<br><br> **Test Plan _NAME OF CLUSTER_ Cluster Check.**<br><br>* Login < 30 sec<br>* Lobby Servers - Create Party  < 30 sec<br>* Battle Servers - Host Game  < 30 sec<br>* Battle Servers - Load into game < 30 sec<br>* Battle Servers - Completing a game < 30 sec<br>* Chat check successful<br><br>**Leader Board Test Were Successful.**<br><br>**Azure Service Health**<br><br><Attach Screenshot><br><br>Best regards, <br><br> Epam signature |
+| Body: | Hello Team,<br>We have performed our Sanity Check for the following Clusters:<br><br>* aoetest <br>* arthurlive <br>*    mythlive<br><br> **Test Plan _NAME OF CLUSTER_ Cluster Check.**<br><br>* Login < 30 sec<br>* Lobby Servers - Create Party  < 30 sec<br>* Battle Servers - Host Game  < 30 sec<br>* Battle Servers - Load into game < 30 sec<br>* Battle Servers - Completing a game < 30 sec<br>* Chat check successful<br><br>**Leader Board Test Were Successful.**<br><br>**Azure Service Health**<br><br><Attach Screenshot><br><br>Best regards, <br><br> Epam signature |
 
 #### B) If any issues were found
 
@@ -303,14 +303,14 @@ Send the following report using mail template:
 | To: | edge_link@microsoft.com; Daniel_Gonzalez2@epam.com; martin_aguilera@epam.com |
 | CC: | supportxbox-aoel1@epam.com |
 | Subject: | XBOX-AOE: Daily Cluster Sanity Check 12:00 AM/PM |
-| Body: | Hello Team,<br>We have performed our Sanity Check for both Clusters:<br><br>* aoetest <br>* aoeflight<br>* aoelive<br><br>An issue was identified on Cluster xxxx on Board xxxx. The following ticket was created xxxx.<br><Attach Screenshot of the issue(s) identified><br><br> **Test Plan _NAME OF CLUSTER_ Cluster Check.**<br><Highlight where there were any issues if detected><br> <br>* Login < 30 sec<br>* Lobby Servers - Create Party  < 30 sec<br>* Battle Servers - Host Game  < 30 sec<br>* Battle Servers - Load into game < 30 sec<br>* Battle Servers - Completing a game < 30 sec<br>* Chat check successful<br><br>**Leader Board Test Were Successful.**<br><br>**Azure Service Health**<br><br><Attach Screenshot><br><br>Regards,<br><br><epam signature> |
+| Body: | Hello Team,<br>We have performed our Sanity Check for both Clusters:<br><br>* aoetest <br>* arthurlive <br>*    mythlive<br><br>An issue was identified on Cluster xxxx on Board xxxx. The following ticket was created xxxx.<br><Attach Screenshot of the issue(s) identified><br><br> **Test Plan _NAME OF CLUSTER_ Cluster Check.**<br><Highlight where there were any issues if detected><br> <br>* Login < 30 sec<br>* Lobby Servers - Create Party  < 30 sec<br>* Battle Servers - Host Game  < 30 sec<br>* Battle Servers - Load into game < 30 sec<br>* Battle Servers - Completing a game < 30 sec<br>* Chat check successful<br><br>**Leader Board Test Were Successful.**<br><br>**Azure Service Health**<br><br><Attach Screenshot><br><br>Regards,<br><br><epam signature> |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MjA1ODU2MCwtMTU3NjcwMzcxOCwtMj
-A3MzM1MTU4NiwtMTM3MTY4MjIwNywtMjAwMzI0NDAxMywxMTM1
-NTk0NTQzLDQ4MDQzNTUwMiwyMDc3MTA5NzQ0LC01OTQwNjgyND
-YsNDQxOTc4ODIwLDMxMTY0ODM5MywtNTg3NzUyNzU0LDE5NzAy
-OTk1NDQsMTUwMTI4MDU1NiwtMTE0OTIwNTY5OCw1ODIyNjg4Nj
-AsLTIxMDYyMTU5MjQsNzc3NDczODE0LC0xODkwMzE0OTE4LDQ1
-NDk5NzQ2Nl19
+eyJoaXN0b3J5IjpbLTI2ODU3ODMxLC02NzIwNTg1NjAsLTE1Nz
+Y3MDM3MTgsLTIwNzMzNTE1ODYsLTEzNzE2ODIyMDcsLTIwMDMy
+NDQwMTMsMTEzNTU5NDU0Myw0ODA0MzU1MDIsMjA3NzEwOTc0NC
+wtNTk0MDY4MjQ2LDQ0MTk3ODgyMCwzMTE2NDgzOTMsLTU4Nzc1
+Mjc1NCwxOTcwMjk5NTQ0LDE1MDEyODA1NTYsLTExNDkyMDU2OT
+gsNTgyMjY4ODYwLC0yMTA2MjE1OTI0LDc3NzQ3MzgxNCwtMTg5
+MDMxNDkxOF19
 -->
