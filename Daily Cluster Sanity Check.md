@@ -286,65 +286,12 @@ Depending on the Daily Cluster Sanity Check results, proceed with the following 
 
 Send the following report using the mail template:
 
--   For Classic Outlook: `XBOX-AOE_Daily_Cluster_Sanity_Check_Report.msg`
--   For New Outlook: `XBOX-AOE_Daily_Cluster_Sanity_Check_Report.eml`
-
-_Click here to expand the "no issues" template_
-
-Field
-
-Value
-
-FROM
-
-[supportxbox-aoel1@epam.com](mailto:supportxbox-aoel1@epam.com)
-
-TO
-
-[edge_link@microsoft.com](mailto:edge_link@microsoft.com);
-
-CC
-
-[supportxbox-aoel1@epam.com](mailto:supportxbox-aoel1@epam.com)
-
-Subject
-
-XBOX-AOE: Daily Cluster Sanity Check 1:00 AM/PM
-
-Message
-
-Hello Team,  
-  
-We have performed our Sanity Check for the following Clusters:  
-• aoelive  
-• arthurlive  
-• mythlive  
-• tournament  
-  
-**Test Plan AoeLive Cluster Check.**  
-• Login < 30 sec  
-• Lobby Servers - Create Party < 30 sec  
-• Battle Servers - Host Game < 30 sec  
-• Battle Servers - Load into game < 30 sec  
-• Battle Servers - Completing a game < 30 sec  
-• Chat check successful  
-  
-**Test Plan Arthurlive Cluster Check.**  
-_(same 6 bullet points as above)_  
-  
-**Test Plan Mythlive Cluster Check.**  
-_(same 6 bullet points as above)_  
-  
-**Test Plan Tournament Cluster Check.**  
-_(same 6 bullet points as above)_  
-  
-Leader Board Test Were Successful  
-  
-Azure Service Health  
-_Attach screenshot from Service Health_  
-  
-Best regards,  
-_Epam signature_
+| From: | supportxbox-aoel1@epam.com |
+|:------|:---------------------------|
+| To: | edge_link@microsoft.com; Daniel_Gonzalez2@epam.com; martin_aguilera@epam.com |
+| CC: | supportxbox-aoel1@epam.com |
+| Subject: | XBOX-AOE: Daily Cluster Sanity Check 12:00 AM/PM |
+| Body: | Hello Team,<br>We have performed our Sanity Check for both Clusters:<br><br>* aoetest <br>* aoeflight<br>* aoelive<br><br> **Test Plan _NAME OF CLUSTER_ Cluster Check.**<br><br>* Login < 30 sec<br>* Lobby Servers - Create Party  < 30 sec<br>* Battle Servers - Host Game  < 30 sec<br>* Battle Servers - Load into game < 30 sec<br>* Battle Servers - Completing a game < 30 sec<br>* Chat check successful<br><br>**Leader Board Test Were Successful.**<br><br>**Azure Service Health**<br><br><Attach Screenshot><br><br>Regards,<br><br><epam signature> |
 
 #### B) If any issues were found
 
@@ -428,11 +375,11 @@ Want me to (a) output this as a downloadable `.md` file, (b) also list out the t
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzMzNTE1ODYsLTEzNzE2ODIyMDcsLT
-IwMDMyNDQwMTMsMTEzNTU5NDU0Myw0ODA0MzU1MDIsMjA3NzEw
-OTc0NCwtNTk0MDY4MjQ2LDQ0MTk3ODgyMCwzMTE2NDgzOTMsLT
-U4Nzc1Mjc1NCwxOTcwMjk5NTQ0LDE1MDEyODA1NTYsLTExNDky
-MDU2OTgsNTgyMjY4ODYwLC0yMTA2MjE1OTI0LDc3NzQ3MzgxNC
-wtMTg5MDMxNDkxOCw0NTQ5OTc0NjYsMTQ0MDMzOTA5LC0xODE4
-MTQyMTc0XX0=
+eyJoaXN0b3J5IjpbLTEyMDYzMjQ3NjMsLTIwNzMzNTE1ODYsLT
+EzNzE2ODIyMDcsLTIwMDMyNDQwMTMsMTEzNTU5NDU0Myw0ODA0
+MzU1MDIsMjA3NzEwOTc0NCwtNTk0MDY4MjQ2LDQ0MTk3ODgyMC
+wzMTE2NDgzOTMsLTU4Nzc1Mjc1NCwxOTcwMjk5NTQ0LDE1MDEy
+ODA1NTYsLTExNDkyMDU2OTgsNTgyMjY4ODYwLC0yMTA2MjE1OT
+I0LDc3NzQ3MzgxNCwtMTg5MDMxNDkxOCw0NTQ5OTc0NjYsMTQ0
+MDMzOTA5XX0=
 -->
