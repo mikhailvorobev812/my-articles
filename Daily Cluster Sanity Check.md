@@ -176,7 +176,7 @@ For alert investigation, perform only **2 checks** in the following order:
 (https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2032.png)
 
 > **FYI:** A disconnecting screen is displayed.
-![Disconnecting screen](https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2033.png)
+[Disconnecting screen](https://github.com/mikhailvorobev812/xbox/blob/main/xbox%20ss%2033.png)
 23. Wait for the game completion and act depending on the time it takes:
    -   **During daily check:**
         -   **if the game completion takes** **up to 30 sec**, record this information for the report (_Battle Servers - Completing a game < 30 sec_) and proceed to step 24.
@@ -306,11 +306,11 @@ Send the following report using mail template:
 | Body: | Hello Team,<br>We have performed our Sanity Check for both Clusters:<br><br>* aoetest <br>* arthurlive <br>*    mythlive<br><br>An issue was identified on Cluster xxxx on Board xxxx. The following ticket was created xxxx.<br><Attach Screenshot of the issue(s) identified><br><br> **Test Plan _NAME OF CLUSTER_ Cluster Check.**<br><Highlight where there were any issues if detected><br> <br>* Login < 30 sec<br>* Lobby Servers - Create Party  < 30 sec<br>* Battle Servers - Host Game  < 30 sec<br>* Battle Servers - Load into game < 30 sec<br>* Battle Servers - Completing a game < 30 sec<br>* Chat check successful<br><br>**Leader Board Test Were Successful.**<br><br>**Azure Service Health**<br><br><Attach Screenshot><br><br>Regards,<br><br><epam signature> |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2ODU3ODMxLC02NzIwNTg1NjAsLTE1Nz
-Y3MDM3MTgsLTIwNzMzNTE1ODYsLTEzNzE2ODIyMDcsLTIwMDMy
-NDQwMTMsMTEzNTU5NDU0Myw0ODA0MzU1MDIsMjA3NzEwOTc0NC
-wtNTk0MDY4MjQ2LDQ0MTk3ODgyMCwzMTE2NDgzOTMsLTU4Nzc1
-Mjc1NCwxOTcwMjk5NTQ0LDE1MDEyODA1NTYsLTExNDkyMDU2OT
-gsNTgyMjY4ODYwLC0yMTA2MjE1OTI0LDc3NzQ3MzgxNCwtMTg5
-MDMxNDkxOF19
+eyJoaXN0b3J5IjpbNjkxOTg1MTI0LC0yNjg1NzgzMSwtNjcyMD
+U4NTYwLC0xNTc2NzAzNzE4LC0yMDczMzUxNTg2LC0xMzcxNjgy
+MjA3LC0yMDAzMjQ0MDEzLDExMzU1OTQ1NDMsNDgwNDM1NTAyLD
+IwNzcxMDk3NDQsLTU5NDA2ODI0Niw0NDE5Nzg4MjAsMzExNjQ4
+MzkzLC01ODc3NTI3NTQsMTk3MDI5OTU0NCwxNTAxMjgwNTU2LC
+0xMTQ5MjA1Njk4LDU4MjI2ODg2MCwtMjEwNjIxNTkyNCw3Nzc0
+NzM4MTRdfQ==
 -->
