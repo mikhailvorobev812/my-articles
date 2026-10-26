@@ -291,7 +291,7 @@ Send the following report using the mail template:
 | To: | edge_link@microsoft.com; |
 | CC: | supportxbox-aoel1@epam.com |
 | Subject: | XBOX-AOE: Daily Cluster Sanity Check 12:00 AM/PM |
-| Body: | Hello Team,<br>We have performed our Sanity Check for the following Clusters:<br><br>* aoetest <br>* arthurlive <br>*    mythlive<br><br> **Test Plan _NAME OF CLUSTER_ Cluster Check.**<br><br>* Login < 30 sec<br>* Lobby Servers - Create Party  < 30 sec<br>* Battle Servers - Host Game  < 30 sec<br>* Battle Servers - Load into game < 30 sec<br>* Battle Servers - Completing a game < 30 sec<br>* Chat check successful<br><br>**Leader Board Test Were Successful.**<br><br>**Azure Service Health**<br><br><Attach Screenshot><br><br>Best regards, <br><br> Epam signature |
+| Message: | Hello Team,<br>We have performed our Sanity Check for the following Clusters:<br><br>* aoetest <br>* arthurlive <br>*    mythlive<br><br> **Test Plan _NAME OF CLUSTER_ Cluster Check.**<br><br>* Login < 30 sec<br>* Lobby Servers - Create Party  < 30 sec<br>* Battle Servers - Host Game  < 30 sec<br>* Battle Servers - Load into game < 30 sec<br>* Battle Servers - Completing a game < 30 sec<br>* Chat check successful<br><br>**Leader Board Test Were Successful.**<br><br>**Azure Service Health**<br><br><Attach Screenshot><br><br>Best regards, <br><br> Epam signature |
 
 #### B) If any issues were found
 
@@ -321,7 +321,7 @@ Tickets without a comment or a justified investigation are considered incomplete
 | To: | edge_link@microsoft.com; **Pagerduty email** |
 | CC: | supportxbox-aoel1@epam.com |
 | Subject: | Fired:Sev1/2/3  Azure Monitor Alert cluster - Issue Identified during Cluster Check |
-| Body: | An issue was identified on Cluster xxxx on Board xxxx. The following ticket was created xxxx. <br>EPAM SIGNATURE |
+| Message: | An issue was identified on Cluster xxxx on Board xxxx. The following ticket was created xxxx. <br>EPAM SIGNATURE |
 6. Ensure that the notification for the PagerDuty alert is triggered within 10 minutes:
 -   **if the PagerDuty incident is created automatically,** process the new PagerDuty Incident as described in article [[L1] Azure Alerts handling](https://kb.epam.com/spaces/XBOXAOE/pages/2607572290/L1+Azure+Alerts+handling).
 - **if the PagerDuty incident is NOT created automatically,** manually create  a new PagerDuty incident as described in article [[L1] PagerDuty ticket creation](https://kb.epam.com/spaces/XBOXAOE/pages/2581370814/L1+PagerDuty+ticket+creation). Then process the new PagerDuty Incident as described in article [[L1] Azure Alerts handling](https://kb.epam.com/spaces/XBOXAOE/pages/2607572290/L1+Azure+Alerts+handling).
@@ -335,13 +335,19 @@ Tickets without a comment or a justified investigation are considered incomplete
 | To: | edge_link@microsoft.com; |
 | CC: | supportxbox-aoel1@epam.com |
 | Subject: | XBOX-AOE: Daily Cluster Sanity Check 1:00 AM/PM |
-| Body: | An issue was identified on Cluster xxxx on Board xxxx. The following ticket was created xxxx. <br>EPAM SIGNATURE |
+| Message: | Hello Team,We have performed our Sanity Check for the following Clusters:
+-   aoelive
+-   arthurlive
+-   mythlive
+
+An issue was identified on Cluster xxxx on Board xxxx. The following ticket was created xxxx.  
+Attach Screenshot of the issue(s) identified |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMjIyODA3LC0zODYxMTMyNjYsMTA3Mj
-kwNzEwMSwtMTIyODAxNDQxLC00Mjk0MzI0NDQsMTQ5MTY5ODcy
-NiwtNTc3NjI0OTIsNjkxOTg1MTI0LC0yNjg1NzgzMSwtNjcyMD
-U4NTYwLC0xNTc2NzAzNzE4LC0yMDczMzUxNTg2LC0xMzcxNjgy
-MjA3LC0yMDAzMjQ0MDEzLDExMzU1OTQ1NDMsNDgwNDM1NTAyLD
-IwNzcxMDk3NDQsLTU5NDA2ODI0Niw0NDE5Nzg4MjAsMzExNjQ4
-MzkzXX0=
+eyJoaXN0b3J5IjpbLTEzNjc2MTYxMDUsLTM4NjExMzI2NiwxMD
+cyOTA3MTAxLC0xMjI4MDE0NDEsLTQyOTQzMjQ0NCwxNDkxNjk4
+NzI2LC01Nzc2MjQ5Miw2OTE5ODUxMjQsLTI2ODU3ODMxLC02Nz
+IwNTg1NjAsLTE1NzY3MDM3MTgsLTIwNzMzNTE1ODYsLTEzNzE2
+ODIyMDcsLTIwMDMyNDQwMTMsMTEzNTU5NDU0Myw0ODA0MzU1MD
+IsMjA3NzEwOTc0NCwtNTk0MDY4MjQ2LDQ0MTk3ODgyMCwzMTE2
+NDgzOTNdfQ==
 -->
