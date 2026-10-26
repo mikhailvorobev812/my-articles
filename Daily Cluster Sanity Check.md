@@ -350,12 +350,13 @@ Test Plan AoeFlight / AoeLive / AoeTest / Arthurlive / MythLive** **Cluster Chec
 ```
 2. Make sure that all the necessary screenshots from other checks are attached to the ADO ticket.
 3. Process the ticket further depending on the alert severity, affected service and time:
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzOTU1NTE5NywtMTkzODI2NzEwOCwyNT
-E1MTE3OTgsMTk4OTE1OTAwMSwxMDUyODI2OTMsMTU2OTYxMTg3
-MywtMzg2MTEzMjY2LDEwNzI5MDcxMDEsLTEyMjgwMTQ0MSwtND
-I5NDMyNDQ0LDE0OTE2OTg3MjYsLTU3NzYyNDkyLDY5MTk4NTEy
-NCwtMjY4NTc4MzEsLTY3MjA1ODU2MCwtMTU3NjcwMzcxOCwtMj
-A3MzM1MTU4NiwtMTM3MTY4MjIwNywtMjAwMzI0NDAxMywxMTM1
-NTk0NTQzXX0=
+eyJoaXN0b3J5IjpbLTE2MjAwNzQyNTUsLTgzOTU1NTE5NywtMT
+kzODI2NzEwOCwyNTE1MTE3OTgsMTk4OTE1OTAwMSwxMDUyODI2
+OTMsMTU2OTYxMTg3MywtMzg2MTEzMjY2LDEwNzI5MDcxMDEsLT
+EyMjgwMTQ0MSwtNDI5NDMyNDQ0LDE0OTE2OTg3MjYsLTU3NzYy
+NDkyLDY5MTk4NTEyNCwtMjY4NTc4MzEsLTY3MjA1ODU2MCwtMT
+U3NjcwMzcxOCwtMjA3MzM1MTU4NiwtMTM3MTY4MjIwNywtMjAw
+MzI0NDAxM119
 -->
