@@ -314,16 +314,16 @@ Tickets without a comment or a justified investigation are considered incomplete
 | **tournament** | R02J04J8Q71QK379D6LDTNG3T04S8@edgelink.pagerduty.com |
 
 
-5. Send the following report using mail template:
+Send the following report using mail template:
 | From: | supportxbox-aoel1@epam.com |
 |:------|:---------------------------|
-| To: | edge_link@microsoft.com; |
+| To: | edge_link@microsoft.com; **Pagerduty email |
 | CC: | supportxbox-aoel1@epam.com |
 | Subject: | XBOX-AOE: Daily Cluster Sanity Check 12:00 AM/PM |
 | Body: | Hello Team,<br>We have performed our Sanity Check for both Clusters:<br><br>* aoetest <br>* arthurlive <br>*    mythlive<br><br>An issue was identified on Cluster xxxx on Board xxxx. The following ticket was created xxxx.<br><Attach Screenshot of the issue(s) identified><br><br> **Test Plan _NAME OF CLUSTER_ Cluster Check.**<br><Highlight where there were any issues if detected><br> <br>* Login < 30 sec<br>* Lobby Servers - Create Party  < 30 sec<br>* Battle Servers - Host Game  < 30 sec<br>* Battle Servers - Load into game < 30 sec<br>* Battle Servers - Completing a game < 30 sec<br>* Chat check successful<br><br>**Leader Board Test Were Successful.**<br><br>**Azure Service Health**<br><br><Attach Screenshot><br><br>Best regards, <br><br> Epam signature |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MDQ4MDYyOSwtNDI5NDMyNDQ0LDE0OT
+eyJoaXN0b3J5IjpbMjAxMzI2ODU4MSwtNDI5NDMyNDQ0LDE0OT
 E2OTg3MjYsLTU3NzYyNDkyLDY5MTk4NTEyNCwtMjY4NTc4MzEs
 LTY3MjA1ODU2MCwtMTU3NjcwMzcxOCwtMjA3MzM1MTU4NiwtMT
 M3MTY4MjIwNywtMjAwMzI0NDAxMywxMTM1NTk0NTQzLDQ4MDQz
