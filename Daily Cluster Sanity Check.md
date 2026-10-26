@@ -335,13 +335,13 @@ Tickets without a comment or a justified investigation are considered incomplete
 | To: | edge_link@microsoft.com; |
 | CC: | supportxbox-aoel1@epam.com |
 | Subject: | XBOX-AOE: Daily Cluster Sanity Check 1:00 AM/PM |
-| Message: | Hello Team,We have performed our Sanity Check for the following Clusters: <br>* aoelive<br>* arthurlive <br>*  mythlive <br><br> **Test Plan AoeLive Cluster Check.**<br>*    Login < 30 sec / XX sec / >3 min / failed <br>*   Lobby Servers * Create Party < 30 sec / XX sec / >3 min / failed <br>*   Battle Servers - Host Game < 30 sec / XX sec / >3 min / failed <br>*   Battle Servers - Load into game < 30 sec / XX sec / >3 min / failed <br>*   Battle Servers - Completing a game < 30 sec / XX sec / >3 min / failed <br> *   Chat check successful / XX sec / >3 min / failed <br><br>**Test Plan  Arthurlive  Cluster Check.** <br>*   Login < 30 sec / XX sec / >3 min / failed<br>-   Lobby Servers - Create Party < 30 sec / XX sec / >3 min / failed <br>-   Battle Servers - Host Game < 30 sec / XX sec / >3 min / failed<br>-   Battle Servers - Load into game < 30 sec / XX sec / >3 min / failed<br>-   Battle Servers - Completing a game < 30 sec / XX sec / >3 min / failed<br>-   Chat check successful / XX sec / >3 min / failed<br><br>**Test Plan Mythlive Cluster Check.**<br>-   Login < 30 sec / XX sec / >3 min / failed<br>-   Lobby Servers - Create Party < 30 sec / XX sec / >3 min / failed<br>-   Battle Servers - Host Game < 30 sec / XX sec / >3 min / failed<br>-   Battle Servers - Load into game < 30 sec / XX sec / >3 min / failed<br>-   Battle Servers - Completing a game < 30 sec / XX sec / >3 min / failed<br>-   Chat check successful / XX sec / >3 min / failed<br><br>**Leader Board Test Were Successful / Failed <br>****Azure Service Health** <br>Attach screenshot from Service Health<br>Best regards, <br>Epam signature
+| Message: | Hello Team,We have performed our Sanity Check for the following Clusters: <br>* aoelive<br>* arthurlive <br>*  mythlive <br><br> **Test Plan AoeLive Cluster Check.**<br>*    Login < 30 sec / XX sec / >3 min / failed <br>*   Lobby Servers * Create Party < 30 sec / XX sec / >3 min / failed <br>*   Battle Servers - Host Game < 30 sec / XX sec / >3 min / failed <br>*   Battle Servers - Load into game < 30 sec / XX sec / >3 min / failed <br>*   Battle Servers - Completing a game < 30 sec / XX sec / >3 min / failed <br> *   Chat check successful / XX sec / >3 min / failed <br><br>**Test Plan  Arthurlive  Cluster Check.** <br>*   Login < 30 sec / XX sec / >3 min / failed<br>*   Lobby Servers - Create Party < 30 sec / XX sec / >3 min / failed <br>*   Battle Servers - Host Game < 30 sec / XX sec / >3 min / failed<br>*   Battle Servers - Load into game < 30 sec / XX sec / >3 min / failed<br>*   Battle Servers - Completing a game < 30 sec / XX sec / >3 min / failed<br>*   Chat check successful / XX sec / >3 min / failed<br><br>**Test Plan Mythlive Cluster Check.**<br>*   Login < 30 sec / XX sec / >3 min / failed<br>*   Lobby Servers - Create Party < 30 sec / XX sec / >3 min / failed<br>*   Battle Servers - Host Game < 30 sec / XX sec / >3 min / failed<br>*   Battle Servers - Load into game < 30 sec / XX sec / >3 min / failed<br>*   Battle Servers - Completing a game < 30 sec / XX sec / >3 min / failed<br>*   Chat check successful / XX sec / >3 min / failed<br><br>**Leader Board Test Were Successful / Failed <br>\**Azure Service Health** <br>Attach screenshot from Service Health<br>Best regards, <br>Epam signature
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4OTE1OTAwMSwxMDUyODI2OTMsMTU2OT
-YxMTg3MywtMzg2MTEzMjY2LDEwNzI5MDcxMDEsLTEyMjgwMTQ0
-MSwtNDI5NDMyNDQ0LDE0OTE2OTg3MjYsLTU3NzYyNDkyLDY5MT
-k4NTEyNCwtMjY4NTc4MzEsLTY3MjA1ODU2MCwtMTU3NjcwMzcx
-OCwtMjA3MzM1MTU4NiwtMTM3MTY4MjIwNywtMjAwMzI0NDAxMy
-wxMTM1NTk0NTQzLDQ4MDQzNTUwMiwyMDc3MTA5NzQ0LC01OTQw
-NjgyNDZdfQ==
+eyJoaXN0b3J5IjpbLTE0MTY1NzQ3MzAsMTk4OTE1OTAwMSwxMD
+UyODI2OTMsMTU2OTYxMTg3MywtMzg2MTEzMjY2LDEwNzI5MDcx
+MDEsLTEyMjgwMTQ0MSwtNDI5NDMyNDQ0LDE0OTE2OTg3MjYsLT
+U3NzYyNDkyLDY5MTk4NTEyNCwtMjY4NTc4MzEsLTY3MjA1ODU2
+MCwtMTU3NjcwMzcxOCwtMjA3MzM1MTU4NiwtMTM3MTY4MjIwNy
+wtMjAwMzI0NDAxMywxMTM1NTk0NTQzLDQ4MDQzNTUwMiwyMDc3
+MTA5NzQ0XX0=
 -->
