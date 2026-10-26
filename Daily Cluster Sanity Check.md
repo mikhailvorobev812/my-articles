@@ -314,7 +314,7 @@ Tickets without a comment or a justified investigation are considered incomplete
 | **tournament** | R02J04J8Q71QK379D6LDTNG3T04S8@edgelink.pagerduty.com |
 
 
-5. Send the following report using mail template:
+5. Send the following report using mail template [XBOX-AOE_FiredSev12Azure_Monitor_Alertcluster_Issue_Identified.msg](https://kb.epam.com/download/attachments/2245597630/XBOX-AOE_FiredSev12Azure_Monitor_Alertcluster_Issue_Identified.msg?version=2&modificationDate=1786434752304&api=v2):
 
 | From: | supportxbox-aoel1@epam.com |
 |:------|:---------------------------|
@@ -328,12 +328,20 @@ Tickets without a comment or a justified investigation are considered incomplete
 7. **FOR EU-IN Cluster Checks:** Act depending on the ticket Severity:
 -   **if a Sev1 Ticket is created (ADO & PD)**, immediately start [MIM Process](https://kb.epam.com/spaces/XBOXAOE/pages/2274862346/L1+Major+Incident+and+MIM+Process)
 - **if a Sev2 Ticket is created (ADO & PD),** add it in your **_Cluster Check email_** and leave the tickets pending in HO to be escalated during BH - [Daily end-of-shift Report](https://kb.epam.com/spaces/XBOXAOE/pages/2327981263/L1+Daily+end-of-shift+Report).
+8. Send the following repot using **mail template**: [XBOX-AOE_Daily_Cluster_Sanity_Check_Report_issue_detected.msg](https://kb.epam.com/download/attachments/2245597630/XBOX-AOE_Daily_Cluster_Sanity_Check_Report_issue_detected.msg?version=2&modificationDate=1789028141284&api=v2)
+
+| From: | supportxbox-aoel1@epam.com |
+|:------|:---------------------------|
+| To: | edge_link@microsoft.com; |
+| CC: | supportxbox-aoel1@epam.com |
+| Subject: | XBOX-AOE: Daily Cluster Sanity Check 1:00 AM/PM |
+| Body: | An issue was identified on Cluster xxxx on Board xxxx. The following ticket was created xxxx. <br>EPAM SIGNATURE |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NjExMzI2NiwxMDcyOTA3MTAxLC0xMj
-I4MDE0NDEsLTQyOTQzMjQ0NCwxNDkxNjk4NzI2LC01Nzc2MjQ5
-Miw2OTE5ODUxMjQsLTI2ODU3ODMxLC02NzIwNTg1NjAsLTE1Nz
-Y3MDM3MTgsLTIwNzMzNTE1ODYsLTEzNzE2ODIyMDcsLTIwMDMy
-NDQwMTMsMTEzNTU5NDU0Myw0ODA0MzU1MDIsMjA3NzEwOTc0NC
-wtNTk0MDY4MjQ2LDQ0MTk3ODgyMCwzMTE2NDgzOTMsLTU4Nzc1
-Mjc1NF19
+eyJoaXN0b3J5IjpbLTQxMjIyODA3LC0zODYxMTMyNjYsMTA3Mj
+kwNzEwMSwtMTIyODAxNDQxLC00Mjk0MzI0NDQsMTQ5MTY5ODcy
+NiwtNTc3NjI0OTIsNjkxOTg1MTI0LC0yNjg1NzgzMSwtNjcyMD
+U4NTYwLC0xNTc2NzAzNzE4LC0yMDczMzUxNTg2LC0xMzcxNjgy
+MjA3LC0yMDAzMjQ0MDEzLDExMzU1OTQ1NDMsNDgwNDM1NTAyLD
+IwNzcxMDk3NDQsLTU5NDA2ODI0Niw0NDE5Nzg4MjAsMzExNjQ4
+MzkzXX0=
 -->
