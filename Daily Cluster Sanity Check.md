@@ -335,19 +335,29 @@ Tickets without a comment or a justified investigation are considered incomplete
 | To: | edge_link@microsoft.com; |
 | CC: | supportxbox-aoel1@epam.com |
 | Subject: | XBOX-AOE: Daily Cluster Sanity Check 1:00 AM/PM |
-| Message: | Hello Team,We have performed our Sanity Check for the following Clusters: <br>* aoelive<br>* arthurlive <br>*  mythlive <br> **Test Plan AoeLive Cluster Check.**
-
--   Login < 30 sec / XX sec / >3 min / failed
+| Message: | Hello Team,We have performed our Sanity Check for the following Clusters: <br>* aoelive<br>* arthurlive <br>*  mythlive <br> **Test Plan AoeLive Cluster Check.** -   Login < 30 sec / XX sec / >3 min / failed -   Lobby Servers - Create Party < 30 sec / XX sec / >3 min / failed -   Battle Servers - Host Game < 30 sec / XX sec / >3 min / failed -   Battle Servers - Load into game < 30 sec / XX sec / >3 min / failed -   Battle Servers - Completing a game < 30 sec / XX sec / >3 min / failed -   Chat check successful / XX sec / >3 min / failed **Test Plan  Arthurlive  Cluster Check.** -   Login < 30 sec / XX sec / >3 min / failed-   Lobby Servers - Create Party < 30 sec / XX sec / >3 min / failed -   Battle Servers - Host Game < 30 sec / XX sec / >3 min / failed-   Battle Servers - Load into game < 30 sec / XX sec / >3 min / failed-   Battle Servers - Completing a game < 30 sec / XX sec / >3 min / failed-   Chat check successful / XX sec / >3 min / failed**Test Plan Mythlive Cluster Check.**-   Login < 30 sec / XX sec / >3 min / failed
 -   Lobby Servers - Create Party < 30 sec / XX sec / >3 min / failed
 -   Battle Servers - Host Game < 30 sec / XX sec / >3 min / failed
 -   Battle Servers - Load into game < 30 sec / XX sec / >3 min / failed
 -   Battle Servers - Completing a game < 30 sec / XX sec / >3 min / failed
 -   Chat check successful / XX sec / >3 min / failed
 
+**Leader Board Test Were Successful / Failed  
+  
+**
+
+**Azure Service Health**
+
+Attach screenshot from Service Health
+
+Best regards,
+
+Epam signature
+
 An issue was identified on Cluster xxxx on Board xxxx. The following ticket was created xxxx.  
 Attach Screenshot of the issue(s) identified |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNDg2MTQ2NiwtMzg2MTEzMjY2LDEwNz
+eyJoaXN0b3J5IjpbMTU2OTYxMTg3MywtMzg2MTEzMjY2LDEwNz
 I5MDcxMDEsLTEyMjgwMTQ0MSwtNDI5NDMyNDQ0LDE0OTE2OTg3
 MjYsLTU3NzYyNDkyLDY5MTk4NTEyNCwtMjY4NTc4MzEsLTY3Mj
 A1ODU2MCwtMTU3NjcwMzcxOCwtMjA3MzM1MTU4NiwtMTM3MTY4
