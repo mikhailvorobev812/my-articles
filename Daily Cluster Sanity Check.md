@@ -297,7 +297,7 @@ Send the following report using the mail template:
 
 1. Make sure an ADO ticket is created as described in article [[L1] ADO Ticket Creation](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation).
 2. Whenever a ticket is created, add a justification in the **Comments** section of the ADO ticket explaining why the ticket is being created:
-
+```ISSUE XXXXXX - ticket will be escalated to the L2 team.```
 Send the following report using mail template:
 | From: | supportxbox-aoel1@epam.com |
 |:------|:---------------------------|
@@ -307,7 +307,7 @@ Send the following report using mail template:
 | Body: | Hello Team,<br>We have performed our Sanity Check for both Clusters:<br><br>* aoetest <br>* arthurlive <br>*    mythlive<br><br>An issue was identified on Cluster xxxx on Board xxxx. The following ticket was created xxxx.<br><Attach Screenshot of the issue(s) identified><br><br> **Test Plan _NAME OF CLUSTER_ Cluster Check.**<br><Highlight where there were any issues if detected><br> <br>* Login < 30 sec<br>* Lobby Servers - Create Party  < 30 sec<br>* Battle Servers - Host Game  < 30 sec<br>* Battle Servers - Load into game < 30 sec<br>* Battle Servers - Completing a game < 30 sec<br>* Chat check successful<br><br>**Leader Board Test Were Successful.**<br><br>**Azure Service Health**<br><br><Attach Screenshot><br><br>Best regards, <br><br> Epam signature |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0ODUwMDYxMCwxNDkxNjk4NzI2LC01Nz
+eyJoaXN0b3J5IjpbLTE0MTM3OTUyMiwxNDkxNjk4NzI2LC01Nz
 c2MjQ5Miw2OTE5ODUxMjQsLTI2ODU3ODMxLC02NzIwNTg1NjAs
 LTE1NzY3MDM3MTgsLTIwNzMzNTE1ODYsLTEzNzE2ODIyMDcsLT
 IwMDMyNDQwMTMsMTEzNTU5NDU0Myw0ODA0MzU1MDIsMjA3NzEw
