@@ -349,14 +349,14 @@ Test Plan AoeFlight / AoeLive / AoeTest / Arthurlive / MythLive** **Cluster Chec
 -   Chat check successful / failed
 ```
 2. Make sure that all the necessary screenshots from other checks are attached to the ADO ticket.
-3. Process the ticket further depending on the alert severity, affected service and time:
+3. Process the ticket further depending on the alert severity, affected service and time as described in article [[L1] Ticket Processing](https://kb.epam.com/x/o-Zrmg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjAwNzQyNTUsLTgzOTU1NTE5NywtMT
-kzODI2NzEwOCwyNTE1MTE3OTgsMTk4OTE1OTAwMSwxMDUyODI2
-OTMsMTU2OTYxMTg3MywtMzg2MTEzMjY2LDEwNzI5MDcxMDEsLT
-EyMjgwMTQ0MSwtNDI5NDMyNDQ0LDE0OTE2OTg3MjYsLTU3NzYy
-NDkyLDY5MTk4NTEyNCwtMjY4NTc4MzEsLTY3MjA1ODU2MCwtMT
-U3NjcwMzcxOCwtMjA3MzM1MTU4NiwtMTM3MTY4MjIwNywtMjAw
-MzI0NDAxM119
+eyJoaXN0b3J5IjpbLTE0NjI0MjU5ODQsLTE2MjAwNzQyNTUsLT
+gzOTU1NTE5NywtMTkzODI2NzEwOCwyNTE1MTE3OTgsMTk4OTE1
+OTAwMSwxMDUyODI2OTMsMTU2OTYxMTg3MywtMzg2MTEzMjY2LD
+EwNzI5MDcxMDEsLTEyMjgwMTQ0MSwtNDI5NDMyNDQ0LDE0OTE2
+OTg3MjYsLTU3NzYyNDkyLDY5MTk4NTEyNCwtMjY4NTc4MzEsLT
+Y3MjA1ODU2MCwtMTU3NjcwMzcxOCwtMjA3MzM1MTU4NiwtMTM3
+MTY4MjIwN119
 -->
