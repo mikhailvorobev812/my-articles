@@ -306,15 +306,15 @@ Tickets without a comment or a justified investigation are considered incomplete
 
 | Conditions (cluster, issue type) | Send the email to (PagerDuty email) / ticket creation |
 |---|---|
-| aoeflight | R02NNFK5EX5QTQDE21R8PUS0ABGZMM@edgelink.pagerduty.com |
-| - aoelive, -  Azure Service Health issue | R02INFF2RJH6HCPZMXIPUVOXZENV@edgelink.pagerduty.com |
-| aoetest | R028ECLXYL5UZSWBTXLWQGQ7783CJ@edgelink.pagerduty.com |
-| arthurlive | R02BWPNQNYFBOOMALPMMAU51KVIDG@edgelink.pagerduty.com |
-| mythlive | R02OKFXNB1QKD928PGM2D197879E@edgelink.pagerduty.com |
-| tournament | R02J04J8Q71QK379D6LDTNG3T04S8@edgelink.pagerduty.com |
+| **aoeflight** | R02NNFK5EX5QTQDE21R8PUS0ABGZMM@edgelink.pagerduty.com |
+|**aoelive**, **Azure Service Health issue** | R02INFF2RJH6HCPZMXIPUVOXZENV@edgelink.pagerduty.com |
+| **aoetest** | R028ECLXYL5UZSWBTXLWQGQ7783CJ@edgelink.pagerduty.com |
+| **arthurlive** | R02BWPNQNYFBOOMALPMMAU51KVIDG@edgelink.pagerduty.com |
+| **mythlive** | R02OKFXNB1QKD928PGM2D197879E@edgelink.pagerduty.com |
+| **tournament** | R02J04J8Q71QK379D6LDTNG3T04S8@edgelink.pagerduty.com |
 
 
-Send the following report using mail template:
+5. Send the following report using mail template:
 | From: | supportxbox-aoel1@epam.com |
 |:------|:---------------------------|
 | To: | edge_link@microsoft.com; |
@@ -323,11 +323,11 @@ Send the following report using mail template:
 | Body: | Hello Team,<br>We have performed our Sanity Check for both Clusters:<br><br>* aoetest <br>* arthurlive <br>*    mythlive<br><br>An issue was identified on Cluster xxxx on Board xxxx. The following ticket was created xxxx.<br><Attach Screenshot of the issue(s) identified><br><br> **Test Plan _NAME OF CLUSTER_ Cluster Check.**<br><Highlight where there were any issues if detected><br> <br>* Login < 30 sec<br>* Lobby Servers - Create Party  < 30 sec<br>* Battle Servers - Host Game  < 30 sec<br>* Battle Servers - Load into game < 30 sec<br>* Battle Servers - Completing a game < 30 sec<br>* Chat check successful<br><br>**Leader Board Test Were Successful.**<br><br>**Azure Service Health**<br><br><Attach Screenshot><br><br>Best regards, <br><br> Epam signature |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI3OTYwNDgyLC00Mjk0MzI0NDQsMTQ5MT
-Y5ODcyNiwtNTc3NjI0OTIsNjkxOTg1MTI0LC0yNjg1NzgzMSwt
-NjcyMDU4NTYwLC0xNTc2NzAzNzE4LC0yMDczMzUxNTg2LC0xMz
-cxNjgyMjA3LC0yMDAzMjQ0MDEzLDExMzU1OTQ1NDMsNDgwNDM1
-NTAyLDIwNzcxMDk3NDQsLTU5NDA2ODI0Niw0NDE5Nzg4MjAsMz
-ExNjQ4MzkzLC01ODc3NTI3NTQsMTk3MDI5OTU0NCwxNTAxMjgw
-NTU2XX0=
+eyJoaXN0b3J5IjpbMTg2MDQ4MDYyOSwtNDI5NDMyNDQ0LDE0OT
+E2OTg3MjYsLTU3NzYyNDkyLDY5MTk4NTEyNCwtMjY4NTc4MzEs
+LTY3MjA1ODU2MCwtMTU3NjcwMzcxOCwtMjA3MzM1MTU4NiwtMT
+M3MTY4MjIwNywtMjAwMzI0NDAxMywxMTM1NTk0NTQzLDQ4MDQz
+NTUwMiwyMDc3MTA5NzQ0LC01OTQwNjgyNDYsNDQxOTc4ODIwLD
+MxMTY0ODM5MywtNTg3NzUyNzU0LDE5NzAyOTk1NDQsMTUwMTI4
+MDU1Nl19
 -->
