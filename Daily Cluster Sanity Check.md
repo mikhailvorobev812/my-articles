@@ -335,19 +335,23 @@ Tickets without a comment or a justified investigation are considered incomplete
 | To: | edge_link@microsoft.com; |
 | CC: | supportxbox-aoel1@epam.com |
 | Subject: | XBOX-AOE: Daily Cluster Sanity Check 1:00 AM/PM |
-| Message: | Hello Team,We have performed our Sanity Check for the following Clusters:
--   aoelive
--   arthurlive
--   mythlive
+| Message: | Hello Team,We have performed our Sanity Check for the following Clusters: <br>* aoelive<br>* arthurlive <br>*  mythlive <br> **Test Plan AoeLive Cluster Check.**
+
+-   Login < 30 sec / XX sec / >3 min / failed
+-   Lobby Servers - Create Party < 30 sec / XX sec / >3 min / failed
+-   Battle Servers - Host Game < 30 sec / XX sec / >3 min / failed
+-   Battle Servers - Load into game < 30 sec / XX sec / >3 min / failed
+-   Battle Servers - Completing a game < 30 sec / XX sec / >3 min / failed
+-   Chat check successful / XX sec / >3 min / failed
 
 An issue was identified on Cluster xxxx on Board xxxx. The following ticket was created xxxx.  
 Attach Screenshot of the issue(s) identified |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjc2MTYxMDUsLTM4NjExMzI2NiwxMD
-cyOTA3MTAxLC0xMjI4MDE0NDEsLTQyOTQzMjQ0NCwxNDkxNjk4
-NzI2LC01Nzc2MjQ5Miw2OTE5ODUxMjQsLTI2ODU3ODMxLC02Nz
-IwNTg1NjAsLTE1NzY3MDM3MTgsLTIwNzMzNTE1ODYsLTEzNzE2
-ODIyMDcsLTIwMDMyNDQwMTMsMTEzNTU5NDU0Myw0ODA0MzU1MD
-IsMjA3NzEwOTc0NCwtNTk0MDY4MjQ2LDQ0MTk3ODgyMCwzMTE2
-NDgzOTNdfQ==
+eyJoaXN0b3J5IjpbMTAwNDg2MTQ2NiwtMzg2MTEzMjY2LDEwNz
+I5MDcxMDEsLTEyMjgwMTQ0MSwtNDI5NDMyNDQ0LDE0OTE2OTg3
+MjYsLTU3NzYyNDkyLDY5MTk4NTEyNCwtMjY4NTc4MzEsLTY3Mj
+A1ODU2MCwtMTU3NjcwMzcxOCwtMjA3MzM1MTU4NiwtMTM3MTY4
+MjIwNywtMjAwMzI0NDAxMywxMTM1NTk0NTQzLDQ4MDQzNTUwMi
+wyMDc3MTA5NzQ0LC01OTQwNjgyNDYsNDQxOTc4ODIwLDMxMTY0
+ODM5M119
 -->
