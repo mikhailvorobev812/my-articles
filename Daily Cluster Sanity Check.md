@@ -314,16 +314,17 @@ Tickets without a comment or a justified investigation are considered incomplete
 | **tournament** | R02J04J8Q71QK379D6LDTNG3T04S8@edgelink.pagerduty.com |
 
 
-Send the following report using mail template:
+5. Send the following report using mail template:
+
 | From: | supportxbox-aoel1@epam.com |
 |:------|:---------------------------|
 | To: | edge_link@microsoft.com; **Pagerduty email** |
 | CC: | supportxbox-aoel1@epam.com |
 | Subject: | Fired:Sev1/2/3  Azure Monitor Alert cluster - Issue Identified during Cluster Check |
 | Body: | An issue was identified on Cluster xxxx on Board xxxx. The following ticket was created xxxx. <br>EPAM SIGNATURE |
-
+6. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5ODQ1ODYyMCwtNDI5NDMyNDQ0LDE0OT
+eyJoaXN0b3J5IjpbLTEyMjgwMTQ0MSwtNDI5NDMyNDQ0LDE0OT
 E2OTg3MjYsLTU3NzYyNDkyLDY5MTk4NTEyNCwtMjY4NTc4MzEs
 LTY3MjA1ODU2MCwtMTU3NjcwMzcxOCwtMjA3MzM1MTU4NiwtMT
 M3MTY4MjIwNywtMjAwMzI0NDAxMywxMTM1NTk0NTQzLDQ4MDQz
