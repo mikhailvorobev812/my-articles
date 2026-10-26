@@ -335,13 +335,13 @@ Tickets without a comment or a justified investigation are considered incomplete
 | To: | edge_link@microsoft.com; |
 | CC: | supportxbox-aoel1@epam.com |
 | Subject: | XBOX-AOE: Daily Cluster Sanity Check 1:00 AM/PM |
-| Message: | Hello Team,We have performed our Sanity Check for the following Clusters: <br>* aoelive<br>* arthurlive <br>*  mythlive <br> **Test Plan AoeLive Cluster Check.** -   Login < 30 sec / XX sec / >3 min / failed -   Lobby Servers - Create Party < 30 sec / XX sec / >3 min / failed -   Battle Servers - Host Game < 30 sec / XX sec / >3 min / failed -   Battle Servers - Load into game < 30 sec / XX sec / >3 min / failed -   Battle Servers - Completing a game < 30 sec / XX sec / >3 min / failed -   Chat check successful / XX sec / >3 min / failed **Test Plan  Arthurlive  Cluster Check.** -   Login < 30 sec / XX sec / >3 min / failed-   Lobby Servers - Create Party < 30 sec / XX sec / >3 min / failed -   Battle Servers - Host Game < 30 sec / XX sec / >3 min / failed-   Battle Servers - Load into game < 30 sec / XX sec / >3 min / failed-   Battle Servers - Completing a game < 30 sec / XX sec / >3 min / failed-   Chat check successful / XX sec / >3 min / failed**Test Plan Mythlive Cluster Check.**-   Login < 30 sec / XX sec / >3 min / failed-   Lobby Servers - Create Party < 30 sec / XX sec / >3 min / failed-   Battle Servers - Host Game < 30 sec / XX sec / >3 min / failed-   Battle Servers - Load into game < 30 sec / XX sec / >3 min / failed-   Battle Servers - Completing a game < 30 sec / XX sec / >3 min / failed-   Chat check successful / XX sec / >3 min / failed**Leader Board Test Were Successful / Failed ****Azure Service Health** Attach screenshot from Service HealthBest regards, Epam signature
+| Message: | Hello Team,We have performed our Sanity Check for the following Clusters: <br>* aoelive<br>* arthurlive <br>*  mythlive <br> **Test Plan AoeLive Cluster Check.**<br>* -   Login < 30 sec / XX sec / >3 min / failed <br>*-   Lobby Servers - Create Party < 30 sec / XX sec / >3 min / failed <br>*-   Battle Servers - Host Game < 30 sec / XX sec / >3 min / failed -   Battle Servers - Load into game < 30 sec / XX sec / >3 min / failed -   Battle Servers - Completing a game < 30 sec / XX sec / >3 min / failed -   Chat check successful / XX sec / >3 min / failed **Test Plan  Arthurlive  Cluster Check.** -   Login < 30 sec / XX sec / >3 min / failed-   Lobby Servers - Create Party < 30 sec / XX sec / >3 min / failed -   Battle Servers - Host Game < 30 sec / XX sec / >3 min / failed-   Battle Servers - Load into game < 30 sec / XX sec / >3 min / failed-   Battle Servers - Completing a game < 30 sec / XX sec / >3 min / failed-   Chat check successful / XX sec / >3 min / failed**Test Plan Mythlive Cluster Check.**-   Login < 30 sec / XX sec / >3 min / failed-   Lobby Servers - Create Party < 30 sec / XX sec / >3 min / failed-   Battle Servers - Host Game < 30 sec / XX sec / >3 min / failed-   Battle Servers - Load into game < 30 sec / XX sec / >3 min / failed-   Battle Servers - Completing a game < 30 sec / XX sec / >3 min / failed-   Chat check successful / XX sec / >3 min / failed**Leader Board Test Were Successful / Failed ****Azure Service Health** Attach screenshot from Service HealthBest regards, Epam signature
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MjgyNjkzLDE1Njk2MTE4NzMsLTM4Nj
-ExMzI2NiwxMDcyOTA3MTAxLC0xMjI4MDE0NDEsLTQyOTQzMjQ0
-NCwxNDkxNjk4NzI2LC01Nzc2MjQ5Miw2OTE5ODUxMjQsLTI2OD
-U3ODMxLC02NzIwNTg1NjAsLTE1NzY3MDM3MTgsLTIwNzMzNTE1
-ODYsLTEzNzE2ODIyMDcsLTIwMDMyNDQwMTMsMTEzNTU5NDU0My
-w0ODA0MzU1MDIsMjA3NzEwOTc0NCwtNTk0MDY4MjQ2LDQ0MTk3
-ODgyMF19
+eyJoaXN0b3J5IjpbLTEwNzEyNTM1NjcsMTA1MjgyNjkzLDE1Nj
+k2MTE4NzMsLTM4NjExMzI2NiwxMDcyOTA3MTAxLC0xMjI4MDE0
+NDEsLTQyOTQzMjQ0NCwxNDkxNjk4NzI2LC01Nzc2MjQ5Miw2OT
+E5ODUxMjQsLTI2ODU3ODMxLC02NzIwNTg1NjAsLTE1NzY3MDM3
+MTgsLTIwNzMzNTE1ODYsLTEzNzE2ODIyMDcsLTIwMDMyNDQwMT
+MsMTEzNTU5NDU0Myw0ODA0MzU1MDIsMjA3NzEwOTc0NCwtNTk0
+MDY4MjQ2XX0=
 -->
