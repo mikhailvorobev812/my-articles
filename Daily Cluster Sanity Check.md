@@ -347,14 +347,12 @@ Test Plan AoeFlight / AoeLive / AoeTest / Arthurlive / MythLive Cluster Check.
 -   Battle Servers - Load into game < 30 sec / XX sec / >3 min / failed
 -   Battle Servers - Completing a game < 30 sec / XX sec / >3 min / failed
 -   Chat check successful / failed```
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNjk1NDk0MSwtMTkzODI2NzEwOCwyNT
-E1MTE3OTgsMTk4OTE1OTAwMSwxMDUyODI2OTMsMTU2OTYxMTg3
-MywtMzg2MTEzMjY2LDEwNzI5MDcxMDEsLTEyMjgwMTQ0MSwtND
-I5NDMyNDQ0LDE0OTE2OTg3MjYsLTU3NzYyNDkyLDY5MTk4NTEy
-NCwtMjY4NTc4MzEsLTY3MjA1ODU2MCwtMTU3NjcwMzcxOCwtMj
-A3MzM1MTU4NiwtMTM3MTY4MjIwNywtMjAwMzI0NDAxMywxMTM1
-NTk0NTQzXX0=
+eyJoaXN0b3J5IjpbOTg1Mjk5MTY5LC0xOTM4MjY3MTA4LDI1MT
+UxMTc5OCwxOTg5MTU5MDAxLDEwNTI4MjY5MywxNTY5NjExODcz
+LC0zODYxMTMyNjYsMTA3MjkwNzEwMSwtMTIyODAxNDQxLC00Mj
+k0MzI0NDQsMTQ5MTY5ODcyNiwtNTc3NjI0OTIsNjkxOTg1MTI0
+LC0yNjg1NzgzMSwtNjcyMDU4NTYwLC0xNTc2NzAzNzE4LC0yMD
+czMzUxNTg2LC0xMzcxNjgyMjA3LC0yMDAzMjQ0MDEzLDExMzU1
+OTQ1NDNdfQ==
 -->
