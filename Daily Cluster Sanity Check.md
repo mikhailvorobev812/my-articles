@@ -325,12 +325,15 @@ Tickets without a comment or a justified investigation are considered incomplete
 6. Ensure that the notification for the PagerDuty alert is triggered within 10 minutes:
 -   **if the PagerDuty incident is created automatically,** process the new PagerDuty Incident as described in article [[L1] Azure Alerts handling](https://kb.epam.com/spaces/XBOXAOE/pages/2607572290/L1+Azure+Alerts+handling).
 - **if the PagerDuty incident is NOT created automatically,** manually create  a new PagerDuty incident as described in article [[L1] PagerDuty ticket creation](https://kb.epam.com/spaces/XBOXAOE/pages/2581370814/L1+PagerDuty+ticket+creation). Then process the new PagerDuty Incident as described in article [[L1] Azure Alerts handling](https://kb.epam.com/spaces/XBOXAOE/pages/2607572290/L1+Azure+Alerts+handling).
+7. **FOR EU-IN Cluster Checks:** Act depending on the ticket Severity:
+-   **if a Sev1 Ticket is created (ADO & PD)**, immediately start [MIM Process](https://kb.epam.com/spaces/XBOXAOE/pages/2274862346/L1+Major+Incident+and+MIM+Process)
+- **if a Sev2 Ticket is created (ADO & PD),** add it in your **_Cluster Check email_** and leave the tickets pending in HO to be escalated during BH - [Daily end-of-shift Report](https://kb.epam.com/spaces/XBOXAOE/pages/2327981263/L1+Daily+end-of-shift+Report).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MjkwNzEwMSwtMTIyODAxNDQxLC00Mj
-k0MzI0NDQsMTQ5MTY5ODcyNiwtNTc3NjI0OTIsNjkxOTg1MTI0
-LC0yNjg1NzgzMSwtNjcyMDU4NTYwLC0xNTc2NzAzNzE4LC0yMD
-czMzUxNTg2LC0xMzcxNjgyMjA3LC0yMDAzMjQ0MDEzLDExMzU1
-OTQ1NDMsNDgwNDM1NTAyLDIwNzcxMDk3NDQsLTU5NDA2ODI0Ni
-w0NDE5Nzg4MjAsMzExNjQ4MzkzLC01ODc3NTI3NTQsMTk3MDI5
-OTU0NF19
+eyJoaXN0b3J5IjpbLTM4NjExMzI2NiwxMDcyOTA3MTAxLC0xMj
+I4MDE0NDEsLTQyOTQzMjQ0NCwxNDkxNjk4NzI2LC01Nzc2MjQ5
+Miw2OTE5ODUxMjQsLTI2ODU3ODMxLC02NzIwNTg1NjAsLTE1Nz
+Y3MDM3MTgsLTIwNzMzNTE1ODYsLTEzNzE2ODIyMDcsLTIwMDMy
+NDQwMTMsMTEzNTU5NDU0Myw0ODA0MzU1MDIsMjA3NzEwOTc0NC
+wtNTk0MDY4MjQ2LDQ0MTk3ODgyMCwzMTE2NDgzOTMsLTU4Nzc1
+Mjc1NF19
 -->
