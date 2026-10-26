@@ -304,6 +304,15 @@ Send the following report using the mail template:
 Tickets without a comment or a justified investigation are considered incomplete.
 4. Once the ADO Ticket has been created, select the relevant recipient from the table below:
 
+| Conditions (cluster, issue type) | Send the email to (PagerDuty email) / ticket creation |
+|---|---|
+| aoeflight | R02NNFK5EX5QTQDE21R8PUS0ABGZMM@edgelink.pagerduty.com |
+| - aoelive, -  Azure Service Health issue | R02INFF2RJH6HCPZMXIPUVOXZENV@edgelink.pagerduty.com |
+| aoetest | R028ECLXYL5UZSWBTXLWQGQ7783CJ@edgelink.pagerduty.com |
+| arthurlive | R02BWPNQNYFBOOMALPMMAU51KVIDG@edgelink.pagerduty.com |
+| mythlive | R02OKFXNB1QKD928PGM2D197879E@edgelink.pagerduty.com |
+| tournament | R02J04J8Q71QK379D6LDTNG3T04S8@edgelink.pagerduty.com |
+
 
 Send the following report using mail template:
 | From: | supportxbox-aoel1@epam.com |
@@ -314,11 +323,11 @@ Send the following report using mail template:
 | Body: | Hello Team,<br>We have performed our Sanity Check for both Clusters:<br><br>* aoetest <br>* arthurlive <br>*    mythlive<br><br>An issue was identified on Cluster xxxx on Board xxxx. The following ticket was created xxxx.<br><Attach Screenshot of the issue(s) identified><br><br> **Test Plan _NAME OF CLUSTER_ Cluster Check.**<br><Highlight where there were any issues if detected><br> <br>* Login < 30 sec<br>* Lobby Servers - Create Party  < 30 sec<br>* Battle Servers - Host Game  < 30 sec<br>* Battle Servers - Load into game < 30 sec<br>* Battle Servers - Completing a game < 30 sec<br>* Chat check successful<br><br>**Leader Board Test Were Successful.**<br><br>**Azure Service Health**<br><br><Attach Screenshot><br><br>Best regards, <br><br> Epam signature |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyOTQzMjQ0NCwxNDkxNjk4NzI2LC01Nz
-c2MjQ5Miw2OTE5ODUxMjQsLTI2ODU3ODMxLC02NzIwNTg1NjAs
-LTE1NzY3MDM3MTgsLTIwNzMzNTE1ODYsLTEzNzE2ODIyMDcsLT
-IwMDMyNDQwMTMsMTEzNTU5NDU0Myw0ODA0MzU1MDIsMjA3NzEw
-OTc0NCwtNTk0MDY4MjQ2LDQ0MTk3ODgyMCwzMTE2NDgzOTMsLT
-U4Nzc1Mjc1NCwxOTcwMjk5NTQ0LDE1MDEyODA1NTYsLTExNDky
-MDU2OThdfQ==
+eyJoaXN0b3J5IjpbNTI3OTYwNDgyLC00Mjk0MzI0NDQsMTQ5MT
+Y5ODcyNiwtNTc3NjI0OTIsNjkxOTg1MTI0LC0yNjg1NzgzMSwt
+NjcyMDU4NTYwLC0xNTc2NzAzNzE4LC0yMDczMzUxNTg2LC0xMz
+cxNjgyMjA3LC0yMDAzMjQ0MDEzLDExMzU1OTQ1NDMsNDgwNDM1
+NTAyLDIwNzcxMDk3NDQsLTU5NDA2ODI0Niw0NDE5Nzg4MjAsMz
+ExNjQ4MzkzLC01ODc3NTI3NTQsMTk3MDI5OTU0NCwxNTAxMjgw
+NTU2XX0=
 -->
