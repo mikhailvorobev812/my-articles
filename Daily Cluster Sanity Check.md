@@ -336,12 +336,14 @@ Tickets without a comment or a justified investigation are considered incomplete
 | CC: | supportxbox-aoel1@epam.com |
 | Subject: | XBOX-AOE: Daily Cluster Sanity Check 1:00 AM/PM |
 | Message: | Hello Team,We have performed our Sanity Check for the following Clusters: <br>* aoelive<br>* arthurlive <br>*  mythlive <br><br> **Test Plan AoeLive Cluster Check.**<br>*    Login < 30 sec / XX sec / >3 min / failed <br>*   Lobby Servers * Create Party < 30 sec / XX sec / >3 min / failed <br>*   Battle Servers - Host Game < 30 sec / XX sec / >3 min / failed <br>*   Battle Servers - Load into game < 30 sec / XX sec / >3 min / failed <br>*   Battle Servers - Completing a game < 30 sec / XX sec / >3 min / failed <br> *   Chat check successful / XX sec / >3 min / failed <br><br>**Test Plan  Arthurlive  Cluster Check.** <br>*   Login < 30 sec / XX sec / >3 min / failed<br>*   Lobby Servers - Create Party < 30 sec / XX sec / >3 min / failed <br>*   Battle Servers - Host Game < 30 sec / XX sec / >3 min / failed<br>*   Battle Servers - Load into game < 30 sec / XX sec / >3 min / failed<br>*   Battle Servers - Completing a game < 30 sec / XX sec / >3 min / failed<br>*   Chat check successful / XX sec / >3 min / failed<br><br>**Test Plan Mythlive Cluster Check.**<br>*   Login < 30 sec / XX sec / >3 min / failed<br>*   Lobby Servers - Create Party < 30 sec / XX sec / >3 min / failed<br>*   Battle Servers - Host Game < 30 sec / XX sec / >3 min / failed<br>*   Battle Servers - Load into game < 30 sec / XX sec / >3 min / failed<br>*   Battle Servers - Completing a game < 30 sec / XX sec / >3 min / failed<br>*   Chat check successful / XX sec / >3 min / failed<br><br>**Leader Board Test** Were Successful / Failed <br>**Azure Service Health** <br>Attach screenshot from Service Health<br>Best regards, <br>Epam signature
+
+### Alert investigation
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUxNTExNzk4LDE5ODkxNTkwMDEsMTA1Mj
-gyNjkzLDE1Njk2MTE4NzMsLTM4NjExMzI2NiwxMDcyOTA3MTAx
-LC0xMjI4MDE0NDEsLTQyOTQzMjQ0NCwxNDkxNjk4NzI2LC01Nz
-c2MjQ5Miw2OTE5ODUxMjQsLTI2ODU3ODMxLC02NzIwNTg1NjAs
-LTE1NzY3MDM3MTgsLTIwNzMzNTE1ODYsLTEzNzE2ODIyMDcsLT
-IwMDMyNDQwMTMsMTEzNTU5NDU0Myw0ODA0MzU1MDIsMjA3NzEw
-OTc0NF19
+eyJoaXN0b3J5IjpbMTEyOTkyNTY2NSwyNTE1MTE3OTgsMTk4OT
+E1OTAwMSwxMDUyODI2OTMsMTU2OTYxMTg3MywtMzg2MTEzMjY2
+LDEwNzI5MDcxMDEsLTEyMjgwMTQ0MSwtNDI5NDMyNDQ0LDE0OT
+E2OTg3MjYsLTU3NzYyNDkyLDY5MTk4NTEyNCwtMjY4NTc4MzEs
+LTY3MjA1ODU2MCwtMTU3NjcwMzcxOCwtMjA3MzM1MTU4NiwtMT
+M3MTY4MjIwNywtMjAwMzI0NDAxMywxMTM1NTk0NTQzLDQ4MDQz
+NTUwMl19
 -->
