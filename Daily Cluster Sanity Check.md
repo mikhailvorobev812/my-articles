@@ -322,13 +322,15 @@ Tickets without a comment or a justified investigation are considered incomplete
 | CC: | supportxbox-aoel1@epam.com |
 | Subject: | Fired:Sev1/2/3  Azure Monitor Alert cluster - Issue Identified during Cluster Check |
 | Body: | An issue was identified on Cluster xxxx on Board xxxx. The following ticket was created xxxx. <br>EPAM SIGNATURE |
-6. 
+6. Ensure that the notification for the PagerDuty alert is triggered within 10 minutes:
+-   **if the PagerDuty incident is created automatically,** process the new PagerDuty Incident as described in article [[L1] Azure Alerts handling](https://kb.epam.com/spaces/XBOXAOE/pages/2607572290/L1+Azure+Alerts+handling).
+- **if the PagerDuty incident is NOT created automatically,** manually create  a new PagerDuty incident as described in article [[L1] PagerDuty ticket creation](https://kb.epam.com/spaces/XBOXAOE/pages/2581370814/L1+PagerDuty+ticket+creation). Then process the new PagerDuty Incident as described in article [[L1] Azure Alerts handling](https://kb.epam.com/spaces/XBOXAOE/pages/2607572290/L1+Azure+Alerts+handling).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjgwMTQ0MSwtNDI5NDMyNDQ0LDE0OT
-E2OTg3MjYsLTU3NzYyNDkyLDY5MTk4NTEyNCwtMjY4NTc4MzEs
-LTY3MjA1ODU2MCwtMTU3NjcwMzcxOCwtMjA3MzM1MTU4NiwtMT
-M3MTY4MjIwNywtMjAwMzI0NDAxMywxMTM1NTk0NTQzLDQ4MDQz
-NTUwMiwyMDc3MTA5NzQ0LC01OTQwNjgyNDYsNDQxOTc4ODIwLD
-MxMTY0ODM5MywtNTg3NzUyNzU0LDE5NzAyOTk1NDQsMTUwMTI4
-MDU1Nl19
+eyJoaXN0b3J5IjpbMTA3MjkwNzEwMSwtMTIyODAxNDQxLC00Mj
+k0MzI0NDQsMTQ5MTY5ODcyNiwtNTc3NjI0OTIsNjkxOTg1MTI0
+LC0yNjg1NzgzMSwtNjcyMDU4NTYwLC0xNTc2NzAzNzE4LC0yMD
+czMzUxNTg2LC0xMzcxNjgyMjA3LC0yMDAzMjQ0MDEzLDExMzU1
+OTQ1NDMsNDgwNDM1NTAyLDIwNzcxMDk3NDQsLTU5NDA2ODI0Ni
+w0NDE5Nzg4MjAsMzExNjQ4MzkzLC01ODc3NTI3NTQsMTk3MDI5
+OTU0NF19
 -->
