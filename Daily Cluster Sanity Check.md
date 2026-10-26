@@ -338,12 +338,13 @@ Tickets without a comment or a justified investigation are considered incomplete
 | Message: | Hello Team,We have performed our Sanity Check for the following Clusters: <br>* aoelive<br>* arthurlive <br>*  mythlive <br><br> **Test Plan AoeLive Cluster Check.**<br>*    Login < 30 sec / XX sec / >3 min / failed <br>*   Lobby Servers * Create Party < 30 sec / XX sec / >3 min / failed <br>*   Battle Servers - Host Game < 30 sec / XX sec / >3 min / failed <br>*   Battle Servers - Load into game < 30 sec / XX sec / >3 min / failed <br>*   Battle Servers - Completing a game < 30 sec / XX sec / >3 min / failed <br> *   Chat check successful / XX sec / >3 min / failed <br><br>**Test Plan  Arthurlive  Cluster Check.** <br>*   Login < 30 sec / XX sec / >3 min / failed<br>*   Lobby Servers - Create Party < 30 sec / XX sec / >3 min / failed <br>*   Battle Servers - Host Game < 30 sec / XX sec / >3 min / failed<br>*   Battle Servers - Load into game < 30 sec / XX sec / >3 min / failed<br>*   Battle Servers - Completing a game < 30 sec / XX sec / >3 min / failed<br>*   Chat check successful / XX sec / >3 min / failed<br><br>**Test Plan Mythlive Cluster Check.**<br>*   Login < 30 sec / XX sec / >3 min / failed<br>*   Lobby Servers - Create Party < 30 sec / XX sec / >3 min / failed<br>*   Battle Servers - Host Game < 30 sec / XX sec / >3 min / failed<br>*   Battle Servers - Load into game < 30 sec / XX sec / >3 min / failed<br>*   Battle Servers - Completing a game < 30 sec / XX sec / >3 min / failed<br>*   Chat check successful / XX sec / >3 min / failed<br><br>**Leader Board Test** Were Successful / Failed <br>**Azure Service Health** <br>Attach screenshot from Service Health<br>Best regards, <br>Epam signature
 
 ### Alert investigation
+1. Within Alert investigation result processing depending on the Test Client Check results post the following comment in the ADO ticket:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyOTkyNTY2NSwyNTE1MTE3OTgsMTk4OT
-E1OTAwMSwxMDUyODI2OTMsMTU2OTYxMTg3MywtMzg2MTEzMjY2
-LDEwNzI5MDcxMDEsLTEyMjgwMTQ0MSwtNDI5NDMyNDQ0LDE0OT
-E2OTg3MjYsLTU3NzYyNDkyLDY5MTk4NTEyNCwtMjY4NTc4MzEs
-LTY3MjA1ODU2MCwtMTU3NjcwMzcxOCwtMjA3MzM1MTU4NiwtMT
-M3MTY4MjIwNywtMjAwMzI0NDAxMywxMTM1NTk0NTQzLDQ4MDQz
-NTUwMl19
+eyJoaXN0b3J5IjpbNTA2ODc0NTEzLDI1MTUxMTc5OCwxOTg5MT
+U5MDAxLDEwNTI4MjY5MywxNTY5NjExODczLC0zODYxMTMyNjYs
+MTA3MjkwNzEwMSwtMTIyODAxNDQxLC00Mjk0MzI0NDQsMTQ5MT
+Y5ODcyNiwtNTc3NjI0OTIsNjkxOTg1MTI0LC0yNjg1NzgzMSwt
+NjcyMDU4NTYwLC0xNTc2NzAzNzE4LC0yMDczMzUxNTg2LC0xMz
+cxNjgyMjA3LC0yMDAzMjQ0MDEzLDExMzU1OTQ1NDMsNDgwNDM1
+NTAyXX0=
 -->
