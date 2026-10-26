@@ -339,12 +339,18 @@ Tickets without a comment or a justified investigation are considered incomplete
 
 ### Alert investigation
 1. Within Alert investigation result processing depending on the Test Client Check results post the following comment in the ADO ticket:
+```**Test Plan AoeFlight / AoeLive / AoeTest / Arthurlive / MythLive** **Cluster Check.** -   Login < 30 sec / XX sec / >3 min / failed
+-   Lobby Servers - Create Party < 30 sec / XX sec / >3 min / failed
+-   Battle Servers - Host Game < 30 sec / XX sec / >3 min / failed
+-   Battle Servers - Load into game < 30 sec / XX sec / >3 min / failed
+-   Battle Servers - Completing a game < 30 sec / XX sec / >3 min / failed
+-   Chat check successful / failed```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA2ODc0NTEzLDI1MTUxMTc5OCwxOTg5MT
-U5MDAxLDEwNTI4MjY5MywxNTY5NjExODczLC0zODYxMTMyNjYs
-MTA3MjkwNzEwMSwtMTIyODAxNDQxLC00Mjk0MzI0NDQsMTQ5MT
-Y5ODcyNiwtNTc3NjI0OTIsNjkxOTg1MTI0LC0yNjg1NzgzMSwt
-NjcyMDU4NTYwLC0xNTc2NzAzNzE4LC0yMDczMzUxNTg2LC0xMz
-cxNjgyMjA3LC0yMDAzMjQ0MDEzLDExMzU1OTQ1NDMsNDgwNDM1
-NTAyXX0=
+eyJoaXN0b3J5IjpbMTg4ODUxMzE1OSwyNTE1MTE3OTgsMTk4OT
+E1OTAwMSwxMDUyODI2OTMsMTU2OTYxMTg3MywtMzg2MTEzMjY2
+LDEwNzI5MDcxMDEsLTEyMjgwMTQ0MSwtNDI5NDMyNDQ0LDE0OT
+E2OTg3MjYsLTU3NzYyNDkyLDY5MTk4NTEyNCwtMjY4NTc4MzEs
+LTY3MjA1ODU2MCwtMTU3NjcwMzcxOCwtMjA3MzM1MTU4NiwtMT
+M3MTY4MjIwNywtMjAwMzI0NDAxMywxMTM1NTk0NTQzLDQ4MDQz
+NTUwMl19
 -->
