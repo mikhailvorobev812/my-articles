@@ -298,9 +298,12 @@ Send the following report using the mail template:
 1. Make sure an ADO ticket is created as described in article [[L1] ADO Ticket Creation](https://kb.epam.com/spaces/XBOXAOE/pages/2579410428/L1+ADO+Ticket+Creation).
 2. Whenever a ticket is created, add a justification in the **Comments** section of the ADO ticket explaining why the ticket is being created:
 ```ISSUE XXXXXX - ticket will be escalated to the L2 team.```
- > **NOTE!** Every created ticket must contain a justification comment. The comment must clearly state the identified issue and the planned action.
-
+ > **⚠️NOTE!** Every created ticket must contain a justification comment. The comment must clearly state the identified issue and the planned action.
+3. Post a message from **Microsoft (Guest)** account in  MS Teams in the **[Edgelink > EPAM support](https://teams.microsoft.com/l/channel/19%3Adafce2499dd54f198259659ecca8e7ad%40thread.tacv2/EPAM%20support?groupId=e4f886a6-1b0d-472b-92e2-bb8f8a893db5&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47)** channel:
+```ISSUE XXXXXX -  TITLE  -  PRIORITY - @EPAM support```
 Tickets without a comment or a justified investigation are considered incomplete.
+4. Once the ADO Ticket has been created, select the relevant recipient from the table below:
+
 
 Send the following report using mail template:
 | From: | supportxbox-aoel1@epam.com |
@@ -311,11 +314,11 @@ Send the following report using mail template:
 | Body: | Hello Team,<br>We have performed our Sanity Check for both Clusters:<br><br>* aoetest <br>* arthurlive <br>*    mythlive<br><br>An issue was identified on Cluster xxxx on Board xxxx. The following ticket was created xxxx.<br><Attach Screenshot of the issue(s) identified><br><br> **Test Plan _NAME OF CLUSTER_ Cluster Check.**<br><Highlight where there were any issues if detected><br> <br>* Login < 30 sec<br>* Lobby Servers - Create Party  < 30 sec<br>* Battle Servers - Host Game  < 30 sec<br>* Battle Servers - Load into game < 30 sec<br>* Battle Servers - Completing a game < 30 sec<br>* Chat check successful<br><br>**Leader Board Test Were Successful.**<br><br>**Azure Service Health**<br><br><Attach Screenshot><br><br>Best regards, <br><br> Epam signature |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgzMTU1Mjc3LDE0OTE2OTg3MjYsLTU3Nz
-YyNDkyLDY5MTk4NTEyNCwtMjY4NTc4MzEsLTY3MjA1ODU2MCwt
-MTU3NjcwMzcxOCwtMjA3MzM1MTU4NiwtMTM3MTY4MjIwNywtMj
-AwMzI0NDAxMywxMTM1NTk0NTQzLDQ4MDQzNTUwMiwyMDc3MTA5
-NzQ0LC01OTQwNjgyNDYsNDQxOTc4ODIwLDMxMTY0ODM5MywtNT
-g3NzUyNzU0LDE5NzAyOTk1NDQsMTUwMTI4MDU1NiwtMTE0OTIw
-NTY5OF19
+eyJoaXN0b3J5IjpbLTQyOTQzMjQ0NCwxNDkxNjk4NzI2LC01Nz
+c2MjQ5Miw2OTE5ODUxMjQsLTI2ODU3ODMxLC02NzIwNTg1NjAs
+LTE1NzY3MDM3MTgsLTIwNzMzNTE1ODYsLTEzNzE2ODIyMDcsLT
+IwMDMyNDQwMTMsMTEzNTU5NDU0Myw0ODA0MzU1MDIsMjA3NzEw
+OTc0NCwtNTk0MDY4MjQ2LDQ0MTk3ODgyMCwzMTE2NDgzOTMsLT
+U4Nzc1Mjc1NCwxOTcwMjk5NTQ0LDE1MDEyODA1NTYsLTExNDky
+MDU2OThdfQ==
 -->
